@@ -40,6 +40,7 @@ input.color_white::placeholder, textarea.color_white::placeholder {color: white 
 input.color_white:-ms-input-placeholder, textarea.color_white:-ms-input-placeholder {color: white !important;}
 input.color_white::-ms-input-placeholder, textarea.color_white::-ms-input-placeholder {color: white !important;}
 .color_default {color: #444 !important;}
+.color_black {color: #000 !important;}
 .color_defaultGrey {color: #999 !important;}
 .color_grey {color: #adb9bd !important;}
 .color_primary {color: #009dd8 !important;}
