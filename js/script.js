@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 
   //Remove parent if child empty
-  $("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty").parent(".uk-overlay-panel").remove();
+  $("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty").parent(":empty").remove();
   //Remove if empty
   $("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty").remove();
 
@@ -23,28 +23,32 @@ $(document).ready(function() {
   //Get current year
   $(".year").text((new Date).getFullYear());
 
-  /*remote URL to show content in the same modal*/
-  $("#btn1").click(function() {
-    $('#myModal').on('shown.bs.modal', function(e) {
-      $(e.target).find('.modal-content').load('modal1.html');
-    });
+  //calendar
+  var sampleEvents = {
+    "monthly": [{
+        "id": 1,
+        "name": "大得象功個土會代之題速越眼",
+        "startdate": "2018-03-20",
+        "enddate": "2018-03-21",
+        "starttime": "12:00",
+        "endtime": "2:00",
+        "color": "#3ab54a",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "本日閉館",
+        "startdate": "2018-03-19",
+        "color": "#8cc63e",
+        "url": ""
+      }
+    ]
+  };
+  $('#calendar').monthly({
+    mode: 'event',
+    dataType: 'json',
+    // xmlUrl: 'events.xml',
+    events: sampleEvents
   });
-  $("#btn2").click(function() {
-    $('#myModal').on('shown.bs.modal', function(e) {
-      $(e.target).find('.modal-content').load('modal2.html');
-    });
-  });
-
-  /*external link directly to show modal*/
-  if (window.location.href.indexOf('#myModal1') != -1) {
-    $('#myModal').modal('show').on('shown.bs.modal', function(e) {
-      $(e.target).find('.modal-content').load('modal1.html');
-    });
-  }
-  if (window.location.href.indexOf('#myModal2') != -1) {
-    $('#myModal').modal('show').on('shown.bs.modal', function(e) {
-      $(e.target).find('.modal-content').load('modal2.html');
-    });
-  }
 
 });

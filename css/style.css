@@ -1,32 +1,57 @@
 @charset "utf-8";
-.link a:link, .link a:visited, .link a:focus {color: #36863d;}
-.color_primary {color: #36863d !important;}
-.color_secondary {color: #ef6e00 !important;}
-.bg_primary, .btn_primary, .bg_primary span, .uk-pagination>li.uk-active span {color: white !important;background-color: #36863d !important;}
-.bg_secondary, .btn_secondary {color: white !important;background-color: #ef6e00;}
-.bg_primary:hover, .btn_primary:hover, .btn_primary:focus, .btn_primary.selected {background-color: #36863d !important;}
-.btn_secondary:hover, .btn_secondary:focus {background-color: #dc6500;}
-.fontsize li>a {color: #36863d !important; border: 1px solid #36863d;}
-.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #36863d !important; border-color: #36863d; color: white !important;}
-ol.listDecimalRow.badge>li:before {background: #36863d;}
+.link a:link, .link a:visited, .link a:focus {color: #3ab54a;}
+.color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #3ab54a !important;}
+.color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #8cc63e !important;}
+.bg_primary, .btn_primary, .bg_primary span, .uk-block-primary, .uk-pagination>li.uk-active span, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover {color: white !important;background-color: #3ab54a !important;}
+.bg_secondary, .btn_secondary, .bg_secondary span, .uk-block-secondary, nav.bg_secondary .uk-dropdown a, ul.hover_bg_secondary>li>a:focus, ul.hover_bg_secondary>li>a:hover {color: white !important;background-color: #8cc63e !important;}
+.btn_primary:focus, .btn_primary:hover, .btn_primary.selected {text-decoration: none; background-color: #35a544 !important;}
+.btn_secondary:focus, .btn_secondary:hover {background-color: #81b739 !important;}
+.fontsize li>a {color: #3ab54a !important; border: 1px solid #3ab54a;}
+.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #3ab54a !important; border-color: #3ab54a; color: white !important;}
+ol.listDecimalRow.badge>li:before {background: #3ab54a;}
 .underline {border-bottom: 1px solid #E5E5E5;}
 .aspectRatio:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 .aspectRatio.ratio_9_16:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 body {background: #e7f1f5;}
+h5.caption {
+    border-radius: 10px 10px 0 0;
+}
+.link_caption .fa-fw {
+    vertical-align: 1;
+}
+.dashboard .uk-panel {padding-bottom: 50px;}
+a.uk-position-bottom-right {line-height: 20px; min-height: 15px !important;}
+figure .svg-inline--fa {vertical-align: 0.3em;}
+.monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {
+    background: #3ab54a!important;
+    border: 1px solid #3ab54a!important;
+    color: #FFFFFF!important;
+}
+.monthly-today .monthly-day-number {
+    background: #3ab54a;
+}
+.monthly-header-title a:hover {
+    background: #ebedee;
+    border: 1px solid #ebedee;
+    color: #444;
+}
 footer, footer a {color: white !important;}
 
 /* Uikit Style
 ---------------------------------------------------- */
+.uk-nav-offcanvas>.uk-open>a, html:not(.uk-touch) .uk-nav-offcanvas>li>a:focus, html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
+    background: #287732;
+}
 .uk-pagination>.uk-active>span, .uk-pagination>li>a:focus, .uk-pagination>li>a:hover {
-    background-color: #36863d;
+    background-color: #3ab54a;
     color: #fff;
 }
 .uk-tab>li.uk-open>a, .uk-tab>li>a:focus, .uk-tab>li>a:hover {
-    background: #ff952f;
+    background: #81b739;
     color: #ffffff;
 }
 .uk-tab>li>a {
-    color: ##36863d;
+    color: ##3ab54a;
     transition: none;
 }
 .uk-tab>li.uk-active>a:hover {
@@ -41,15 +66,23 @@ footer, footer a {color: white !important;}
 
 
 @media (min-width:480px) {
+figure .svg-inline--fa {font-size: 0.8em;}
 }
 
 @media (min-width:768px) {
+.dashboard .uk-panel {padding-bottom: 70px;}
+.dashboard .uk-panel h5 {font-size: 2.2vw !important;}
 }
 
 @media (min-width:960px) {
+.dashboard .uk-panel h5 {font-size: 1.5vw !important;}
+.truncating {height: 9em;}
+.max_height2 {max-height: 300px;}
 }
 
 @media (min-width:1220px) {
+figure .svg-inline--fa {font-size: 0.7em;}
+.dashboard .uk-panel h5 {font-size: 1.1em !important; line-height: 1.2 !important;}
 }
 
 @media (min-width:1350px) {
