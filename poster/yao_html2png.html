@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+
+</head>
+<body>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="html2canvas.min.js"></script>
+    <script type="text/javascript">
+
+        function screenShot(id) {
+            html2canvas($("#"+id).contents().find('html').get(0)).then(canvas => {
+
+                var img = canvas.toDataURL("image/png");
+                console.log(img);
+                var output = encodeURIComponent(img);
+                $('#convertImg').prop('src', img);
+            });
+        }
+    </script>
+    <img id="convertImg" alt="">
+    <iframe id="hp" src="poster-lC.html" style="width:1pt;height:1pt; position: absolute; z-index: -1; "></iframe>
+
+    <input type="button" onclick="screenShot('hp');return false;" name="" value="轉換圖片">
+</body>
+</html>
