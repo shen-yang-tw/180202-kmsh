@@ -1,5 +1,6 @@
 @charset "utf-8";
-.link a:link, .link a:visited, .link a:focus {color: #3ab54a;}
+h1, h2, h3, h4, h5, h6 {line-height: 1.2 !important;}
+.link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
 .color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover, .monthly-event-list .monthly-today .monthly-event-list-date {color: #3ab54a !important;}
 .color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #8cc63e !important;}
 .bg_primary, .btn_primary, .bg_primary, .uk-block-primary, .uk-pagination>li.uk-active span, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover, .monthly-today .monthly-day-number, .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {color: white !important;background-color: #3ab54a !important;}
@@ -25,17 +26,17 @@ ol.listDecimalRow.badge>li:before {background: #3ab54a;}
 .templateB2 .btn_secondary:focus, .templateB2 .btn_secondary:hover {background-color: #025e9c !important;}
 
 .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {
-    border: 1px solid #3ab54a!important;
+  border: 1px solid #3ab54a!important;
 }
 
 .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {
-    border: 1px solid #3ab54a!important;
+  border: 1px solid #3ab54a!important;
 }
 
 .aspectRatio:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 .aspectRatio.ratio_9_16:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 body {background: #e7f1f5;}
-.index, .bg_img {
+.index, .page, .bg_img {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100%;
@@ -49,46 +50,53 @@ body {background: #e7f1f5;}
 .templateB.index {
   padding-top: 50px !important;
   background-color: #170501;
+  /*background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%),url(../img/bg_indexb1.jpg) no-repeat center top;
+  background-size: 100%;*/
   background-image: url("../img/bg_indexb1.png");
 }
 .templateB2.index {
+  /*background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%),url(../img/bg_indexb2.jpg) no-repeat center top;
+  background-size: 100%;*/
   background-image: url("../img/bg_indexb2.png");
 }
+.page {
+  background-position: center -30%;
+}
 h5.caption {
-    border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 .link_caption .fa-fw {
-    vertical-align: 1;
+  vertical-align: 1;
 }
 .dashboard .uk-panel {padding-bottom: 50px;}
 a.uk-position-bottom-right {line-height: 20px; min-height: 15px !important;}
 figure .svg-inline--fa {vertical-align: 0.3em;}
 
 .monthly-event-list .monthly-today .monthly-event-list-date {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 footer, footer a {color: white !important;}
 
 /* Uikit Style
 ---------------------------------------------------- */
 .uk-nav-offcanvas>.uk-open>a, html:not(.uk-touch) .uk-nav-offcanvas>li>a:focus, html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
-    background: #287732;
+  background: #287732;
 }
 .uk-pagination>.uk-active>span, .uk-pagination>li>a:focus, .uk-pagination>li>a:hover {
-    background-color: #3ab54a;
-    color: #fff;
+  background-color: #3ab54a;
+  color: #fff;
 }
 .uk-tab>li.uk-open>a, .uk-tab>li>a:focus, .uk-tab>li>a:hover {
-    background: #81b739;
-    color: #ffffff;
+  background: #81b739;
+  color: #ffffff;
 }
 .uk-tab>li>a {
-    color: ##3ab54a;
-    transition: none;
+  color: ##3ab54a;
+  transition: none;
 }
 .uk-tab>li.uk-active>a:hover {
-    background: #fff;
-    color: #444;
+  background: #fff;
+  color: #444;
 }
 /* End Uikit Style
 ---------------------------------------------------- */
@@ -115,11 +123,9 @@ figure .svg-inline--fa {font-size: 0.8em;}
 .card_sticky .bg_primary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #8cc63e 80%);}
 .card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #338cc4 80%);}
 .templateB1 .card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #e89c44 80%);}
-.card_sticky.open .more i::before {
-  content: "\f107";
-}
 .card_sticky h5 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 }
 
@@ -143,6 +149,7 @@ figure .svg-inline--fa {font-size: 0.8em;}
 
 @media (min-width:1220px) {
 figure .svg-inline--fa {font-size: 0.7em;}
+.dashboard {max-height: 227px;}
 .dashboard .uk-panel h5 {font-size: 1.1em !important; line-height: 1.2 !important;}
 }
 

@@ -102,7 +102,7 @@ $(document).ready(function() {
     events: A1
   });
 
-  //Sticky card toggleClass class when open/close
+  //card_sticky toggleClass class when open/close
   $('.card_sticky').on('toggle.uk.accordion', function() {
     $(this).toggleClass('open');
   });

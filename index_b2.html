@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="designer" content="楊軒羽 Shen Yang | Front Web & Graphic Designer | 前端網頁視覺設計師">
+  <meta name="designer" content="楊軒羽 Shen Yang | Front Web & Graphic Designer | 前端網頁設計師">
   <title>金門高中圖書館</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -64,11 +64,12 @@
                   </ul>
                 </li>
                 <li class="uk-parent"><a href="#">館藏服務</a></li>
+                <li class="uk-parent"><a href="#">電子書平台</a></li>
                 <li class="uk-parent"><a href="#">讀者服務</a></li>
-                <li class="uk-parent"><a href="#">本館活動</a></li>
-                <li class="uk-parent"><a href="#">最新消息</a></li>
+                <li class="uk-parent"><a href="#">圖書館活動</a></li>
                 <li class="uk-parent"><a href="#">數位服務</a></li>
-                <li class="uk-parent"><a href="#">常見問題</a></li>
+                <li class="uk-parent"><a href="#">最新消息</a></li>
+                <li class="uk-parent"><a href="#">行事曆</a></li>
               </ul>
             </nav>
           </div>
@@ -80,8 +81,8 @@
           <nav class="nav_dropdown_center uk-text-contrast uk-position-z-index uk-visible-large">
             <div class="uk-button-dropdown" data-uk-dropdown>
               <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">本館簡介</a>
-              <div class="uk-dropdown uk-dropdown-bottom bg_secondary borderRadius0 border border_white_opacity">
-                <ul class="uk-nav uk-nav-dropdown uk-text-left hover_bg_primary">
+              <div class="uk-dropdown uk-dropdown-bottom bg_primary borderRadius0 border_remove">
+                <ul class="uk-nav uk-nav-dropdown uk-text-left hover_bg_secondary">
                   <li><a class="uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
                   <li><a class="uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
                 </ul>
@@ -91,19 +92,22 @@
               <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">館藏服務</a>
             </div>
             <div class="uk-button-dropdown" data-uk-dropdown>
+              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">電子書平台</a>
+            </div>
+            <div class="uk-button-dropdown" data-uk-dropdown>
               <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">讀者服務</a>
             </div>
             <div class="uk-button-dropdown" data-uk-dropdown>
-              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">本館活動</a>
-            </div>
-            <div class="uk-button-dropdown" data-uk-dropdown>
-              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">最新消息</a>
+              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">圖書館活動</a>
             </div>
             <div class="uk-button-dropdown" data-uk-dropdown>
               <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">數位服務</a>
             </div>
             <div class="uk-button-dropdown" data-uk-dropdown>
-              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">常見問題</a>
+              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">最新消息</a>
+            </div>
+            <div class="uk-button-dropdown" data-uk-dropdown>
+              <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#">行事曆</a>
             </div>
           </nav>
           <!-- .dropdownMenu_center -->
@@ -259,11 +263,11 @@
         <div class="card bg_primary color_white uk-panel uk-panel-box border_remove borderRadius10 box_shadow uk-height-1-1">
           <h5 class="caption underline color_white"><i class="uk-margin-small-right far fa-question-circle fa-fw"></i>常見問題<span class="more color_white uk-margin-remove uk-align-right"><a href="#" title="More" aria-label="link">More</a><i class="fas fa-angle-right fa-fw"></i></span></h5>
           <div class="uk-accordion" data-uk-accordion="{collapse: false}">
-            <h4 class="uk-accordion-title uk-margin-small-bottom color_white bg_whiteOpacity3 border_remove hover_border_grey"><i class="fas fa-angle-right fa-fw"></i>開館時間</h4>
+            <h4 class="uk-accordion-title uk-margin-small-bottom color_white bg_whiteOpacity3 border_remove hover_border_grey"><i class="uk-icon-justify uk-icon-angle-right"></i>開館時間</h4>
             <div class="uk-accordion-content">週二至週日 9:00～17:00</div>
-            <h4 class="uk-accordion-title uk-margin-small-bottom color_white bg_whiteOpacity3 border_remove hover_border_grey"><i class="fas fa-angle-right fa-fw"></i>Question</h4>
+            <h4 class="uk-accordion-title uk-margin-small-bottom color_white bg_whiteOpacity3 border_remove hover_border_grey"><i class="uk-icon-justify uk-icon-angle-right"></i>Question</h4>
             <div class="uk-accordion-content">Ans</div>
-            <h4 class="uk-accordion-title uk-margin-small-bottom color_white bg_whiteOpacity3 border_remove hover_border_grey"><i class="fas fa-angle-right fa-fw"></i>Question</h4>
+            <h4 class="uk-accordion-title uk-margin-small-bottom color_white bg_whiteOpacity3 border_remove hover_border_grey"><i class="uk-icon-justify uk-icon-angle-right"></i>Question</h4>
             <div class="uk-accordion-content">Ans</div>
           </div>
         </div>
@@ -387,20 +391,20 @@
     <div class="uk-container uk-container-center">
       <footer>
         <div class="uk-grid uk-grid-small" data-uk-grid-margin>
-          <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-2-10 text_center_medium_left">
+          <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-2-10 text_center_mL">
             <img src="img/logo_white_s.png" alt="金門高中圖書館" title="金門高中圖書館">
           </div>
-          <div class="uk-width-medium-2-3 uk-width-large-3-5 uk-width-xlarge-4-10 text_center_medium_left">
+          <div class="uk-width-medium-2-3 uk-width-large-3-5 uk-width-xlarge-4-10 text_center_mL">
             <small class="uk-padding-remove uk-margin-small"><span class="paddingR_large">館址：89345金門縣金城鎮光前路94號</span><span>電話：082-326582 325450</span>
               <br>Copyright © 2018 National Kinmen Senior High School</small>
           </div>
           <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-1-10">
-            <div class="uk-vertical-align text_center_medium_left">
+            <div class="uk-vertical-align text_center_mL">
               <small class="uk-vertical-align-middle uk-width-medium-1-5 uk-width-xlarge-1-3"><i class="uk-margin-small-right far fa-user fa-fw fa-2x"></i></small>
               <small class="uk-vertical-align-middle uk-width-medium-4-5 uk-width-xlarge-2-3">瀏覽人數<span class="visitors">18562</span></small>
             </div>
           </div>
-          <div class="uk-width-medium-2-3 uk-width-large-1-1 uk-width-xlarge-3-10 text_center_medium_xlarge_left">
+          <div class="uk-width-medium-2-3 uk-width-large-1-1 uk-width-xlarge-3-10 text_center_mLlCxR">
             <small class="uk-padding-remove uk-margin-small">Chrome50.0、Firefox52.0、IE10.0以上版本 <span class="uk-text-small">最佳螢幕解析度 1920x1280</span></small>
           </div>
         </div>
