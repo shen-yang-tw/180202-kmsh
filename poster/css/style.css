@@ -1,10 +1,10 @@
 @charset "utf-8";
-html {font-size: 100px !important;}
+html {font-size: 70px !important;}
 body * {color:#000; line-height:1.5 !important; margin-bottom: 0.5rem !important;}
 h1, h2, h3, h4, h5, h6, ul {line-height: 1.2 !important; font-weight: bolder;}
 h1 {font-size: 4rem !important;}
 ul {font-size: 1.5rem !important;}
-p {font-size: 0.8rem !important;}
+p {font-size: 1.1rem !important;}
 *:last-child {margin-bottom: 0 !important;}
 .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
 .color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover, .monthly-event-list .monthly-today .monthly-event-list-date {color: #3ab54a !important;}

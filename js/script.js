@@ -4,27 +4,7 @@ var vhFix = new VHChromeFix([{
   vh: 100
 }]);
 
-//FontAwesome load at the beginning
-FontAwesomeConfig = { searchPseudoElements: true };
-
 $(document).ready(function() {
-
-  //Get current year
-  $(".year").text((new Date).getFullYear());
-
-  //FontAwesome load on document ready
-  // window.FontAwesomeConfig.searchPseudoElements = true;
-
-  //font resize
-  $('.large>a').click(function() {
-    $('.font_resize').removeClass('font_medium').addClass('font_large');
-  });
-  $('.medium>a').click(function() {
-    $('.font_resize').removeClass('font_large').addClass('font_medium');
-  });
-  $('.small>a').click(function() {
-    $('.font_resize').removeClass('font_large').removeClass('font_medium');
-  });
 
   //Remove parent if child empty
   $("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty").parent(":empty").remove();
@@ -106,5 +86,25 @@ $(document).ready(function() {
   $('.card_sticky').on('toggle.uk.accordion', function() {
     $(this).toggleClass('open');
   });
+
+  //switcher
+  $(".switcher").height($('.slider_choice .uk-slider>li').height());
+  $(window).resize(function() {
+    $(".switcher").height($('.slider_choice .uk-slider>li').height());
+  });
+  $('.switcher_tabs li').click(function() {
+    $('.switcher_content:visible').hide();
+    $('.switcher_content').eq($(this).index()).show();
+    $(this).addClass('uk-active').siblings().removeClass('uk-active');
+  });
+
+  //click & addClass
+  $('.slider_choice .uk-slider li').click(function() {
+    $(this).addClass('uk-active');
+    $('.slider_choice .uk-slider li').not(this).removeClass('uk-active');
+  });
+
+  //ClassyEdit
+  $(".classy-editor").ClassyEdit();
 
 });
