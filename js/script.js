@@ -4,6 +4,9 @@
 //   vh: 100
 // }]);
 
+//Font Awesome 5 - Changing icons by changing class (before DOM load - CANNOT placed in $(document).ready)
+$('.uk-accordion .uk-accordion-title:first-child .fa-angle-right').removeClass('fa-angle-right').addClass('fa-angle-down');
+
 $(document).ready(function() {
 
   //Remove parent if child empty
@@ -16,8 +19,8 @@ $(document).ready(function() {
     "monthly": [{
         "id": 1,
         "name": "大得象功個土會代之題速越眼",
-        "startdate": "2018-03-20",
-        "enddate": "2018-03-21",
+        "startdate": "2018-05-20",
+        "enddate": "2018-05-21",
         "starttime": "12:00",
         "endtime": "2:00",
         "color": "#3ab54a",
@@ -26,7 +29,7 @@ $(document).ready(function() {
       {
         "id": 2,
         "name": "本日閉館",
-        "startdate": "2018-03-19",
+        "startdate": "2018-05-28",
         "color": "#8cc63e",
         "url": ""
       }
@@ -82,7 +85,7 @@ $(document).ready(function() {
     events: A1
   });
 
-  //Sticky card toggleClass class when open/close
+  //card_sticky toggleClass class when open/close
   $('.card_sticky').on('toggle.uk.accordion', function() {
     $(this).toggleClass('open');
   });
@@ -104,8 +107,10 @@ $(document).ready(function() {
     $('.slider_choice .uk-slider li').not(this).removeClass('uk-active');
   });
 
-  //ClassyEdit
-  $(".classy-editor").ClassyEdit();
+  //dynamically checked & check all checkbox
+  $("#btnCheckAll").click(function() {
+    $('.listCheck').prop('checked', this.checked);
+  });
 
   //Form reload & go to anchor
   $("#reset").click(function() {
