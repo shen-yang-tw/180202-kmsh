@@ -9,12 +9,13 @@ html {font-size: 16px !important;}
 body {color:#444; line-height:1.5 !important;}
 body {font-size: 1rem !important;} /* 1rem x 16px = 16px , line-height=1.5 */
 h1 {font-size: 1.875rem !important;} /* 30px / 16px = 1.625rem */
-h2 {font-size: 1.6875rem !important;} /* 27px */
-h3 {font-size: 1.5rem !important;} /* 24px */
-h4 {font-size: 1.3125rem !important;} /* 21px */
-h5 {font-size: 1.125rem !important;} /* 18px */
-footer, small, small span {font-size: 0.875rem !important;} /* 14px */
-p:not([class*=bg_]), h1:not([class*=bg_]), h2:not([class*=bg_]), h3:not([class*=bg_]), h4([class*=bg_]), h5:not([class*=bg_]), h6:not([class*=bg_]) {line-height: 1.5;}
+h2, .fontSizeH2 {font-size: 1.6875rem !important;} /* 27px */
+h3, .fontSizeH3 {font-size: 1.5rem !important;} /* 24px */
+h4, .fontSizeH4 {font-size: 1.3125rem !important;} /* 21px */
+h5, .fontSizeH5 {font-size: 1.125rem !important;} /* 18px */
+h6, .fontSizeH6 {font-size: 1.0625rem !important;} /* 17px */
+footer, small, small span {font-size: 0.875rem !important; color: inherit !important;} /* 14px */
+p:not([class*=bg_]), h1:not([class*=bg_]), h2:not([class*=bg_]), h3:not([class*=bg_]), h4:not([class*=bg_]), h5:not([class*=bg_]), h6:not([class*=bg_]) {line-height: 1.5;}
 q {font-style: normal; padding: 0 5px;}
 
 
@@ -29,8 +30,30 @@ q {font-style: normal; padding: 0 5px;}
 a:link, a:visited, a:focus {color: #000; text-decoration: none; outline-color: transparent;}
 a:hover, a:active {color: #000; text-decoration: underline;}
 a.underline:hover {text-decoration: none; border: none; padding-bottom: 1px; transition: none;}
+a:hover .underline {text-decoration: none !important;}
 /* selected link */
 a:active {color: darkgrey;}
+<<<<<<< HEAD
+a, span, strong, small {display: inline-block;}
+a:not(:last-child):not(:only-of-type):not([class*=uk-slidenav]), span:not(:last-child):not(:only-of-type) {margin-right: 5px;}
+[class*=fontSize_small] {font-size: 0.9rem; line-height: 1.5rem;}
+.fontSize07 {font-size: 0.7rem !important;}
+.fontSize08 {font-size: 0.8rem !important;}
+.fontSize1 {font-size: 1rem !important;}
+.fontSize1vw {font-size: 1vw !important; line-height: 2rem !important;}
+.fontSize1_5vw {font-size: 1.5vw !important; line-height: 1.5rem !important;}
+.fontSize1_2 {font-size: 1.2rem !important;}
+.fontSize1_4 {font-size: 1.4rem !important;}
+.fontSize1_6 {font-size: 1.6rem !important;}
+.lineHeight_normal {line-height: normal !important;}
+.line_height1_lInherit {line-height:1rem !important;}
+.line_height1 {line-height:1rem !important;}
+.line_height1_5 {line-height:1.5rem !important;}
+.underline {border-bottom: 1px solid; padding-bottom: 5px;}
+.linkline, .linkline>span, .hover_linkline:hover {text-decoration: underline !important;}
+.linkline:hover, .linkline:hover>span {text-decoration: none !important;}
+.remove_underline, a:hover .remove_underline, .remove_underline:hover, nav a:hover {text-decoration: none;}
+=======
 a, span {display: inline-block;}
 [class*=fontSize_small] {font-size: 0.8rem;}
 .fontSize1 {font-size: 1rem;}
@@ -43,6 +66,7 @@ a, span {display: inline-block;}
 .linkline:hover {text-decoration: none !important;}
 .remove_underline, .remove_underline:hover, nav a:hover {border-bottom: 0; text-decoration: none;}
 .lineHeight_normal {line-height: normal !important;}
+>>>>>>> parent of c51932a... 0521-修改&海報
 .color_white, .hover_color_white:focus, .hover_color_white:hover, a.color_white, .color_white>a, ul.color_white>li>a, ul.uk-text-contrast>li>a, nav.uk-text-contrast>.uk-button-dropdown>a, .bg_primary>a, .bg_secondary>a, .bg_primary>ul a, .bg_secondary>ul a {color: white !important;}
 input.color_white::placeholder, textarea.color_white::placeholder, input.color_white ::placeholder, textarea.color_white ::placeholder {color: white !important;}
 input.color_white:-ms-input-placeholder, textarea.color_white:-ms-input-placeholder, input.color_white :-ms-input-placeholder, textarea.color_white :-ms-input-placeholder {color: white !important;}
@@ -50,19 +74,34 @@ input.color_white::-ms-input-placeholder, textarea.color_white::-ms-input-placeh
 .color_default, .hover_color_default:focus, .hover_color_default:hover {color: #444 !important;}
 .color_black, .hover_color_black:focus, .hover_color_black:hover {color: #000 !important;}
 .color_defaultGrey, .hover_color_defaultGrey:focus, .hover_color_defaultGrey:hover {color: #999 !important;}
-.color_grey, .hover_color_grey:focus, .hover_color_grey:hover {color: #adb9bd !important;}
+.color_grey, .hover_color_grey:focus, .hover_color_grey:hover {color: #486d7b !important;}
 .color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #009dd8 !important;}
 .color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover {color: #82bb42 !important;}
 .bg_white {background-color: white;}
+<<<<<<< HEAD
+<<<<<<< HEAD
+input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:before {background: #fafafa !important;}
+=======
 input.bg_white[type=radio]:checked:before, .bg_white input[type=radio]:checked:before {background: #fafafa !important;}
+>>>>>>> parent of c51932a... 0521-修改&海報
 .bg_whiteOpacity3, ul[class*=uk-navbar].color_white>li:hover>a, ul[class*=uk-navbar].color_white>li:focus>a, ul[class*=uk-navbar].color_white>li.uk-open>a, ul.uk-text-contrast>li:hover>a, ul.uk-text-contrast>li:focus>a, ul.uk-text-contrast>li.uk-open>a, nav:not(.bg_white)>.uk-button-dropdown>a.active, nav:not(.bg_white)>.uk-button-dropdown>a:focus, nav:not(.bg_white)>.uk-button-dropdown>a:hover, .uk-button-dropdown[aria-expanded="true"]>a {background-color: rgba(255, 255, 255, 0.3);}
+=======
+input.bg_white[type=radio]:checked:before, .bg_white input[type=radio]:checked:before {background: #fafafa !important;}
+.bg_whiteOpacity3, ul[class*=uk-navbar].color_white>li:hover>a, ul[class*=uk-navbar].color_white>li:focus>a, ul[class*=uk-navbar].color_white>li.uk-open>a, ul.uk-text-contrast>li:hover>a, ul.uk-text-contrast>li:focus>a, ul.uk-text-contrast>li.uk-open>a, nav:not(.bg_white)>.uk-button-dropdown>a:focus, nav:not(.bg_white)>.uk-button-dropdown>a:hover, .uk-button-dropdown[aria-expanded="true"]>a {background-color: rgba(255, 255, 255, 0.3);}
+>>>>>>> parent of 415ac16... 0417-修改
 .bg_whiteOpacity5, .bg_hover_whiteOpacity5:focus, .bg_hover_whiteOpacity5:hover {background-color: rgba(255, 255, 255, 0.5) !important;}
 .bg_whiteOpacity7 {background-color: rgba(255, 255, 255, 0.7);}
 .bg_grey, .btn_grey {background-color: #e9f3f5;}
+<<<<<<< HEAD
 .bg_defaultGrey, .btn_defaultGrey {background-color: #eaeaea;}
+.bg_darkestGrey, .btn_darkestGrey {background-color: #586e73;}
+.bg_darkGrey, .btn_darkGrey {background-color: #5f777b;}
+.bg_lightGrey, .btn_lightGrey {background-color: #e7f1f5;}
+=======
 .bg_darkestGrey, .btn_darkestGrey {background-color: #657e84;}
 .bg_darkGrey, .btn_darkGrey {background-color: #a9c6cc;}
-.bg_lightGrey, .btn_lightGrey {background-color: #e7f1f5;}
+.bg_lightGrey, .btn_lightGrey {background-color: #fafcfd;}
+>>>>>>> parent of 415ac16... 0417-修改
 .bg_primary, .btn_primary, .bg_primary, .uk-block-primary {color: white !important;background-color: #009dd8;}
 .bg_secondary, .btn_secondary, .uk-block-secondary {color: white !important;background-color: #82bb42;}
 .btn_primary:focus, .btn_primary:hover, .btn_primary.selected {text-decoration: none; background-color: #008ec3;}
@@ -84,6 +123,24 @@ input.bg_white[type=radio]:checked:before, .bg_white input[type=radio]:checked:b
 .border_remove {border: none;}
 .borderRadius0 {border-radius: 0 !important;}
 .borderRadius10 {border-radius: 10px;}
+<<<<<<< HEAD
+.borderRadiusTL10 {border-top-left-radius: 10px !important;}
+.borderRadiusTR10 {border-top-right-radius: 10px !important;}
+.borderRadiusBL10 {border-bottom-left-radius: 10px !important;}
+.borderRadiusBR10 {border-bottom-right-radius: 10px !important;}
+.border_grey, .border_hover_grey:focus, .border_hover_grey:hover {border-color: #ddd !important;}
+.border_white_transparent {border-color: rgba(255, 255, 255, 0) !important;}
+.border_white_opacity1, .border_hover_white_opacity1:focus, .border_hover_white_opacity1:hover {border-color: rgba(255, 255, 255, 0.1) !important;}
+.border_white_opacity2, .border_hover_white_opacity2:focus, .border_hover_white_opacity2:hover {border-color: rgba(255, 255, 255, 0.2) !important;}
+.border_white_opacity3, .border_hover_white_opacity3:focus, .border_hover_white_opacity3:hover {border-color: rgba(255, 255, 255, 0.3) !important;}
+.border_white_opacity5, .border_hover_white_opacity5:focus, .border_hover_white_opacity5:hover {border-color: rgba(255, 255, 255, 0.5) !important;}
+.border_black_opacity3, .border_hover_black_opacity3:focus, .border_hover_black_opacity3:hover {border-color: rgba(0, 0, 0, 0.3) !important;}
+.border_black_opacity5, .border_hover_black_opacity5:focus, .border_hover_black_opacity5:hover {border-color: rgba(0, 0, 0, 0.5) !important;}
+.border_white, .border_hover_white:hover {border-color: white !important;}
+.top5 {top: 5px;}
+.top10 {top: 10px;}
+.bottom0 {bottom: 0;}
+=======
 .borderRadiusTL10 {border-top-left-radius: 10px;}
 .borderRadiusTR10 {border-top-right-radius: 10px;}
 .borderRadiusBL10 {border-bottom-left-radius: 10px;}
@@ -91,6 +148,7 @@ input.bg_white[type=radio]:checked:before, .bg_white input[type=radio]:checked:b
 .border_grey, .border_hover_grey:focus, .border_hover_grey:hover {border-color: lightgrey !important;}
 .border_white {border-color: white !important;}
 .border_white_opacity, .hover_border_white_opacity:focus, .hover_border_white_opacity:hover {border-color: rgba(255, 255, 255, 0.3) !important;}
+>>>>>>> parent of c51932a... 0521-修改&海報
 .bottom5 {bottom: 5px;}
 .bottom10 {bottom: 10px;}
 .margin_small {margin: 5px;}
@@ -133,15 +191,19 @@ input.bg_white[type=radio]:checked:before, .bg_white input[type=radio]:checked:b
 .paddingLR_medium {padding-left: 10px !important; padding-right: 10px !important;}
 .paddingLR_large {padding-left: 15px !important; padding-right: 15px !important;}
 .paddingLR_xlarge {padding-left: 20px !important; padding-right: 20px !important;}
+.paddingL0 {padding-left: 0 !important;}
+.paddingR0 {padding-right: 0 !important;}
 .padding_border {padding: 2px !important;}
 .pull_100 {position: relative; top: -100px; margin-bottom: -100px;}
 ul.listNoStyle {padding: 0; list-style: none;}
-ul.list_horizontal {display: block; list-style: none; margin: 0; padding: 0;}
+ul.list_horizontal {display: block; list-style: none; margin: 0; padding: 2px 0;}
 ul.list_horizontal li {display: inline-block; float: none;}
 ol:not(.listDecimalRow) li, ol.listDecimal>li {margin-bottom: 10px;}
 ol.listDecimalRow {list-style-type: none; counter-reset: listDecimalRowCounter; padding: 0;}
 ol.listDecimalRow>li:before {display:block; counter-increment: listDecimalRowCounter; content: counter(listDecimalRowCounter) ". ";}
-ol.listDecimalRow.badge>li:before {display: inline-block; counter-increment: listDecimalRowCounter; content: counter(listDecimalRowCounter); padding: 0 5px; position: absolute; z-index: 1; top: 10px; right: 10px; background: lightgrey; color: white; border-radius: 4px;}
+ol.listDecimalRow.listBadge>li {position: relative;}
+ol.listDecimalRow.listBadge>li:before {display: inline-block; counter-increment: listDecimalRowCounter; content: counter(listDecimalRowCounter); padding: 0 5px; position: absolute; z-index: 1; top:10px; left: 20px; background: lightgrey; color: white; border-radius: 4px;}
+ol.listDecimalRow.listBadge.listBadgeR>li:before {left: auto; right: 5px;}
 ol.listDecimalCh {list-style-type:cjk-ideographic;}
 .list_striped>li:first-child {border-top: 1px solid #E5E5E5;}
 .list_striped>li {padding: 5px 5px; border-bottom: 1px solid #E5E5E5; position:relative; z-index:1;}
@@ -149,6 +211,13 @@ ol.listDecimalCh {list-style-type:cjk-ideographic;}
 .listDecimal {list-style: none;}
 .listDecimal>li:before {display:block; counter-increment: listDecimalCounter; content: counter(listDecimalCounter) ". ";}
 .list_line>li:not(:last-child):after {content: "|"; padding:0 10px; vertical-align: 2px;}
+<<<<<<< HEAD
+.list_btmline>li:not(:last-child) {border-bottom: 1px solid #E5E5E5; padding:0 10px; padding-bottom: 5px; margin-bottom: 5px;}
+.listFaIcon_indent {padding-left: 1.25rem; text-indent: -1.25rem;}
+[class*="_indent"] span {text-indent: 0;}
+.indent_remove {text-indent: 0;}
+=======
+>>>>>>> parent of c51932a... 0521-修改&海報
 .fullWidth {width: 100%;}
 .fullViewH {min-height: 100vh}
 .min_height300 {min-height: 300px;}
@@ -168,11 +237,13 @@ ol.listDecimalCh {list-style-type:cjk-ideographic;}
 .parentheses:before {content: "("; padding-left: 5px;}
 .parentheses:after {content: ")"; padding-right: 5px;}
 .parentheses:last-child:after {padding-right: 0;}
+.quotesCH {quotes: "「" "」";}
 img[src=""] {display: none;}
 [class*=text_center], .nav_dropdown_center {text-align: center;}
 .nav_dropdown_center {font-size: 1.2rem;}
 .line_height {line-height:1.5 !important;}
 .block_LinlineBlock {display: block;}
+textarea.noresize {resize: none;}
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 .google_font {font-family: 'Roboto', sans-serif !important;}
 .searchBarGroup2>div:nth-child(1)>*, .searchBarGroup3>div:nth-child(1)>* {
@@ -256,26 +327,6 @@ img[src=""] {display: none;}
 .bg_line:hover {
     background: #00a500;
 }
-.fa.fa-line {
-    content: "";
-    display: inline-block;
-    position: relative;
-    width: 21px;
-    height: 24px;
-    margin-bottom: -1px;
-}
-.fa-line:before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: url(../img/line_icon_w.png) no-repeat center center;
-    background-size: 100%;
-}
-
 .custom_checkbox .checkbox_circle {
     position: absolute;
     opacity: 0;
@@ -368,25 +419,6 @@ img[src=""] {display: none;}
     margin-top: -30px;
 }
 [class*=text_center_] {text-align: center;}
-
-.arrow, .arrow>.svg-inline--fa {
-  width: 1.25em;
-  display: inline-block;
-}
-.arrow::before, .arrow>i[data-fa-pseudo-element=":before"] {
-  content: "";
-  display: none;
-}
-.angle-right::before {
-  content: "\f105";
-  font-family: "Font Awesome 5 Solid";
-  display: none;
-}
-.uk-accordion-title.uk-active>.angle-right::before {
-  content: "\f107";
-  font-family: "Font Awesome 5 Solid";
-  display: none;
-}
 /* End Pre Style
 ---------------------------------------------------- */
 
@@ -423,7 +455,7 @@ img[src=""] {display: none;}
     display: flex !important;
 }
 .uk-breadcrumb>li:not(.uk-active)>span, .uk-breadcrumb>li:nth-child(n+2):before {
-    color: #899ca2;
+    color: #486d7b;
 }
 .uk-notouch.uk-modal-page body {
     padding-right: 17px !important;
@@ -498,6 +530,15 @@ img[src=""] {display: none;}
     text-shadow: none;
     height: 40px;
 }
+.uk-pagination>li>a {
+    background: #ffffff;
+    text-shadow: none;
+    transition: none;
+}
+.uk-accordion-title, .uk-accordion-title * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
 a.uk-slidenav-contrast {
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.7) !important;
@@ -516,6 +557,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
     padding-top: 10px;
     padding-bottom: 50px;
 }
+<<<<<<< HEAD
 .uk-accordion-title, .uk-accordion-title * {
     font-size: inherit !important;
     line-height: inherit !important;
@@ -529,6 +571,9 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .slider_choice a:not(.uk-slidenav):focus, .slider_choice a:not(.uk-slidenav):hover, .slider_choice .uk-active a {
     background: #ddd;
 }
+=======
+
+>>>>>>> parent of 415ac16... 0417-修改
 /* End Uikit Style
 ---------------------------------------------------- */
 
@@ -606,6 +651,90 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .font_resize_enforce.font_medium .uk-button {
   font-size: 1.1rem !important;
 }
+<<<<<<< HEAD
+=======
+
+.listTabs .uk-list {
+  border-top: 1px solid #E5E5E5;
+}
+.listTabs a {
+  border-bottom: 1px solid #E5E5E5;
+  line-height: 30px;
+  padding: 5px 10px;
+}
+.listTabs .uk-grid-divider>li:last-child a, .listTabs .uk-grid-divider>li:nth-child(odd):nth-last-child(2) a {
+  border-bottom: 0;
+}
+.listTabs a:hover,
+.listTabs .uk-active a {
+  color: white !important;
+  background-color: #7aac2e;
+  text-decoration: none;
+}
+.listTabs .uk-grid-divider>li, .listTabs .uk-grid-divider>li:last-child:nth-child(odd) {
+  border-right: 1px solid #E5E5E5;
+}
+.listTabs .uk-grid-divider>li:nth-child(even),
+.listTabs .uk-grid-divider>li:last-child {
+  border-right: 0;
+}
+.listTabs .uk-nav {
+  border: 1px solid #E5E5E5;
+  border-bottom: 2px solid #dcdada;
+}
+.listTabs .uk-nav a {
+  color: #7aac2e;
+  padding: 5px 15px;
+}
+.listTabs .uk-nav>li.uk-open>a {
+  background: #507120 !important;
+  color: white !important;
+}
+.listTabs .uk-active a,
+.listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
+.listTabs li.level3 .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
+.listTabs .uk-nav>li.level3 li li>a {
+  color: #7aac2e !important;
+  background-color: transparent;
+}
+.listTabs .uk-nav li a:hover,
+.listTabs .uk-nav>li.uk-active>a,
+.listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a,
+.listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
+.listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
+.listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
+  background: #7aac2e;
+  color: white !important;
+}
+.listTabs .uk-nav>li.level3 li>a,
+.listTabs .uk-nav>li.level3[aria-expanded="true"] li[aria-expanded="true"]>a {
+  background: #ff952f;
+  color: white !important;
+}
+.listTabs.listTabs_grey .uk-nav a {
+  color: #a9afb1;
+}
+.listTabs.listTabs_grey .uk-nav li a:hover,
+.listTabs.listTabs_grey .uk-nav>li.uk-active>a,
+.listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a,
+.listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
+.listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
+.listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
+  background: #cfd8dc;
+}
+.listTabs.listTabs_secondary .uk-nav a {
+  color: #ff952f;
+}
+.listTabs.listTabs_secondary .uk-nav li a:hover,
+.listTabs.listTabs_secondary .uk-nav>li.uk-active>a,
+.listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a,
+.listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
+.listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
+.listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
+  background: #ff952f;
+}
+
+>>>>>>> parent of 415ac16... 0417-修改
 .truncating, .max_height {
   position: relative;
 }
@@ -628,17 +757,34 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
     background: #f5fbfe;
     color: #444;
 }
+<<<<<<< HEAD
+.table_rwd td, .table_rwd_medium td {
+    display: inline-block;
+}
+.text_r_sL, .text_r_mL, .text_r_mC {text-align: right;}
+=======
+>>>>>>> parent of c51932a... 0521-修改&海報
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
 
 /* monthly Style
 ---------------------------------------------------- */
+<<<<<<< HEAD
 .monthly-today .monthly-day-number {
   min-width: 30px;
   min-height: 30px;
   top: 5.5px;
   left: 5.5px;
 }
+<<<<<<< HEAD
+.monthly-header-title-date .year {
+    font-size: 0.5rem;
+    line-height: 1;
+}
+=======
+>>>>>>> parent of 415ac16... 0417-修改
+=======
+>>>>>>> parent of c51932a... 0521-修改&海報
 @media (min-width: 25em) {
 .monthly {
     font-size: 0.8em;
@@ -676,10 +822,6 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .monthly-day-event>.monthly-indicator-wrap {
     margin-top: 45px;
 }
-.monthly-day-event>.monthly-day-number {
-    top: 4px;
-    left: 4px;
-}
 }
 /* End monthly Style
 ---------------------------------------------------- */
@@ -699,16 +841,38 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .monthly {
     font-size: 0.8em;
 }
-.text_center_sL {text-align: left;}
+<<<<<<< HEAD
+.text_center_sL, .text_r_sL {text-align: left;}
 .text_center_sR {text-align: right;}
+=======
+.text_center_small_left {text-align: left;}
+.text_center_small_right {text-align: right;}
+>>>>>>> parent of 415ac16... 0417-修改
 }
 
 @media (min-width:768px) {
 .uk-modal-dialog {
     min-width: 90%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+.text_center_mL, .text_center_mxL, .text_center_mLxR, .text_center_mLlCxR, .text_r_mL {text-align: left;}
+.text_center_mR, .text_center_mxR, .text_mR {text-align: right;}
+.text_r_mC {text-align: center;}
+.table_rwd td {
+    display: table-cell;
+}
+.min_height100vhM {min-height: 100vh}
+.widthautoM {width: auto !important;}
+.fontSize_inheritM {font-size: inherit;}
+=======
+.text_center_medium_left, .text_center_medium_xlarge_left {text-align: left;}
+.text_center_medium_right, .text_center_medium_xlarge_right {text-align: right;}
+>>>>>>> parent of 415ac16... 0417-修改
+=======
 .text_center_mL, .text_center_mxL, .text_center_mLxR, .text_center_mLlCxR {text-align: left;}
 .text_center_mR, .text_center_mxR {text-align: right;}
+>>>>>>> parent of c51932a... 0521-修改&海報
 }
 
 @media (min-width:960px) {
@@ -773,7 +937,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .max_height {
   overflow: hidden;
   min-height: 150px;
-  max-height: 170px;
+  /*max-height: 170px;*/
 }
 .max_height:after {
   content: "";
@@ -787,17 +951,33 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
   background: linear-gradient(to top, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
 }
+<<<<<<< HEAD
+.min_height100vhL {min-height: 100vh}
 .min_heightL300 {min-height: 300px;}
 .min_heightL600 {min-height: 600px;}
 .min_heightL800 {min-height: 800px;}
 .min_heightL1000 {min-height: 1000px;}
 .text_center_mLlCxR {text-align: center;}
+<<<<<<< HEAD
+.text_center_lL {text-align: left;}
+.text_center_lR {text-align: right;}
+.fontSize_inheritL {font-size: inherit;}
+.block_LinlineBlock {display: inline-block;}
+.line_height1_lInherit {line-height:inherit !important;}
+.widthAutoL {width: auto !important;}
+=======
+.min_height600 {min-height: 600px;}
+[class*=text_center_medium_xlarge] {text-align: center;}
+>>>>>>> parent of 415ac16... 0417-修改
+=======
 .fontSize_small_Minherit {font-size: inherit;}
 .block_LinlineBlock {display: inline-block;}
+>>>>>>> parent of c51932a... 0521-修改&海報
 }
 
 @media (min-width:1220px) {
 .minHight {min-height: 600px;}
+<<<<<<< HEAD
 .text_center_mxL {text-align: left;}
 .text_center_mLlCxR, .text_center_mLxR, .text_center_mxR {text-align: right;}
 .pull-xlarge-3-4 {
@@ -812,6 +992,17 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .pull-xlarge-4-10 {
     left: -40%;
 }
+<<<<<<< HEAD
+.grid-width-xlarge-1-7>* {
+    width: calc(100%/7);
+}
+.widthAutoXL {width: auto !important;}
+=======
+.text_center_medium_xlarge_left {text-align: left;}
+.text_center_medium_xlarge_right {text-align: right;}
+>>>>>>> parent of 415ac16... 0417-修改
+=======
+>>>>>>> parent of c51932a... 0521-修改&海報
 }
 
 @media (min-width:1350px) {

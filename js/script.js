@@ -1,8 +1,8 @@
 // fix 100 vh in Android Chrome
-var vhFix = new VHChromeFix([{
-  selector: '.fullViewH',
-  vh: 100
-}]);
+// var vhFix = new VHChromeFix([{
+//   selector: '.fullViewH',
+//   vh: 100
+// }]);
 
 $(document).ready(function() {
 
@@ -82,7 +82,7 @@ $(document).ready(function() {
     events: A1
   });
 
-  //card_sticky toggleClass class when open/close
+  //Sticky card toggleClass class when open/close
   $('.card_sticky').on('toggle.uk.accordion', function() {
     $(this).toggleClass('open');
   });
@@ -106,5 +106,46 @@ $(document).ready(function() {
 
   //ClassyEdit
   $(".classy-editor").ClassyEdit();
+
+  //Form reload & go to anchor
+  $("#reset").click(function() {
+    location.hash = '#registration';
+    location.reload();
+  });
+
+  //Form Text Counter
+  // $('.auto').textcounter({
+  //   max: "auto", // maximum number of characters/words, -1 for unlimited, 'auto' to use maxlength attribute
+  //   counterText: "輸入字數：%d", // counter text
+  // });
+  // $('.unlimited').textcounter({
+  //   max: -1, // maximum number of characters/words, -1 for unlimited, 'auto' to use maxlength attribute
+  //   counterText: "輸入字數：%d", // counter text
+  // });
+
+  //dynamically checked & check all checkbox
+  $("#checkAll").click(function() {
+    $('.listCheck').prop('checked', this.checked);
+  });
+
+  //Grid Filtering
+  $("#categoryTabs li:not(:nth-child(5))").click(function() {
+    $('#categoryTabs .uk-button-dropdown a').removeClass('uk-active');
+  });
+  $("#categoryTabs li li").click(function() {
+    $('#categoryTabs .uk-button-dropdown>a').addClass('uk-active');
+  });
+
+  //
+  $('.uk-accordion').on('toggle.uk.accordion', function() {
+    $(this).toggleClass('open');
+  });
+
+  // if ($(window).width() < 768) {
+  //   UIkit.accordion('#bookview', { showfirst: false });
+  // } else {
+  //   UIkit.accordion('#bookview', { showfirst: true });
+  //   // UIkit.accordion("#bookview")[0].show();
+  // }
 
 });

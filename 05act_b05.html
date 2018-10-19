@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-TW" xml:lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="designer" content="楊軒羽 Shen Yang | Front End Developer & Graphic Web Designer | 前端網頁設計師">
+  <title>金門高中圖書館</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/uikit.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/accordion.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/dotnav.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/form-advanced.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/form-file.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/sticky.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/slider.min.css">
+  <link rel="stylesheet" href="css/components/slidenav.min.css">
+  <link rel="stylesheet" href="css/components/slideshow.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/monthly.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/delay.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top" class="fullViewH uk-position-relative uk-cover-background uk-padding-remove">
+  <div class="gotoTop uk-visible-small" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top"><i class="fas fa-chevron-up fa-fw"></i></a></div>
+  <div class="opacity30 uk-overlay-panel" style="background: linear-gradient(to bottom, #10da77 0%, #d1d65a 100%);"></div>
+  <div class="bg_img opacity30 uk-height-viewport uk-overlay-panel uk-overlay-top uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_index_act01.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div>
+  <div class="bg_img opacity30 uk-height-viewport uk-overlay-panel uk-overlay-bottom uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_index_act02.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div>
+  <div class="bg_img opacity20 uk-height-viewport uk-overlay-panel uk-overlay-top uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_act.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div>
+  <header id="header" class="box_shadow3">
+    <div class="uk-position-relative uk-cover-background" style="background-image: url(img/bg_index_act01.jpg); background-position-y: 10%;">
+      <div class="bg_primary opacity50 borderB2 border_white_opacity5 uk-overlay-panel"></div>
+      <div class="uk-position-relative uk-padding-remove">
+        <div class="uk-container uk-container-center">
+          <div id="logoBar" class="marginTB_medium uk-grid uk-grid-small uk-position-relative uk-position-z-index" data-uk-grid-margin>
+            <div class="uk-width-4-5 uk-width-medium-2-3 uk-width-large-1-2 uk-padding-remove uk-vertical-align">
+              <div class="uk-width-1-1 uk-vertical-align-middle"><a class="logo uk-width-1-1" href="index.html"><img class="uk-width-1-1" alt="金門高中圖書館" title="金門高中圖書館" src="img/logo_white_act.svg"></a></div>
+            </div>
+            <!-- <div class="uk-width-1-5 uk-width-medium-1-6 uk-width-large-2-5 uk-vertical-align">
+              <div class="uk-vertical-align-middle uk-width-1-1">
+                <h2 class="uk-margin-remove"><span class="fontSize1_5vw border border_white color_white paddingLR_small">活動</span></h2>
+              </div>
+            </div> -->
+            <div class="text_center_mR uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-2 uk-vertical-align">
+              <div class="uk-vertical-align-middle"><a class="bg_white color_primary uk-button" href="#login" title="登入" data-uk-modal="{center:true}"><i class="fas fa-user-circle fa-fw"></i>登入</a><span class="color_white uk-margin-small-left">帳號:</span><span class="account color_white uk-margin-small-left">a1234</span></div>
+            </div>
+          </div>
+          <!-- #logoBar -->
+        </div>
+      </div>
+      <!-- .uk-position-relative -->
+    </div>
+  </header>
+  <!-- #header -->
+  <div class="content uk-margin">
+    <div class="paddingB_xlarge uk-container uk-container-center">
+      <div class="card bg_white border_remove uk-panel uk-panel-box uk-padding-remove borderRadius10 box_shadow min_heightL800">
+        <div class="banner">
+          <div class="uk-container uk-container-center uk-padding-remove">
+            <div class="borderRadiusTL10 borderRadiusTR10 uk-cover-background" style="height: 300px; background-image: url(img/bannerA1.jpg);">
+              <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+            </div>
+          </div>
+        </div>
+        <div class="padding_large">
+          <h2 class="color_grey underline">教師評核</h2>
+          <form class="uk-form">
+            <div class="bg_grey padding_small uk-margin">
+							<label class="uk-margin-remove"><input class="uk-margin-small-right" type="checkbox" id="checkAll">全選</label>
+              <span class="uk-text-small uk-form-help-block uk-align-right">備註：評分級距1~5分，可至小數點第一位。</span>
+            </div>
+            <ul class="text_center uk-pagination">
+              <li class="uk-disabled"><span aria-label="last pages"><i class="uk-icon-angle-double-left"></i></span></li>
+              <li class="uk-disabled"><span aria-label="last page"><i class="uk-icon-angle-left"></i></span></li>
+              <li class="uk-active"><span aria-label="this page">1</span></li>
+              <li><span>...</span></li>
+              <li><a href="#" title="#" aria-label="page number">10</a></li>
+              <li><a href="#" title="#" aria-label="next page"><i class="uk-icon-angle-right"></i></a></li>
+              <li><a href="#" title="#" aria-label="next pages"><i class="uk-icon-angle-double-right"></i></a></li>
+            </ul>
+            <ol class="listDecimalRow listBadge uk-grid uk-grid-small uk-grid-width-medium-1-2 uk-grid-width-large-1-3" data-uk-grid-margin>
+              <li>
+								<div class="padding_medium border_remove uk-text-left uk-panel uk-panel-box uk-width-1-1">
+									<label class="uk-width-1-1">
+											<div class="paddingL_large uk-text-right">
+												<input class="listCheck" type="checkbox" aria-label="check student">
+											</div>
+										<h4 class="underline border_grey uk-clearfix uk-margin-small-top uk-margin-small-bottom"><span class="uk-margin-small-bottom">學生姓名</span><small class="uk-margin-left uk-align-right"><span class="padding_small border uk-margin-small-right">班級</span>101</small></h4>
+										<a class="linkline uk-margin-bottom" href="#" title="#">後熱氣去有運三參表孩常</a>
+										<div class="uk-form-row uk-grid uk-grid-small">
+											<label><input class="uk-margin-small-right" type="checkbox">是否抄襲</label>
+											<label><input class="uk-margin-small-right" type="checkbox">推薦國賽</label>
+											<label><span class="uk-margin-small-right">教師評分</span><input type="number" min="1" max="5" step="0.1" value="3"></label>
+										</div>
+										<div class="uk-form-row">
+											<textarea class="noresize uk-width-1-1" rows="3" placeholder="教師評語" aria-label="comment"></textarea>
+										</div>
+									</label>
+								</div>
+              </li>
+							<li>
+								<div class="padding_medium border_remove uk-text-left uk-panel uk-panel-box uk-width-1-1">
+									<label class="uk-width-1-1">
+											<div class="paddingL_large uk-text-right">
+												<input class="listCheck" type="checkbox" aria-label="check student">
+											</div>
+										<h4 class="underline border_grey uk-clearfix uk-margin-small-top uk-margin-small-bottom"><span class="uk-margin-small-bottom">學生姓名</span><small class="uk-margin-left uk-align-right"><span class="padding_small border uk-margin-small-right">班級</span>101</small></h4>
+										<a class="linkline uk-margin-bottom" href="#" title="#">後熱氣去有運三參表孩常</a>
+										<div class="uk-form-row uk-grid uk-grid-small">
+											<label><input class="uk-margin-small-right" type="checkbox">是否抄襲</label>
+											<label><input class="uk-margin-small-right" type="checkbox">推薦國賽</label>
+											<label><span class="uk-margin-small-right">教師評分</span><input type="number" min="1" max="5" step="0.1" value="3"></label>
+										</div>
+										<div class="uk-form-row">
+											<textarea class="noresize uk-width-1-1" rows="3" placeholder="教師評語" aria-label="comment"></textarea>
+										</div>
+									</label>
+								</div>
+              </li>
+							<li>
+								<div class="padding_medium border_remove uk-text-left uk-panel uk-panel-box uk-width-1-1">
+									<label class="uk-width-1-1">
+											<div class="paddingL_large uk-text-right">
+												<input class="listCheck" type="checkbox" aria-label="check student">
+											</div>
+										<h4 class="underline border_grey uk-clearfix uk-margin-small-top uk-margin-small-bottom"><span class="uk-margin-small-bottom">學生姓名</span><small class="uk-margin-left uk-align-right"><span class="padding_small border uk-margin-small-right">班級</span>101</small></h4>
+										<a class="linkline uk-margin-bottom" href="#" title="#">後熱氣去有運三參表孩常</a>
+										<div class="uk-form-row uk-grid uk-grid-small">
+											<label><input class="uk-margin-small-right" type="checkbox">是否抄襲</label>
+											<label><input class="uk-margin-small-right" type="checkbox">推薦國賽</label>
+											<label><span class="uk-margin-small-right">教師評分</span><input type="number" min="1" max="5" step="0.1" value="3"></label>
+										</div>
+										<div class="uk-form-row">
+											<textarea class="noresize uk-width-1-1" rows="3" placeholder="教師評語" aria-label="comment"></textarea>
+										</div>
+									</label>
+								</div>
+              </li>
+							<li>
+								<div class="padding_medium border_remove uk-text-left uk-panel uk-panel-box uk-width-1-1">
+									<label class="uk-width-1-1">
+											<div class="paddingL_large uk-text-right">
+												<input class="listCheck" type="checkbox" aria-label="check student">
+											</div>
+										<h4 class="underline border_grey uk-clearfix uk-margin-small-top uk-margin-small-bottom"><span class="uk-margin-small-bottom">學生姓名</span><small class="uk-margin-left uk-align-right"><span class="padding_small border uk-margin-small-right">班級</span>101</small></h4>
+										<a class="linkline uk-margin-bottom" href="#" title="#">後熱氣去有運三參表孩常</a>
+										<div class="uk-form-row uk-grid uk-grid-small">
+											<label><input class="uk-margin-small-right" type="checkbox">是否抄襲</label>
+											<label><input class="uk-margin-small-right" type="checkbox">推薦國賽</label>
+											<label><span class="uk-margin-small-right">教師評分</span><input type="number" min="1" max="5" step="0.1" value="3"></label>
+										</div>
+										<div class="uk-form-row">
+											<textarea class="noresize uk-width-1-1" rows="3" placeholder="教師評語" aria-label="comment"></textarea>
+										</div>
+									</label>
+								</div>
+              </li>
+            </ol>
+            <ul class="text_center uk-pagination">
+              <li class="uk-disabled"><span aria-label="last pages"><i class="uk-icon-angle-double-left"></i></span></li>
+              <li class="uk-disabled"><span aria-label="last page"><i class="uk-icon-angle-left"></i></span></li>
+              <li class="uk-active"><span aria-label="this page">1</span></li>
+              <li><span>...</span></li>
+              <li><a href="#" title="#" aria-label="page number">10</a></li>
+              <li><a href="#" title="#" aria-label="next page"><i class="uk-icon-angle-right"></i></a></li>
+              <li><a href="#" title="#" aria-label="next pages"><i class="uk-icon-angle-double-right"></i></a></li>
+            </ul>
+						<div class="uk-grid uk-grid-small uk-grid-width-1-2" data-uk-grid-margin>
+							<div>
+                <button class="btn_primary uk-button uk-button-large uk-width-1-1" type="button" aria-label="save" data-uk-modal="{target:'#confirm', center:true}">儲存</button>
+                <div id="confirm" class="uk-modal">
+                  <div class="uk-modal-dialog">
+                    <a href="#" class="uk-modal-close uk-close" aria-label="close"></a>
+                    <div class="uk-modal-header"><h2>確定送出？</h2></div>
+                    <div class="uk-grid uk-grid-small uk-grid-width-1-2" data-uk-margin>
+                      <div><button type="button" class="btn_primary uk-button uk-button-large uk-width-responsive" aria-label="submit">確認</button></div>
+                      <div><button type="button" class="btn_secondary uk-modal-close uk-button uk-button-large uk-width-responsive" aria-label="cancel">取消</button></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- #confirm -->
+              </div>
+							<div><button id="reset" class="btn_secondary uk-button uk-button-large uk-width-1-1" type="button" aria-label="reset">重填</button></div>
+						</div>
+          </form>
+        </div>
+      </div>
+      <!-- .card -->
+    </div>
+    <!-- .uk-container -->
+  </div>
+  <!-- .content -->
+  <div id="footer" class="padding_large uk-position-relative uk-margin-large-top">
+    <div class="bg_black opacity30 uk-overlay-panel"></div>
+    <div class="uk-container uk-container-center">
+      <footer class="uk-position-relative uk-position-z-index">
+        <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+          <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-2-10 text_center_mL">
+            <img src="img/logo_white_s.png" alt="金門高中圖書館" title="金門高中圖書館">
+          </div>
+          <div class="uk-width-medium-2-3 uk-width-large-3-5 uk-width-xlarge-4-10 text_center_mL">
+            <small class="uk-padding-remove uk-margin-small"><span class="paddingR_large">館址：89345金門縣金城鎮光前路94號</span><span>電話：082-326582 325450</span>
+              <br>Copyright © 2018 National Kinmen Senior High School</small>
+          </div>
+          <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-1-10">
+            <div class="uk-vertical-align text_center_mL">
+              <small class="uk-vertical-align-middle uk-width-medium-1-5 uk-width-xlarge-1-3"><i class="uk-margin-small-right far fa-user fa-fw fa-2x"></i></small>
+              <small class="uk-vertical-align-middle uk-width-medium-4-5 uk-width-xlarge-2-3">瀏覽人數<span class="visitors">18562</span></small>
+            </div>
+          </div>
+          <div class="uk-width-medium-2-3 uk-width-large-1-1 uk-width-xlarge-3-10 text_center_mLlCxR">
+            <small class="uk-padding-remove uk-margin-small">Chrome50.0、Firefox52.0、IE10.0以上版本 <span class="uk-text-small">最佳螢幕解析度 1920x1280</span></small>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- #footer -->
+  <div id="login" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a href="#" class="uk-modal-close uk-close" aria-label="close"></a>
+      <form class="uk-form uk-container">
+        <h1 class="uk-text-center">會員登入</h1>
+        <div class="uk-form-row">
+          <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入個人信箱">
+        </div>
+        <div class="uk-form-row">
+          <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入6-15碼英數混合密碼">
+          <p class="uk-form-help-block uk-text-small">英文字母需區分大小寫</p>
+        </div>
+        <div class="uk-form-row">
+          <div class="uk-grid uk-grid-small uk-grid-width-small-1-2">
+            <div class="captcha_input uk-margin-small-bottom">
+              <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入圖形6碼數字">
+            </div>
+            <div class="Captcha_code"><img class="uk-margin-small-bottom" src="https://imgplaceholder.com/150x40/"></div>
+          </div>
+        </div>
+        <div class="uk-form-row">
+          <label>
+            <input class="uk-margin-small-right" type="checkbox">記住我的帳號</label>
+        </div>
+        <div class="uk-form-row">
+          <a class="btn_primary uk-button uk-button-large uk-width-responsive" href="#" title="登入">登　　入</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- #login -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/core/scrollspy.min.js"></script>
+  <script src="js/core/smooth-scroll.min.js"></script>
+  <script src="js/core/dropdown.min.js"></script>
+  <script src="js/core/modal.min.js"></script>
+  <script src="js/core/tab.min.js"></script>
+  <script src="js/components/accordion.min.js"></script>
+  <script src="js/components/grid.min.js"></script>
+  <script src="js/components/lightbox.min.js"></script>
+  <script src="js/components/sticky.min.js"></script>
+  <script src="js/components/slider.min.js"></script>
+  <script src="js/components/slideset.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
+  <script src="js/components/slideshow-fx.min.js"></script>
+  <script src="js/fontawesome-all.min.js"></script>
+  <script src="js/textcounter.min.js"></script>
+  <script src="js/monthly.js"></script>
+  <script src="js/mobile-chrome-vh-fix.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

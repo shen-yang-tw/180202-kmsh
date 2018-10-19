@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-TW" xml:lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="designer" content="楊軒羽 Shen Yang | Front End Developer & Graphic Web Designer | 前端網頁設計師">
+  <title>金門高中圖書館</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/uikit.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/accordion.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/dotnav.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/form-advanced.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/form-file.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/sticky.almost-flat.min.css">
+  <link rel="stylesheet" href="css/components/slider.min.css">
+  <link rel="stylesheet" href="css/components/slidenav.min.css">
+  <link rel="stylesheet" href="css/components/slideshow.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/monthly.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/delay.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top" class="fullViewH ebook templateB templateB1 uk-position-relative uk-cover-background uk-padding-remove">
+  <!-- <div class="bg_img uk-overlay-panel uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_index_act02.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div> -->
+  <div class="gotoTop uk-visible-small" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top"><i class="fas fa-chevron-up fa-fw"></i></a></div>
+  <div class="opacity30 uk-overlay-panel" style="background: linear-gradient(to bottom, #10da77 0%, #d1d65a 100%);"></div>
+  <div class="bg_img opacity30 uk-height-viewport uk-overlay-panel uk-overlay-top uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_index_act01.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div>
+  <div class="bg_img opacity30 uk-height-viewport uk-overlay-panel uk-overlay-bottom uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_index_act02.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div>
+  <div class="bg_img opacity50 uk-height-viewport uk-overlay-panel uk-overlay-top uk-padding-remove">
+    <div class="uk-cover-background" style="height: 100%; background-image: url(img/bg_ebook.png);">
+      <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
+    </div>
+  </div>
+  <header id="header" class="box_shadow3">
+    <div class="uk-position-relative">
+      <div class="bg_primary borderB2 border_white_opacity5 opacity50 uk-overlay-panel"></div>
+      <div class="uk-position-relative uk-padding-remove">
+        <div class="uk-container uk-container-center">
+          <div id="logoBar" class="marginTB_medium uk-grid uk-grid-small uk-position-relative uk-position-z-index" data-uk-grid-margin>
+            <div class="text_center_lL uk-width-large-1-2 uk-padding-remove uk-vertical-align">
+              <div class="uk-width-1-1 uk-vertical-align-middle">
+                <h1 class="uk-margin-remove"><a class="logo uk-width-1-1" href="index.html"><img alt="金門高中圖書館" title="金門高中圖書館" src="img/logo_white_ebook.png"></a></h1>
+              </div>
+            </div>
+            <div class="text_center_lR uk-width-large-1-2 uk-vertical-align">
+              <div class="uk-vertical-align-middle uk-position-right">
+                <nav>
+                  <ul class="topList list_horizontal list_line color_white uk-text-center">
+                    <li><a class="hover_linkline" href="#" title="#">學校首頁</a></li>
+                    <li><a class="bg_hover_white_color_primary uk-border-rounded uk-margin-small-right" href="#login" title="登入" data-uk-modal="{center:true}"><i class="fas fa-user-circle fa-fw"></i>登入</a><span class="account color_white">帳號: <a class="hover_linkline" href="#" title="#">a1234</a></span></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <!-- #logoBar -->
+        </div>
+      </div>
+      <!-- .uk-position-relative -->
+    </div>
+  </header>
+  <!-- #header -->
+  <!-- <div class="uk-cover-background" style="height: 300px; background-image: url(img/bannerA1.jpg);">
+    <img class="uk-invisible" src="img/blank.gif" width="1200" height="200" alt="#" title="#">
+  </div> -->
+  <div class="content uk-margin">
+    <div class="paddingB_xlarge uk-container uk-container-center">
+      <div class="card bg_white bg_whiteOpacity9 uk-panel uk-panel-box borderRadius10 box_shadow min_heightL800">
+        <h2 class="color_grey underline uk-position-relative">金門高中電子書系統-詳細書目<a class="fontSize1 remove_underline bottom5 uk-position-bottom-right" href="#" title="回查詢結果"><i class="fas fa-angle-left fa-fw"></i>返回</a></h2>
+        <h3 class="fontSize1_2 fontSize_inheritM">書名：福建省立金門中學四十六學年度高中第五屆、初中第十屆畢業同學錄</h3>
+        <h4 class="fontSize1 fontSize_inheritM uk-margin-small-top"><span class="border paddingLR_small uk-margin-right">年度：1958</span><span class="border paddingLR_small uk-margin-large-right">屆次：5</span></h4>
+        <!-- <div class="bg_white padding_small uk-text-small uk-panel uk-panel-box uk-scrollable-box">
+          <h2 class="fontSizeH5 bg_white uk-margin-small">目  次</h2>
+          <hr class="uk-margin-small">
+          <ul class="uk-grid uk-grid-small uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-5" data-uk-grid-margin>
+            <li>
+              <a href="javascript:jumptolink('1');" name="lkn" class="jumptolink">封面 [1]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('2');" name="lkn" class="jumptolink">畢業證書 [2]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('3');" name="lkn" class="jumptolink">目錄 [3]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('4');" name="lkn" class="jumptolink">創校人胡璉上將肖像 [4]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('5');" name="lkn" class="jumptolink">創校人 - 胡璉 [5]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('6');" name="lkn" class="jumptolink">本校簡史 [6]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('7');" name="lkn" class="jumptolink">校長易希鎬先生肖像 [7]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('8');" name="lkn" class="jumptolink">校長 - 易希鎬 [8]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('9');" name="lkn" class="jumptolink">序 [9]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('10');" name="lkn" class="jumptolink">精神堡壘 [10]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('11');" name="lkn" class="jumptolink">校旗校歌 [11]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('12');" name="lkn" class="jumptolink">三位主任肖像 [12]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('13');" name="lkn" class="jumptolink">教務主任 - 周建齡 [13]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('14');" name="lkn" class="jumptolink">訓導主任 - 劉先疇 [14]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('15');" name="lkn" class="jumptolink">總務主任 - 左祖耀 [15]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('16');" name="lkn" class="jumptolink">畢業班四位導師肖像 [16]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('17');" name="lkn" class="jumptolink">導師高三 - 蔡乃涵 [17]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('18');" name="lkn" class="jumptolink">導師初三甲 - 王紫崗 [18]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('19');" name="lkn" class="jumptolink">導師初三乙 - 朱永福 [19]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('20');" name="lkn" class="jumptolink">導師初三丙 - 朱義雲 [20]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('21');" name="lkn" class="jumptolink">十位組長肖像 [21]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('22');" name="lkn" class="jumptolink">兼教學組長 - 邱烱輝 [22]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('23');" name="lkn" class="jumptolink">兼註冊組長 - 許永燮 [23]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('24');" name="lkn" class="jumptolink">兼設備組長 - 白國光 [24]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('25');" name="lkn" class="jumptolink">兼訓育組長 - 郭冷塵 [25]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('26');" name="lkn" class="jumptolink">兼管理組長 - 謝逢源 [26]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('27');" name="lkn" class="jumptolink">兼體育組長 - 鄒惠湘 [27]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('28');" name="lkn" class="jumptolink">兼衛生組長 - 楊漢星 [28]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('29');" name="lkn" class="jumptolink">出納組長 - 謝開藍 [29]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('30');" name="lkn" class="jumptolink">庶務組長 - 譚雪亮 [30]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('31');" name="lkn" class="jumptolink">文書組長 - 劉代耕 [31]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('32');" name="lkn" class="jumptolink">老師肖像 [32]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('33');" name="lkn" class="jumptolink">導師高二 - 王大鵬 [33]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('34');" name="lkn" class="jumptolink">導師高一甲 - 康天元 [34]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('35');" name="lkn" class="jumptolink">導師高一乙 - 鄭利燊 [35]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('36');" name="lkn" class="jumptolink">導師初二甲 - 董仁慶 [36]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('37');" name="lkn" class="jumptolink">導師初二乙 - 司徒堯 [37]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('38');" name="lkn" class="jumptolink">導師初二丙 - 祝葆華 [38]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('39');" name="lkn" class="jumptolink">導師初一甲 - 施其誠 [39]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('40');" name="lkn" class="jumptolink">導師初一乙 - 葉華成 [40]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('41');" name="lkn" class="jumptolink">導師初一丙 - 姜壽筠 [41]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('42');" name="lkn" class="jumptolink">導師初一丁 - 姚雁君 [42]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('43');" name="lkn" class="jumptolink">導師初一戊 - 趙啟昌 [43]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('44');" name="lkn" class="jumptolink">導師初一己 - 曹尊練 [44]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('45');" name="lkn" class="jumptolink">導師初一庚 - 潘銀鐸 [45]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('46');" name="lkn" class="jumptolink">導師 - 楊天一 [46]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('47');" name="lkn" class="jumptolink">導師 - 鄭瑜 [47]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('48');" name="lkn" class="jumptolink">教職員通訊錄 [48]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('49');" name="lkn" class="jumptolink">高初中畢業班師生合影 [49]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('50');" name="lkn" class="jumptolink">高三畢業班師生合影 [50]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('51');" name="lkn" class="jumptolink">初三甲畢業班師生合影 [51]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('52');" name="lkn" class="jumptolink">初三乙畢業班師生合影 [52]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('53');" name="lkn" class="jumptolink">初三丙畢業班師生合影 [53]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('54');" name="lkn" class="jumptolink">我們的老師 [54]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('55');" name="lkn" class="jumptolink">高三畢業同學肖像及通訊錄 [55]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('56');" name="lkn" class="jumptolink">學生高三 - 王天育 [56]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('57');" name="lkn" class="jumptolink">學生高三 - 王貞華 [57]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('58');" name="lkn" class="jumptolink">學生高三 - 王壽選 [58]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('59');" name="lkn" class="jumptolink">學生高三 - 白金定 [59]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('60');" name="lkn" class="jumptolink">學生高三 - 江天來 [60]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('61');" name="lkn" class="jumptolink">學生高三 - 呂永美 [61]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('62');" name="lkn" class="jumptolink">學生高三 - 杜世榮 [62]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('63');" name="lkn" class="jumptolink">學生高三 - 李文硯 [63]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('64');" name="lkn" class="jumptolink">學生高三 - 李清課 [64]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('65');" name="lkn" class="jumptolink">學生高三 - 李增獅 [65]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('66');" name="lkn" class="jumptolink">學生高三 - 李錫南 [66]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('67');" name="lkn" class="jumptolink">學生高三 - 林水美 [67]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('68');" name="lkn" class="jumptolink">學生高三 - 吳昭瑜 [68]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('69');" name="lkn" class="jumptolink">學生高三 - 洪文章 [69]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('70');" name="lkn" class="jumptolink">學生高三 - 陳添丁 [70]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('71');" name="lkn" class="jumptolink">學生高三 - 陳榮華 [71]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('72');" name="lkn" class="jumptolink">學生高三 - 張扶西 [72]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('73');" name="lkn" class="jumptolink">學生高三 - 張建中 [73]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('74');" name="lkn" class="jumptolink">學生高三 - 黃廷川 [74]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('75');" name="lkn" class="jumptolink">學生高三 - 黃其瑞 [75]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('76');" name="lkn" class="jumptolink">學生高三 - 黃聰山 [76]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('77');" name="lkn" class="jumptolink">學生高三 - 許乃元 [77]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('78');" name="lkn" class="jumptolink">學生高三 - 黃献榮 [78]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('79');" name="lkn" class="jumptolink">學生高三 - 許乃宗 [79]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('80');" name="lkn" class="jumptolink">學生高三 - 許乃煌 [80]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('81');" name="lkn" class="jumptolink">學生高三 - 許丕府 [81]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('82');" name="lkn" class="jumptolink">學生高三 - 許再傳 [82]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('83');" name="lkn" class="jumptolink">學生高三 - 許清時 [83]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('84');" name="lkn" class="jumptolink">學生高三 - 許清堯 [84]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('85');" name="lkn" class="jumptolink">學生高三 - 許燕民 [85]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('86');" name="lkn" class="jumptolink">學生高三 - 翁文王 [86]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('87');" name="lkn" class="jumptolink">學生高三 - 蔡有道 [87]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('88');" name="lkn" class="jumptolink">學生高三 - 翁水清 [88]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('89');" name="lkn" class="jumptolink">學生高三 - 翁贊成 [89]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('90');" name="lkn" class="jumptolink">學生高三 - 翁啟贊 [90]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('91');" name="lkn" class="jumptolink">學生高三 - 董開忠 [91]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('92');" name="lkn" class="jumptolink">學生高三 - 鄭春平 [92]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('93');" name="lkn" class="jumptolink">學生高三 - 顏忠誠 [93]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('94');" name="lkn" class="jumptolink">學生高三 - 歐陽顏生 [94]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('95');" name="lkn" class="jumptolink">學生高三 - 蘇星輝 [95]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('96');" name="lkn" class="jumptolink">自勉而勉人 [96]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('97');" name="lkn" class="jumptolink">初三甲畢業同學肖像及通訊錄 [97]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('98');" name="lkn" class="jumptolink">學生初三甲 - 王玉寬 [98]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('99');" name="lkn" class="jumptolink">學生初三甲 - 王添富 [99]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('100');" name="lkn" class="jumptolink">學生初三甲 - 王應通 [100]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('101');" name="lkn" class="jumptolink">學生初三甲 - 白金城 [101]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('102');" name="lkn" class="jumptolink">學生初三甲 - 呂水蓮 [102]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('103');" name="lkn" class="jumptolink">學生初三甲 - 呂甲乙 [103]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('104');" name="lkn" class="jumptolink">學生初三甲 - 呂和祥 [104]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('105');" name="lkn" class="jumptolink">學生初三甲 - 艾來金 [105]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('106');" name="lkn" class="jumptolink">學生初三甲 - 李素貞 [106]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('107');" name="lkn" class="jumptolink">學生初三甲 - 李國榮 [107]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('108');" name="lkn" class="jumptolink">學生初三甲 - 李增壽 [108]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('109');" name="lkn" class="jumptolink">學生初三甲 - 何信德 [109]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('110');" name="lkn" class="jumptolink">學生初三甲 - 吳維宗 [110]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('111');" name="lkn" class="jumptolink">學生初三甲 - 林成族 [111]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('112');" name="lkn" class="jumptolink">學生初三甲 - 翁廷為 [112]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('113');" name="lkn" class="jumptolink">學生初三甲 - 陳水土 [113]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('114');" name="lkn" class="jumptolink">學生初三甲 - 陳金火 [114]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('115');" name="lkn" class="jumptolink">學生初三甲 - 陳素民 [115]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('116');" name="lkn" class="jumptolink">學生初三甲 - 陳瑞瑛 [116]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('117');" name="lkn" class="jumptolink">學生初三甲 - 陳篤銓 [117]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('118');" name="lkn" class="jumptolink">學生初三甲 - 張炳輝 [118]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('119');" name="lkn" class="jumptolink">學生初三甲 - 許文進 [119]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('120');" name="lkn" class="jumptolink">學生初三甲 - 許水贊 [120]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('121');" name="lkn" class="jumptolink">學生初三甲 - 許秀治 [121]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('122');" name="lkn" class="jumptolink">學生初三甲 - 陳聰明 [122]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('123');" name="lkn" class="jumptolink">學生初三甲 - 黃水岩 [123]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('124');" name="lkn" class="jumptolink">學生初三甲 - 董水成 [124]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('125');" name="lkn" class="jumptolink">學生初三甲 - 董搖揚 [125]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('126');" name="lkn" class="jumptolink">學生初三甲 - 楊清栽 [126]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('127');" name="lkn" class="jumptolink">學生初三甲 - 蔡乃真 [127]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('128');" name="lkn" class="jumptolink">學生初三甲 - 蔡正民 [128]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('129');" name="lkn" class="jumptolink">學生初三甲 - 蔡志堅 [129]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('130');" name="lkn" class="jumptolink">學生初三甲 - 蔡啟貢 [130]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('131');" name="lkn" class="jumptolink">學生初三甲 - 蔡顯明 [131]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('132');" name="lkn" class="jumptolink">學生初三甲 - 顏伯忠 [132]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('133');" name="lkn" class="jumptolink">學生初三甲 - 顏達仁 [133]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('134');" name="lkn" class="jumptolink">學生初三甲 - 薛芳玉 [134]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('135');" name="lkn" class="jumptolink">學生初三甲 - 薛阿添 [135]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('136');" name="lkn" class="jumptolink">學生初三甲 - 薛金鐘 [136]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('137');" name="lkn" class="jumptolink">學生初三甲 - 歐陽振文 [137]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('138');" name="lkn" class="jumptolink">學生初三甲 - 歐陽翠綢 [138]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('139');" name="lkn" class="jumptolink">學生初三甲 - 魏水賢 [139]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('140');" name="lkn" class="jumptolink">別了母校 [140]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('141');" name="lkn" class="jumptolink">初三乙畢業同學肖像及通訊錄 [141]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('142');" name="lkn" class="jumptolink">學生初三乙 - 王宇佐 [142]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('143');" name="lkn" class="jumptolink">學生初三乙 - 王宗忠 [143]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('144');" name="lkn" class="jumptolink">學生初三乙 - 王恩典 [144]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('145');" name="lkn" class="jumptolink">學生初三乙 - 呂永尚 [145]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('146');" name="lkn" class="jumptolink">學生初三乙 - 呂永勝 [146]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('147');" name="lkn" class="jumptolink">學生初三乙 - 呂榮集 [147]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('148');" name="lkn" class="jumptolink">學生初三乙 - 宋國安 [148]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('149');" name="lkn" class="jumptolink">學生初三乙 - 周西能 [149]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('150');" name="lkn" class="jumptolink">學生初三乙 - 林乃秋 [150]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('151');" name="lkn" class="jumptolink">學生初三乙 - 林清武 [151]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('152');" name="lkn" class="jumptolink">學生初三乙 - 吳允田 [152]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('153');" name="lkn" class="jumptolink">學生初三乙 - 吳西郎 [153]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('154');" name="lkn" class="jumptolink">學生初三乙 - 吳矦山 [154]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('155');" name="lkn" class="jumptolink">學生初三乙 - 吳清編 [155]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('156');" name="lkn" class="jumptolink">學生初三乙 - 洪天佑 [156]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('157');" name="lkn" class="jumptolink">學生初三乙 - 洪天變 [157]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('158');" name="lkn" class="jumptolink">學生初三乙 - 翁文慶 [158]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('159');" name="lkn" class="jumptolink">學生初三乙 - 翁步清 [159]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('160');" name="lkn" class="jumptolink">學生初三乙 - 陳世宗 [160]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('161');" name="lkn" class="jumptolink">學生初三乙 - 陳有望 [161]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('162');" name="lkn" class="jumptolink">學生初三乙 - 陳志泓 [162]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('163');" name="lkn" class="jumptolink">學生初三乙 - 陳作生 [163]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('164');" name="lkn" class="jumptolink">學生初三乙 - 陳昆乾 [164]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('165');" name="lkn" class="jumptolink">學生初三乙 - 陳榮華 [165]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('166');" name="lkn" class="jumptolink">學生初三乙 - 陳清南 [166]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('167');" name="lkn" class="jumptolink">學生初三乙 - 陳清贊 [167]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('168');" name="lkn" class="jumptolink">學生初三乙 - 陳應盼 [168]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('169');" name="lkn" class="jumptolink">學生初三乙 - 徐坤和 [169]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('170');" name="lkn" class="jumptolink">學生初三乙 - 孫建禎 [170]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('171');" name="lkn" class="jumptolink">學生初三乙 - 許榮緒 [171]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('172');" name="lkn" class="jumptolink">學生初三乙 - 許朝聰 [172]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('173');" name="lkn" class="jumptolink">學生初三乙 - 曹常為 [173]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('174');" name="lkn" class="jumptolink">學生初三乙 - 郭育民 [174]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('175');" name="lkn" class="jumptolink">學生初三乙 - 黃水木 [175]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('176');" name="lkn" class="jumptolink">學生初三乙 - 黃和平 [176]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('177');" name="lkn" class="jumptolink">學生初三乙 - 莊少權 [177]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('178');" name="lkn" class="jumptolink">學生初三乙 - 楊肅銘 [178]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('179');" name="lkn" class="jumptolink">學生初三乙 - 楊清卓 [179]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('180');" name="lkn" class="jumptolink">學生初三乙 - 劉海心 [180]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('181');" name="lkn" class="jumptolink">學生初三乙 - 鄭熾昌 [181]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('182');" name="lkn" class="jumptolink">學生初三乙 - 蔡水木 [182]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('183');" name="lkn" class="jumptolink">學生初三乙 - 蔡維夢 [183]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('184');" name="lkn" class="jumptolink">學生初三乙 - 蕭古兒 [184]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('185');" name="lkn" class="jumptolink">學生初三乙 - 蘇世昌 [185]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('186');" name="lkn" class="jumptolink">學生初三乙 - 許朝成 [186]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('187');" name="lkn" class="jumptolink">老師的話 [187]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('188');" name="lkn" class="jumptolink">初三丙畢業同學肖像及通訊錄 [188]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('189');" name="lkn" class="jumptolink">學生初三丙 - 方登就 [189]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('190');" name="lkn" class="jumptolink">學生初三丙 - 呂江水 [190]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('191');" name="lkn" class="jumptolink">學生初三丙 - 呂誠惠 [191]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('192');" name="lkn" class="jumptolink">學生初三丙 - 辛寬爵 [192]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('193');" name="lkn" class="jumptolink">學生初三丙 - 李明遼 [193]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('194');" name="lkn" class="jumptolink">學生初三丙 - 李能火 [194]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('195');" name="lkn" class="jumptolink">學生初三丙 - 李淑珍 [195]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('196');" name="lkn" class="jumptolink">學生初三丙 - 李愛興 [196]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('197');" name="lkn" class="jumptolink">學生初三丙 - 李漢淳 [197]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('198');" name="lkn" class="jumptolink">學生初三丙 - 李錫泮 [198]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('199');" name="lkn" class="jumptolink">學生初三丙 - 洪萬宗 [199]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('200');" name="lkn" class="jumptolink">學生初三丙 - 林中南 [200]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('201');" name="lkn" class="jumptolink">學生初三丙 - 倪雪飛 [201]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('202');" name="lkn" class="jumptolink">學生初三丙 - 陳以能 [202]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('203');" name="lkn" class="jumptolink">學生初三丙 - 陳其坤 [203]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('204');" name="lkn" class="jumptolink">學生初三丙 - 陳誠郎 [204]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('205');" name="lkn" class="jumptolink">學生初三丙 - 姚清華 [205]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('206');" name="lkn" class="jumptolink">學生初三丙 - 莊恭圓 [206]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('207');" name="lkn" class="jumptolink">學生初三丙 - 莊愛華 [207]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('208');" name="lkn" class="jumptolink">學生初三丙 - 翁漢昌 [208]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('209');" name="lkn" class="jumptolink">學生初三丙 - 許乃欣 [209]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('210');" name="lkn" class="jumptolink">學生初三丙 - 許文科 [210]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('211');" name="lkn" class="jumptolink">學生初三丙 - 許永能 [211]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('212');" name="lkn" class="jumptolink">學生初三丙 - 許清泉 [212]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('213');" name="lkn" class="jumptolink">學生初三丙 - 許朝欉 [213]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('214');" name="lkn" class="jumptolink">學生初三丙 - 許愛昭 [214]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('215');" name="lkn" class="jumptolink">學生初三丙 - 張水治 [215]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('216');" name="lkn" class="jumptolink">學生初三丙 - 葉長青 [216]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('217');" name="lkn" class="jumptolink">學生初三丙 - 楊永福 [217]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('218');" name="lkn" class="jumptolink">學生初三丙 - 楊金泰 [218]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('219');" name="lkn" class="jumptolink">學生初三丙 - 楊清國 [219]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('220');" name="lkn" class="jumptolink">學生初三丙 - 楊誠對 [220]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('221');" name="lkn" class="jumptolink">學生初三丙 - 鄭彩珍 [221]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('222');" name="lkn" class="jumptolink">學生初三丙 - 鄭錦章 [222]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('223');" name="lkn" class="jumptolink">學生初三丙 - 蔡新國 [223]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('224');" name="lkn" class="jumptolink">學生初三丙 - 蔡清楚 [224]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('225');" name="lkn" class="jumptolink">學生初三丙 - 蔡益民 [225]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('226');" name="lkn" class="jumptolink">學生初三丙 - 歐陽水戰 [226]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('227');" name="lkn" class="jumptolink">在校同學名冊 [227]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('228');" name="lkn" class="jumptolink">高中歷屆畢業同學升學就業統計表 [228]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('229');" name="lkn" class="jumptolink">高中歷屆畢業同學升學就業一覽表 [229]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('230');" name="lkn" class="jumptolink">留痕 [230]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('231');" name="lkn" class="jumptolink">編者的話 [231]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('232');" name="lkn" class="jumptolink">畢業同學錄編輯委員會 [232]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('233');" name="lkn" class="jumptolink">顧問 - 蔡乃涵 [233]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('234');" name="lkn" class="jumptolink">顧問 - 王紫崗 [234]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('235');" name="lkn" class="jumptolink">顧問 - 朱永福 [235]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('236');" name="lkn" class="jumptolink">顧問 - 朱義雲 [236]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('237');" name="lkn" class="jumptolink">主任委員 - 黃廷川 [237]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('238');" name="lkn" class="jumptolink">委員 - 歐陽顏生 [238]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('239');" name="lkn" class="jumptolink">委員 - 呂永美 [239]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('240');" name="lkn" class="jumptolink">委員 - 蘇星輝 [240]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('241');" name="lkn" class="jumptolink">委員 - 蔡啟貢 [241]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('242');" name="lkn" class="jumptolink">委員 - 陳瑞瑛 [242]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('243');" name="lkn" class="jumptolink">委員 - 張炳輝 [243]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('244');" name="lkn" class="jumptolink">委員 - 吳允田 [244]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('245');" name="lkn" class="jumptolink">委員 - 郭育民 [245]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('246');" name="lkn" class="jumptolink">委員 - 孫建禎 [246]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('247');" name="lkn" class="jumptolink">委員 - 方登就 [247]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('248');" name="lkn" class="jumptolink">委員 - 楊誠對 [248]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('249');" name="lkn" class="jumptolink">美術設計者 - 鄭瑜 [249]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('250');" name="lkn" class="jumptolink">主編者 - 王天育 [250]</a>
+            </li>
+            <li>
+              <a href="javascript:jumptolink('251');" name="lkn" class="jumptolink">封底 [251]</a>
+            </li>
+          </ul>
+        </div> -->
+        <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+          <div class="uk-width-medium-1-4 uk-width-large-1-5">
+            <div id="pageView" class="bg_white padding_small uk-text-small uk-panel uk-panel-box uk-scrollable-box">
+              <h4 class="bg_white fontSize1 uk-margin-small">目  次</h4>
+              <hr class="uk-margin-small">
+              <ul class="uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-1" data-uk-grid-margin>
+                <li>
+                  <a href="javascript:jumptolink('1');" name="lkn" class="jumptolink">封面 [1]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('2');" name="lkn" class="jumptolink">畢業證書 [2]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('3');" name="lkn" class="jumptolink">目錄 [3]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('4');" name="lkn" class="jumptolink">創校人胡璉上將肖像 [4]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('5');" name="lkn" class="jumptolink">創校人 - 胡璉 [5]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('6');" name="lkn" class="jumptolink">本校簡史 [6]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('7');" name="lkn" class="jumptolink">校長易希鎬先生肖像 [7]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('8');" name="lkn" class="jumptolink">校長 - 易希鎬 [8]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('9');" name="lkn" class="jumptolink">序 [9]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('10');" name="lkn" class="jumptolink">精神堡壘 [10]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('11');" name="lkn" class="jumptolink">校旗校歌 [11]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('12');" name="lkn" class="jumptolink">三位主任肖像 [12]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('13');" name="lkn" class="jumptolink">教務主任 - 周建齡 [13]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('14');" name="lkn" class="jumptolink">訓導主任 - 劉先疇 [14]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('15');" name="lkn" class="jumptolink">總務主任 - 左祖耀 [15]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('16');" name="lkn" class="jumptolink">畢業班四位導師肖像 [16]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('17');" name="lkn" class="jumptolink">導師高三 - 蔡乃涵 [17]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('18');" name="lkn" class="jumptolink">導師初三甲 - 王紫崗 [18]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('19');" name="lkn" class="jumptolink">導師初三乙 - 朱永福 [19]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('20');" name="lkn" class="jumptolink">導師初三丙 - 朱義雲 [20]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('21');" name="lkn" class="jumptolink">十位組長肖像 [21]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('22');" name="lkn" class="jumptolink">兼教學組長 - 邱烱輝 [22]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('23');" name="lkn" class="jumptolink">兼註冊組長 - 許永燮 [23]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('24');" name="lkn" class="jumptolink">兼設備組長 - 白國光 [24]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('25');" name="lkn" class="jumptolink">兼訓育組長 - 郭冷塵 [25]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('26');" name="lkn" class="jumptolink">兼管理組長 - 謝逢源 [26]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('27');" name="lkn" class="jumptolink">兼體育組長 - 鄒惠湘 [27]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('28');" name="lkn" class="jumptolink">兼衛生組長 - 楊漢星 [28]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('29');" name="lkn" class="jumptolink">出納組長 - 謝開藍 [29]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('30');" name="lkn" class="jumptolink">庶務組長 - 譚雪亮 [30]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('31');" name="lkn" class="jumptolink">文書組長 - 劉代耕 [31]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('32');" name="lkn" class="jumptolink">老師肖像 [32]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('33');" name="lkn" class="jumptolink">導師高二 - 王大鵬 [33]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('34');" name="lkn" class="jumptolink">導師高一甲 - 康天元 [34]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('35');" name="lkn" class="jumptolink">導師高一乙 - 鄭利燊 [35]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('36');" name="lkn" class="jumptolink">導師初二甲 - 董仁慶 [36]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('37');" name="lkn" class="jumptolink">導師初二乙 - 司徒堯 [37]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('38');" name="lkn" class="jumptolink">導師初二丙 - 祝葆華 [38]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('39');" name="lkn" class="jumptolink">導師初一甲 - 施其誠 [39]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('40');" name="lkn" class="jumptolink">導師初一乙 - 葉華成 [40]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('41');" name="lkn" class="jumptolink">導師初一丙 - 姜壽筠 [41]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('42');" name="lkn" class="jumptolink">導師初一丁 - 姚雁君 [42]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('43');" name="lkn" class="jumptolink">導師初一戊 - 趙啟昌 [43]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('44');" name="lkn" class="jumptolink">導師初一己 - 曹尊練 [44]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('45');" name="lkn" class="jumptolink">導師初一庚 - 潘銀鐸 [45]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('46');" name="lkn" class="jumptolink">導師 - 楊天一 [46]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('47');" name="lkn" class="jumptolink">導師 - 鄭瑜 [47]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('48');" name="lkn" class="jumptolink">教職員通訊錄 [48]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('49');" name="lkn" class="jumptolink">高初中畢業班師生合影 [49]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('50');" name="lkn" class="jumptolink">高三畢業班師生合影 [50]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('51');" name="lkn" class="jumptolink">初三甲畢業班師生合影 [51]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('52');" name="lkn" class="jumptolink">初三乙畢業班師生合影 [52]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('53');" name="lkn" class="jumptolink">初三丙畢業班師生合影 [53]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('54');" name="lkn" class="jumptolink">我們的老師 [54]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('55');" name="lkn" class="jumptolink">高三畢業同學肖像及通訊錄 [55]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('56');" name="lkn" class="jumptolink">學生高三 - 王天育 [56]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('57');" name="lkn" class="jumptolink">學生高三 - 王貞華 [57]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('58');" name="lkn" class="jumptolink">學生高三 - 王壽選 [58]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('59');" name="lkn" class="jumptolink">學生高三 - 白金定 [59]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('60');" name="lkn" class="jumptolink">學生高三 - 江天來 [60]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('61');" name="lkn" class="jumptolink">學生高三 - 呂永美 [61]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('62');" name="lkn" class="jumptolink">學生高三 - 杜世榮 [62]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('63');" name="lkn" class="jumptolink">學生高三 - 李文硯 [63]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('64');" name="lkn" class="jumptolink">學生高三 - 李清課 [64]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('65');" name="lkn" class="jumptolink">學生高三 - 李增獅 [65]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('66');" name="lkn" class="jumptolink">學生高三 - 李錫南 [66]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('67');" name="lkn" class="jumptolink">學生高三 - 林水美 [67]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('68');" name="lkn" class="jumptolink">學生高三 - 吳昭瑜 [68]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('69');" name="lkn" class="jumptolink">學生高三 - 洪文章 [69]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('70');" name="lkn" class="jumptolink">學生高三 - 陳添丁 [70]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('71');" name="lkn" class="jumptolink">學生高三 - 陳榮華 [71]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('72');" name="lkn" class="jumptolink">學生高三 - 張扶西 [72]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('73');" name="lkn" class="jumptolink">學生高三 - 張建中 [73]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('74');" name="lkn" class="jumptolink">學生高三 - 黃廷川 [74]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('75');" name="lkn" class="jumptolink">學生高三 - 黃其瑞 [75]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('76');" name="lkn" class="jumptolink">學生高三 - 黃聰山 [76]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('77');" name="lkn" class="jumptolink">學生高三 - 許乃元 [77]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('78');" name="lkn" class="jumptolink">學生高三 - 黃献榮 [78]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('79');" name="lkn" class="jumptolink">學生高三 - 許乃宗 [79]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('80');" name="lkn" class="jumptolink">學生高三 - 許乃煌 [80]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('81');" name="lkn" class="jumptolink">學生高三 - 許丕府 [81]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('82');" name="lkn" class="jumptolink">學生高三 - 許再傳 [82]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('83');" name="lkn" class="jumptolink">學生高三 - 許清時 [83]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('84');" name="lkn" class="jumptolink">學生高三 - 許清堯 [84]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('85');" name="lkn" class="jumptolink">學生高三 - 許燕民 [85]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('86');" name="lkn" class="jumptolink">學生高三 - 翁文王 [86]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('87');" name="lkn" class="jumptolink">學生高三 - 蔡有道 [87]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('88');" name="lkn" class="jumptolink">學生高三 - 翁水清 [88]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('89');" name="lkn" class="jumptolink">學生高三 - 翁贊成 [89]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('90');" name="lkn" class="jumptolink">學生高三 - 翁啟贊 [90]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('91');" name="lkn" class="jumptolink">學生高三 - 董開忠 [91]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('92');" name="lkn" class="jumptolink">學生高三 - 鄭春平 [92]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('93');" name="lkn" class="jumptolink">學生高三 - 顏忠誠 [93]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('94');" name="lkn" class="jumptolink">學生高三 - 歐陽顏生 [94]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('95');" name="lkn" class="jumptolink">學生高三 - 蘇星輝 [95]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('96');" name="lkn" class="jumptolink">自勉而勉人 [96]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('97');" name="lkn" class="jumptolink">初三甲畢業同學肖像及通訊錄 [97]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('98');" name="lkn" class="jumptolink">學生初三甲 - 王玉寬 [98]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('99');" name="lkn" class="jumptolink">學生初三甲 - 王添富 [99]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('100');" name="lkn" class="jumptolink">學生初三甲 - 王應通 [100]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('101');" name="lkn" class="jumptolink">學生初三甲 - 白金城 [101]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('102');" name="lkn" class="jumptolink">學生初三甲 - 呂水蓮 [102]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('103');" name="lkn" class="jumptolink">學生初三甲 - 呂甲乙 [103]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('104');" name="lkn" class="jumptolink">學生初三甲 - 呂和祥 [104]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('105');" name="lkn" class="jumptolink">學生初三甲 - 艾來金 [105]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('106');" name="lkn" class="jumptolink">學生初三甲 - 李素貞 [106]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('107');" name="lkn" class="jumptolink">學生初三甲 - 李國榮 [107]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('108');" name="lkn" class="jumptolink">學生初三甲 - 李增壽 [108]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('109');" name="lkn" class="jumptolink">學生初三甲 - 何信德 [109]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('110');" name="lkn" class="jumptolink">學生初三甲 - 吳維宗 [110]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('111');" name="lkn" class="jumptolink">學生初三甲 - 林成族 [111]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('112');" name="lkn" class="jumptolink">學生初三甲 - 翁廷為 [112]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('113');" name="lkn" class="jumptolink">學生初三甲 - 陳水土 [113]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('114');" name="lkn" class="jumptolink">學生初三甲 - 陳金火 [114]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('115');" name="lkn" class="jumptolink">學生初三甲 - 陳素民 [115]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('116');" name="lkn" class="jumptolink">學生初三甲 - 陳瑞瑛 [116]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('117');" name="lkn" class="jumptolink">學生初三甲 - 陳篤銓 [117]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('118');" name="lkn" class="jumptolink">學生初三甲 - 張炳輝 [118]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('119');" name="lkn" class="jumptolink">學生初三甲 - 許文進 [119]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('120');" name="lkn" class="jumptolink">學生初三甲 - 許水贊 [120]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('121');" name="lkn" class="jumptolink">學生初三甲 - 許秀治 [121]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('122');" name="lkn" class="jumptolink">學生初三甲 - 陳聰明 [122]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('123');" name="lkn" class="jumptolink">學生初三甲 - 黃水岩 [123]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('124');" name="lkn" class="jumptolink">學生初三甲 - 董水成 [124]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('125');" name="lkn" class="jumptolink">學生初三甲 - 董搖揚 [125]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('126');" name="lkn" class="jumptolink">學生初三甲 - 楊清栽 [126]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('127');" name="lkn" class="jumptolink">學生初三甲 - 蔡乃真 [127]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('128');" name="lkn" class="jumptolink">學生初三甲 - 蔡正民 [128]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('129');" name="lkn" class="jumptolink">學生初三甲 - 蔡志堅 [129]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('130');" name="lkn" class="jumptolink">學生初三甲 - 蔡啟貢 [130]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('131');" name="lkn" class="jumptolink">學生初三甲 - 蔡顯明 [131]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('132');" name="lkn" class="jumptolink">學生初三甲 - 顏伯忠 [132]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('133');" name="lkn" class="jumptolink">學生初三甲 - 顏達仁 [133]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('134');" name="lkn" class="jumptolink">學生初三甲 - 薛芳玉 [134]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('135');" name="lkn" class="jumptolink">學生初三甲 - 薛阿添 [135]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('136');" name="lkn" class="jumptolink">學生初三甲 - 薛金鐘 [136]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('137');" name="lkn" class="jumptolink">學生初三甲 - 歐陽振文 [137]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('138');" name="lkn" class="jumptolink">學生初三甲 - 歐陽翠綢 [138]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('139');" name="lkn" class="jumptolink">學生初三甲 - 魏水賢 [139]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('140');" name="lkn" class="jumptolink">別了母校 [140]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('141');" name="lkn" class="jumptolink">初三乙畢業同學肖像及通訊錄 [141]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('142');" name="lkn" class="jumptolink">學生初三乙 - 王宇佐 [142]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('143');" name="lkn" class="jumptolink">學生初三乙 - 王宗忠 [143]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('144');" name="lkn" class="jumptolink">學生初三乙 - 王恩典 [144]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('145');" name="lkn" class="jumptolink">學生初三乙 - 呂永尚 [145]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('146');" name="lkn" class="jumptolink">學生初三乙 - 呂永勝 [146]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('147');" name="lkn" class="jumptolink">學生初三乙 - 呂榮集 [147]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('148');" name="lkn" class="jumptolink">學生初三乙 - 宋國安 [148]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('149');" name="lkn" class="jumptolink">學生初三乙 - 周西能 [149]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('150');" name="lkn" class="jumptolink">學生初三乙 - 林乃秋 [150]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('151');" name="lkn" class="jumptolink">學生初三乙 - 林清武 [151]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('152');" name="lkn" class="jumptolink">學生初三乙 - 吳允田 [152]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('153');" name="lkn" class="jumptolink">學生初三乙 - 吳西郎 [153]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('154');" name="lkn" class="jumptolink">學生初三乙 - 吳矦山 [154]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('155');" name="lkn" class="jumptolink">學生初三乙 - 吳清編 [155]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('156');" name="lkn" class="jumptolink">學生初三乙 - 洪天佑 [156]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('157');" name="lkn" class="jumptolink">學生初三乙 - 洪天變 [157]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('158');" name="lkn" class="jumptolink">學生初三乙 - 翁文慶 [158]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('159');" name="lkn" class="jumptolink">學生初三乙 - 翁步清 [159]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('160');" name="lkn" class="jumptolink">學生初三乙 - 陳世宗 [160]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('161');" name="lkn" class="jumptolink">學生初三乙 - 陳有望 [161]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('162');" name="lkn" class="jumptolink">學生初三乙 - 陳志泓 [162]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('163');" name="lkn" class="jumptolink">學生初三乙 - 陳作生 [163]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('164');" name="lkn" class="jumptolink">學生初三乙 - 陳昆乾 [164]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('165');" name="lkn" class="jumptolink">學生初三乙 - 陳榮華 [165]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('166');" name="lkn" class="jumptolink">學生初三乙 - 陳清南 [166]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('167');" name="lkn" class="jumptolink">學生初三乙 - 陳清贊 [167]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('168');" name="lkn" class="jumptolink">學生初三乙 - 陳應盼 [168]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('169');" name="lkn" class="jumptolink">學生初三乙 - 徐坤和 [169]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('170');" name="lkn" class="jumptolink">學生初三乙 - 孫建禎 [170]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('171');" name="lkn" class="jumptolink">學生初三乙 - 許榮緒 [171]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('172');" name="lkn" class="jumptolink">學生初三乙 - 許朝聰 [172]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('173');" name="lkn" class="jumptolink">學生初三乙 - 曹常為 [173]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('174');" name="lkn" class="jumptolink">學生初三乙 - 郭育民 [174]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('175');" name="lkn" class="jumptolink">學生初三乙 - 黃水木 [175]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('176');" name="lkn" class="jumptolink">學生初三乙 - 黃和平 [176]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('177');" name="lkn" class="jumptolink">學生初三乙 - 莊少權 [177]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('178');" name="lkn" class="jumptolink">學生初三乙 - 楊肅銘 [178]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('179');" name="lkn" class="jumptolink">學生初三乙 - 楊清卓 [179]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('180');" name="lkn" class="jumptolink">學生初三乙 - 劉海心 [180]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('181');" name="lkn" class="jumptolink">學生初三乙 - 鄭熾昌 [181]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('182');" name="lkn" class="jumptolink">學生初三乙 - 蔡水木 [182]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('183');" name="lkn" class="jumptolink">學生初三乙 - 蔡維夢 [183]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('184');" name="lkn" class="jumptolink">學生初三乙 - 蕭古兒 [184]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('185');" name="lkn" class="jumptolink">學生初三乙 - 蘇世昌 [185]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('186');" name="lkn" class="jumptolink">學生初三乙 - 許朝成 [186]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('187');" name="lkn" class="jumptolink">老師的話 [187]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('188');" name="lkn" class="jumptolink">初三丙畢業同學肖像及通訊錄 [188]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('189');" name="lkn" class="jumptolink">學生初三丙 - 方登就 [189]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('190');" name="lkn" class="jumptolink">學生初三丙 - 呂江水 [190]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('191');" name="lkn" class="jumptolink">學生初三丙 - 呂誠惠 [191]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('192');" name="lkn" class="jumptolink">學生初三丙 - 辛寬爵 [192]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('193');" name="lkn" class="jumptolink">學生初三丙 - 李明遼 [193]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('194');" name="lkn" class="jumptolink">學生初三丙 - 李能火 [194]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('195');" name="lkn" class="jumptolink">學生初三丙 - 李淑珍 [195]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('196');" name="lkn" class="jumptolink">學生初三丙 - 李愛興 [196]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('197');" name="lkn" class="jumptolink">學生初三丙 - 李漢淳 [197]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('198');" name="lkn" class="jumptolink">學生初三丙 - 李錫泮 [198]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('199');" name="lkn" class="jumptolink">學生初三丙 - 洪萬宗 [199]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('200');" name="lkn" class="jumptolink">學生初三丙 - 林中南 [200]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('201');" name="lkn" class="jumptolink">學生初三丙 - 倪雪飛 [201]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('202');" name="lkn" class="jumptolink">學生初三丙 - 陳以能 [202]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('203');" name="lkn" class="jumptolink">學生初三丙 - 陳其坤 [203]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('204');" name="lkn" class="jumptolink">學生初三丙 - 陳誠郎 [204]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('205');" name="lkn" class="jumptolink">學生初三丙 - 姚清華 [205]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('206');" name="lkn" class="jumptolink">學生初三丙 - 莊恭圓 [206]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('207');" name="lkn" class="jumptolink">學生初三丙 - 莊愛華 [207]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('208');" name="lkn" class="jumptolink">學生初三丙 - 翁漢昌 [208]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('209');" name="lkn" class="jumptolink">學生初三丙 - 許乃欣 [209]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('210');" name="lkn" class="jumptolink">學生初三丙 - 許文科 [210]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('211');" name="lkn" class="jumptolink">學生初三丙 - 許永能 [211]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('212');" name="lkn" class="jumptolink">學生初三丙 - 許清泉 [212]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('213');" name="lkn" class="jumptolink">學生初三丙 - 許朝欉 [213]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('214');" name="lkn" class="jumptolink">學生初三丙 - 許愛昭 [214]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('215');" name="lkn" class="jumptolink">學生初三丙 - 張水治 [215]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('216');" name="lkn" class="jumptolink">學生初三丙 - 葉長青 [216]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('217');" name="lkn" class="jumptolink">學生初三丙 - 楊永福 [217]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('218');" name="lkn" class="jumptolink">學生初三丙 - 楊金泰 [218]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('219');" name="lkn" class="jumptolink">學生初三丙 - 楊清國 [219]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('220');" name="lkn" class="jumptolink">學生初三丙 - 楊誠對 [220]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('221');" name="lkn" class="jumptolink">學生初三丙 - 鄭彩珍 [221]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('222');" name="lkn" class="jumptolink">學生初三丙 - 鄭錦章 [222]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('223');" name="lkn" class="jumptolink">學生初三丙 - 蔡新國 [223]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('224');" name="lkn" class="jumptolink">學生初三丙 - 蔡清楚 [224]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('225');" name="lkn" class="jumptolink">學生初三丙 - 蔡益民 [225]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('226');" name="lkn" class="jumptolink">學生初三丙 - 歐陽水戰 [226]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('227');" name="lkn" class="jumptolink">在校同學名冊 [227]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('228');" name="lkn" class="jumptolink">高中歷屆畢業同學升學就業統計表 [228]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('229');" name="lkn" class="jumptolink">高中歷屆畢業同學升學就業一覽表 [229]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('230');" name="lkn" class="jumptolink">留痕 [230]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('231');" name="lkn" class="jumptolink">編者的話 [231]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('232');" name="lkn" class="jumptolink">畢業同學錄編輯委員會 [232]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('233');" name="lkn" class="jumptolink">顧問 - 蔡乃涵 [233]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('234');" name="lkn" class="jumptolink">顧問 - 王紫崗 [234]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('235');" name="lkn" class="jumptolink">顧問 - 朱永福 [235]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('236');" name="lkn" class="jumptolink">顧問 - 朱義雲 [236]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('237');" name="lkn" class="jumptolink">主任委員 - 黃廷川 [237]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('238');" name="lkn" class="jumptolink">委員 - 歐陽顏生 [238]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('239');" name="lkn" class="jumptolink">委員 - 呂永美 [239]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('240');" name="lkn" class="jumptolink">委員 - 蘇星輝 [240]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('241');" name="lkn" class="jumptolink">委員 - 蔡啟貢 [241]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('242');" name="lkn" class="jumptolink">委員 - 陳瑞瑛 [242]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('243');" name="lkn" class="jumptolink">委員 - 張炳輝 [243]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('244');" name="lkn" class="jumptolink">委員 - 吳允田 [244]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('245');" name="lkn" class="jumptolink">委員 - 郭育民 [245]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('246');" name="lkn" class="jumptolink">委員 - 孫建禎 [246]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('247');" name="lkn" class="jumptolink">委員 - 方登就 [247]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('248');" name="lkn" class="jumptolink">委員 - 楊誠對 [248]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('249');" name="lkn" class="jumptolink">美術設計者 - 鄭瑜 [249]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('250');" name="lkn" class="jumptolink">主編者 - 王天育 [250]</a>
+                </li>
+                <li>
+                  <a href="javascript:jumptolink('251');" name="lkn" class="jumptolink">封底 [251]</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="uk-width-medium-3-4 uk-width-large-4-5">
+            <div class="min_height300 uk-thumbnail uk-width-1-1">
+              <div class="uk-position-absolute">
+                <div class="viewer-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .card -->
+    </div>
+    <!-- .uk-container -->
+  </div>
+  <!-- .content -->
+  <div id="footer" class="padding_large uk-position-relative uk-margin-large-top">
+    <div class="bg_black opacity30 uk-overlay-panel"></div>
+    <div class="uk-container uk-container-center">
+      <footer class="uk-position-relative uk-position-z-index">
+        <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+          <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-2-10 text_center_mL">
+            <img src="img/logo_white_s.png" alt="金門高中圖書館" title="金門高中圖書館">
+          </div>
+          <div class="uk-width-medium-2-3 uk-width-large-3-5 uk-width-xlarge-4-10 text_center_mL">
+            <small class="uk-padding-remove uk-margin-small"><span class="paddingR_large">館址：89345金門縣金城鎮光前路94號</span><span>電話：082-326582 325450</span>
+              <br>Copyright © 2018 National Kinmen Senior High School</small>
+          </div>
+          <div class="uk-width-medium-1-3 uk-width-large-1-5 uk-width-xlarge-1-10">
+            <div class="uk-vertical-align text_center_mL">
+              <small class="uk-vertical-align-middle uk-width-medium-1-5 uk-width-xlarge-1-3"><i class="uk-margin-small-right far fa-user fa-fw fa-2x"></i></small>
+              <small class="uk-vertical-align-middle uk-width-medium-4-5 uk-width-xlarge-2-3">瀏覽人數<span class="visitors">18562</span></small>
+            </div>
+          </div>
+          <div class="uk-width-medium-2-3 uk-width-large-1-1 uk-width-xlarge-3-10 text_center_mLlCxR">
+            <small class="uk-padding-remove uk-margin-small">Chrome50.0、Firefox52.0、IE10.0以上版本 <span class="uk-text-small">最佳螢幕解析度 1920x1280</span></small>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- #footer -->
+  <div id="ebook" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <button type="button" class="uk-modal-close uk-close"></button>
+      <div class="uk-modal-header">
+        <h2>Caption</h2>
+      </div>
+      <div class="content">
+        <img class="uk-width-1-1" src="https://picsum.photos/g/400x300/" alt="#" title="#">
+      </div>
+      <div class="uk-modal-footer uk-text-right">
+        <button type="button" class="btn_secondary uk-button uk-modal-close">關閉</button>
+        <button type="button" class="btn_primary uk-button">下載</button>
+      </div>
+    </div>
+  </div>
+  <div id="login" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a href="#" class="uk-modal-close uk-close"></a>
+      <form class="uk-form uk-container">
+        <h1 class="uk-text-center">會員登入</h1>
+        <div class="uk-form-row">
+          <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入個人信箱">
+        </div>
+        <div class="uk-form-row">
+          <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入6-15碼英數混合密碼">
+          <p class="uk-form-help-block uk-text-small">英文字母需區分大小寫</p>
+        </div>
+        <div class="uk-form-row">
+          <div class="uk-grid uk-grid-small uk-grid-width-small-1-2">
+            <div class="captcha_input uk-margin-small-bottom">
+              <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入圖形6碼數字">
+            </div>
+            <div class="Captcha_code"><img class="uk-margin-small-bottom" src="https://imgplaceholder.com/150x40/"></div>
+          </div>
+        </div>
+        <div class="uk-form-row">
+          <label>
+            <input class="uk-margin-small-right" type="checkbox">記住我的帳號</label>
+        </div>
+        <div class="uk-form-row">
+          <a class="btn_primary uk-button uk-button-large uk-width-responsive" href="#" title="登入">登　　入</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- #login -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/core/scrollspy.min.js"></script>
+  <script src="js/core/smooth-scroll.min.js"></script>
+  <script src="js/core/dropdown.min.js"></script>
+  <script src="js/core/modal.min.js"></script>
+  <script src="js/core/tab.min.js"></script>
+  <script src="js/components/accordion.min.js"></script>
+  <script src="js/components/grid.min.js"></script>
+  <script src="js/components/lightbox.min.js"></script>
+  <script src="js/components/sticky.min.js"></script>
+  <script src="js/components/slider.min.js"></script>
+  <script src="js/components/slideset.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
+  <script src="js/components/slideshow-fx.min.js"></script>
+  <script src="js/fontawesome-all.min.js"></script>
+  <script src="js/monthly.js"></script>
+  <script src="js/mobile-chrome-vh-fix.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
