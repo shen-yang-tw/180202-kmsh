@@ -244,14 +244,14 @@ img[src=""] {display: none;}
 textarea.noresize {resize: none;}
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 .google_font {font-family: 'Roboto', sans-serif !important;}
-.searchBarGroup2>div:nth-child(1)>*, .searchBarGroup3>div:nth-child(1)>* {
+.searchBarGroup2>div:nth-child(1) *, .searchBarGroup3>div:nth-child(1) * {
     border-right: 0;
     border-radius: 4px 0 0 4px;
 }
-.searchBarGroup2>div:nth-child(2)>*, .searchBarGroup3>div:nth-child(3)>* {
+.searchBarGroup2>div:nth-child(2) *, .searchBarGroup3>div:nth-child(3) * {
     border-radius: 0 4px 4px 0;
 }
-.searchBarGroup3>div:nth-child(2)>* {
+.searchBarGroup3>div:nth-child(2) * {
     border-radius: 0;
 }
 .gotoTop {

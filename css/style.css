@@ -79,6 +79,8 @@ ol.listDecimalRow.listBadge>li:before,
 nav.bg_secondary .uk-dropdown a,
 ul.hover_bg_secondary>li>a:focus,
 ul.hover_bg_secondary>li>a:hover,
+ul.hover_bg_secondary>li.uk-open>a,
+ul.hover_bg_secondary>li.uk-active>a,
 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
   color: white !important;
   background-color: #5f8020 !important;
@@ -137,6 +139,8 @@ ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
 .templateA2 nav.bg_secondary .uk-dropdown a,
 .templateA2 ul.hover_bg_secondary>li>a:focus,
 .templateA2 ul.hover_bg_secondary>li>a:hover,
+.templateA2 ul.hover_bg_secondary>li.uk-open>a,
+.templateA2 ul.hover_bg_secondary>li.uk-active>a,
 .templateA2 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
   color: white !important;
   background-color: #c15000 !important;
@@ -174,6 +178,8 @@ ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
 .templateB1 nav.bg_secondary .uk-dropdown a,
 .templateB1 ul.hover_bg_secondary>li>a:focus,
 .templateB1 ul.hover_bg_secondary>li>a:hover,
+.templateB1 ul.hover_bg_secondary>li.uk-open>a,
+.templateB1 ul.hover_bg_secondary>li.uk-active>a,
 .templateB1 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
   color: white !important;
   background-color: #b56000 !important;
@@ -215,10 +221,14 @@ ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
 .templateB2 nav.bg_secondary .uk-dropdown a,
 .templateB2 ul.hover_bg_secondary>li>a:focus,
 .templateB2 ul.hover_bg_secondary>li>a:hover,
+.templateB2 ul.hover_bg_secondary>li.uk-open>a,
+.templateB2 ul.hover_bg_secondary>li.uk-active>a,
 .templateB2 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {
   color: white !important;
   background-color: #0071bc !important;
 }
+
+ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !important;}
 
 .templateB2 .bg_secondary2 {
   background: #338cc4;
@@ -713,7 +723,10 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
     transition: all 500ms ease;
     z-index: 2;
     position: fixed;
-    top: 255px;
+    top: 10%;
+    overflow: auto;
+    max-height: 80%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   }
   .card_sticky.card_sticky_right {
     right: 0px !important;

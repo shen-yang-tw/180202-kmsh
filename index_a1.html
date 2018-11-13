@@ -44,7 +44,9 @@
       <div class="uk-container uk-container-center">
         <div id="logoBar" class="marginTB_medium uk-grid" data-uk-grid-margin>
           <div class="uk-width-4-5 uk-width-large-2-5 uk-padding-remove uk-vertical-align">
-            <div class="uk-vertical-align-middle"><h1 class="uk-margin-remove"><a class="logo" href="index.html"><img alt="金門高中圖書館" title="金門高中圖書館" src="img/logo.png"></a></h1></div>
+            <div class="uk-vertical-align-middle">
+              <h1 class="uk-margin-remove"><a class="logo" href="index.html"><img alt="金門高中圖書館" title="金門高中圖書館" src="img/logo.png"></a></h1>
+            </div>
           </div>
           <div class="uk-width-4-5 uk-width-large-3-5 uk-visible-large uk-text-right uk-vertical-align">
             <div class="uk-form uk-vertical-align-middle uk-width-1-1">
@@ -85,9 +87,27 @@
         <div class="uk-button-dropdown" data-uk-dropdown>
           <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#" title="#">本館簡介</a>
           <div class="uk-dropdown uk-dropdown-bottom bg_primary borderRadius0 border_remove">
-            <ul class="uk-nav uk-nav-dropdown uk-text-left hover_bg_secondary">
-              <li><a class="uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
-              <li><a class="uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
+            <ul class="uk-nav uk-nav-parent-icon uk-nav-dropdown uk-text-left hover_bg_secondary" data-uk-nav="{multiple:true}">
+              <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level1-Item</a></li>
+              <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level1-Item</a></li>
+              <li class="uk-parent">
+                <a href="#">Level2-Parent</a>
+                <ul class="uk-nav-sub" role="menu">
+                  <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level2-Item</a></li>
+                  <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level2-Item</a></li>
+                </ul>
+              </li>
+              <li class="uk-parent">
+                <a href="#">Level3-Parent</a>
+                <ul class="uk-nav-sub" role="menu">
+                  <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level3-Item</a>
+                    <ul>
+                      <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level3-Sub item</a></li>
+                      <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level3-Sub item</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -187,7 +207,7 @@
           </div>
         </div>
         <div class="matchHeight uk-width-large-1-2">
-          <div class="card bg_white uk-panel uk-panel-box borderRadius10 box_shadow uk-padding-remove">
+          <div class="card max_height bg_white uk-panel uk-panel-box borderRadius10 box_shadow uk-padding-remove">
             <h2 class="fontSizeH5 caption padding_medium bg_primary uk-margin-remove"><i class="uk-margin-small-right far fa-image fa-fw"></i>最新活動<span class="More color_white uk-margin-remove uk-align-right"><a href="#" title="更多" aria-label="link">更多</a><i class="fas fa-angle-right fa-fw"></i></span></h2>
             <div class="padding_medium">
               <div class="slideshow_lightbox fullImage_slideshow">
@@ -234,7 +254,7 @@
           <!-- .card -->
         </div>
         <div class="uk-width-1-1">
-          <div class="card bg_white uk-panel uk-panel-box borderRadius10 box_shadow uk-padding-remove">
+          <div class="card max_height bg_white uk-panel uk-panel-box borderRadius10 box_shadow uk-padding-remove">
             <h2 class="fontSizeH5 caption padding_medium bg_primary uk-margin-remove"><i class="uk-margin-small-right fas fa-book fa-fw"></i>新書推介<span class="More color_white uk-margin-remove uk-align-right"><a href="#" title="更多" aria-label="link">更多</a><i class="fas fa-angle-right fa-fw"></i></span></h2>
             <div class="padding_medium">
               <div class="uk-slidenav-position" data-uk-slider="{autoplay: true, infinite: false}">
@@ -319,7 +339,7 @@
           <!-- .card -->
         </div>
         <div class="uk-width-large-1-2 uk-width-xlarge-1-3">
-          <div class="card bg_white uk-panel uk-panel-box borderRadius10 box_shadow uk-padding-remove">
+          <div class="card max_height bg_white uk-panel uk-panel-box borderRadius10 box_shadow uk-padding-remove">
             <h2 class="fontSizeH5 caption padding_medium bg_primary uk-margin-remove"><i class="uk-margin-small-right far fa-calendar-alt fa-fw"></i>行事曆</h2>
             <div class="padding_medium">
               <div id="calendarA1" class="monthly"></div>

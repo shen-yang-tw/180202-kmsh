@@ -84,9 +84,27 @@
             <div class="uk-button-dropdown" data-uk-dropdown>
               <a class="uk-display-inline-block padding_small paddingL_large paddingR_large" href="#" tabindex=1>本館簡介</a>
               <div class="uk-dropdown uk-dropdown-bottom bg_primary borderRadius0 border_remove">
-                <ul class="uk-nav uk-nav-dropdown uk-text-left hover_bg_secondary">
-                  <li><a class="uk-dropdown-close" href="#" tabindex=1><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
-                  <li><a class="uk-dropdown-close" href="#" tabindex=1><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
+                <ul class="uk-nav uk-nav-parent-icon uk-nav-dropdown uk-text-left hover_bg_secondary" data-uk-nav="{multiple:true}">
+                  <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level1-Item</a></li>
+                  <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level1-Item</a></li>
+                  <li class="uk-parent">
+                    <a href="#">Level2-Parent</a>
+                    <ul class="uk-nav-sub" role="menu">
+                      <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level2-Item</a></li>
+                      <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level2-Item</a></li>
+                    </ul>
+                  </li>
+                  <li class="uk-parent">
+                    <a href="#">Level3-Parent</a>
+                    <ul class="uk-nav-sub" role="menu">
+                      <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level3-Item</a>
+                        <ul>
+                          <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level3-Sub item</a></li>
+                          <li><a class="hover_linkline bg_transparent uk-dropdown-close" href="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Level3-Sub item</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
