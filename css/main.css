@@ -758,6 +758,8 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 }
 .text_center_sL, .text_r_sL {text-align: left;}
 .text_center_sR {text-align: right;}
+.min_height100vhS {min-height: 100vh}
+
 }
 
 @media (min-width:768px) {
