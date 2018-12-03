@@ -392,7 +392,7 @@ figure .svg-inline--fa {
 .seats .uk-width .uk-width:nth-child(2) {width: calc(100% - 15px * 2);} */
 
 .subindex .tabs img {width: 125px; height: 125px;}
-/* .act1>div:nth-child(3), .act2>div:nth-child(3), .act3>div:nth-child(3), .act4>div:nth-child(3), .act1>div:nth-child(4), .act2>div:nth-child(4), .act3>div:nth-child(4), .act4>div:nth-child(4) {display: none;} */
+.act1>div:nth-child(3), .act2>div:nth-child(3), .act3>div:nth-child(3), .act4>div:nth-child(3), .act1>div:nth-child(4), .act2>div:nth-child(4), .act3>div:nth-child(4), .act4>div:nth-child(4) {display: none;}
 
 footer,
 footer a {
