@@ -59,7 +59,7 @@ input.color_white::-ms-input-placeholder, textarea.color_white::-ms-input-placeh
 .color_default, .hover_color_default:focus, .hover_color_default:hover {color: #444 !important;}
 .color_black, .hover_color_black:focus, .hover_color_black:hover {color: #000 !important;}
 .color_defaultGrey, .hover_color_defaultGrey:focus, .hover_color_defaultGrey:hover {color: #999 !important;}
-.color_grey, .hover_color_grey:focus, .hover_color_grey:hover {color: #486d7b !important;}
+.color_grey, .hover_color_grey:focus, .hover_color_grey:hover {color: #757d7f !important;}
 .color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #009dd8 !important;}
 .color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover {color: #82bb42 !important;}
 .bg_black {background-color: black;}
@@ -472,7 +472,7 @@ textarea.noresize {resize: none;}
     display: flex !important;
 }
 .uk-breadcrumb>li:not(.uk-active)>span, .uk-breadcrumb>li:nth-child(n+2):before {
-    color: #486d7b;
+    color: #757d7f;
 }
 .uk-panel {
     transition: none;
