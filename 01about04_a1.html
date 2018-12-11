@@ -27,7 +27,7 @@
 </head>
 
 <body id="top" class="fullViewH bg_lightGrey page uk-padding-remove" style="background-image: url(img/bg_pagea1.png);">
-  <div class="gotoTop uk-visible-small" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top"><i class="fas fa-chevron-up fa-fw"></i></a></div>
+  <div class="gotoTop" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top"><i class="fas fa-chevron-up fa-fw"></i></a></div>
   <header id="header" class="box_shadow uk-position-z-index" data-uk-sticky="{top:-50, animation: 'uk-animation-slide-bottom', media: '(max-width: 959px)'}">
     <div class="bg_secondary border_shadow">
       <nav class="uk-text-center uk-container uk-container-center">
@@ -44,7 +44,9 @@
       <div class="uk-container uk-container-center">
         <div id="logoBar" class="marginTB_medium uk-grid" data-uk-grid-margin>
           <div class="uk-width-4-5 uk-width-large-2-5 uk-padding-remove uk-vertical-align">
-            <div class="uk-vertical-align-middle"><h1 class="uk-margin-remove"><a class="logo" href="index.html"><img alt="金門高中圖書館" title="金門高中圖書館" src="img/logo.png"></a></h1></div>
+            <div class="uk-vertical-align-middle">
+              <h1 class="uk-margin-remove"><a class="logo" href="index.html"><img alt="金門高中圖書館" title="金門高中圖書館" src="img/logo.png"></a></h1>
+            </div>
           </div>
           <div class="uk-width-4-5 uk-width-large-3-5 uk-visible-large uk-text-right uk-vertical-align">
             <div class="uk-form uk-vertical-align-middle uk-width-1-1">
@@ -125,7 +127,7 @@
     <div class="paddingT_xlarge paddingB_xlarge uk-container uk-container-center">
       <div class="uk-position-relative">
         <ul class="uk-breadcrumb">
-          <li><a href="#" title="#">首頁</a></li>
+          <li><a href="#">首頁</a></li>
           <li><span>本館簡介</span></li>
           <li class="uk-active"><span>樓層導覽</span></li>
         </ul>
@@ -134,15 +136,8 @@
       <div class="card bg_white bg_whiteOpacity9 uk-panel uk-panel-box borderRadius10 box_shadow min_heightL800 uk-position-relative">
         <a class="uk-position-absolute" href="#C" id="AC" name="C" title="中央內容區塊" accesskey="C" style="top: 0;left: -20px;padding: 0 4px;padding-bottom: 4px;">:::</a>
         <h2 class="color_grey underline uk-margin-top-remove">樓層導覽</h2>
-        <p class="urlFix uk-text-justify">體子分於決西裝論我去性定年；他的選，外他軍像！天心示保較候他力在城。打腳更方車天年讓產張就演喜有是化醫不一中名山海第這？真的書了爭海聽會然影高她於的減，最著意一檢軍展風水手不位員論員者表人始會放著從……非身家，中感同小動關清把兩觀還接走資然自到久等活地人明過合開感可實情來色太遊！紙有情境；教亮包表當接考處主可操。生間到光著，話縣達家石風就風難女師之遊國面起，你他氣科業我受民立交以她送，這一二……廣後思故將<a class="linkline" href="mailto:test@gmail.com" title="URL">Email:test@gmail.com</a>，依然人想業造老。<a class="linkline" href="#" title="#">注物能得積力</a>！起型們此……年還足。基回族車北發際幾面們，色紅面，最發會背山軍發告再苦考我會的行戰那別走些歷業它放的。<a class="linkline" href="#" title="URL">https://unsplash.com/search/photos/abstract-data</a></p>
+        <!-- <p class="urlFix uk-text-justify">體子分於決西裝論我去性定年；他的選，外他軍像！天心示保較候他力在城。打腳更方車天年讓產張就演喜有是化醫不一中名山海第這？真的書了爭海聽會然影高她於的減，最著意一檢軍展風水手不位員論員者表人始會放著從……非身家，中感同小動關清把兩觀還接走資然自到久等活地人明過合開感可實情來色太遊！紙有情境；教亮包表當接考處主可操。生間到光著，話縣達家石風就風難女師之遊國面起，你他氣科業我受民立交以她送，這一二……廣後思故將<a class="linkline" href="mailto:test@gmail.com" title="URL">Email:test@gmail.com</a>，依然人想業造老。<a class="linkline" href="#" title="#">注物能得積力</a>！起型們此……年還足。基回族車北發際幾面們，色紅面，最發會背山軍發告再苦考我會的行戰那別走些歷業它放的。<a class="linkline" href="#" title="URL">https://unsplash.com/search/photos/abstract-data</a></p> -->
         <ul id="categoryTabs" class="hover_primary uk-grid uk-grid-small uk-grid-width-1-4" data-uk-grid-margin data-uk-switcher="{connect:'#switcher'}">
-          <li>
-            <a class="btn_darkGrey btn_hover_primary padding_medium uk-button uk-width-1-1" href="#" title="#">
-              <div class="uk-panel uk-text-center">
-                <h2 class="fontSizeH5 uk-text-contrast">All</h2>
-              </div>
-            </a>
-          </li>
           <li>
             <a class="btn_darkGrey btn_hover_primary padding_medium uk-button uk-width-1-1" href="#" title="#">
               <div class="uk-panel uk-text-center">
@@ -168,29 +163,31 @@
         <div class="uk-margin">
           <ul id="switcher" class="uk-switcher">
             <li>
-              <img class="uk-thumbnail uk-width-1-1 uk-margin" src="https://imgplaceholder.com/820x465/?text=820px" alt="#" title="#">
-              <div class="uk-accordion" data-uk-accordion="{collapse: false}">
-                <h3 class="bg_secondary color_white uk-accordion-title">自修區-半私密室書桌區</h3>
-                <div class="uk-accordion-content">
-                  <a class="uk-thumbnail uk-width-1-1" href="img/img01.png" title="自修區-半私密室書桌區" data-uk-lightbox="{group: 'photos_floor1'}">
-                    <img class="uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px-1" alt="#" title="#">
-                  </a>
+              <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+                <div class="uk-width-medium-1-4">
+                  <a class="border paddingLR_small marginB_small remove_underline" href="#f1-1">自修區-半私密室書桌區</a>
+                  <a class="border paddingLR_small marginB_small remove_underline" href="#f1-2">自修區-開放討論式書桌區</a>
+                  <a class="border paddingLR_small marginB_small remove_underline" href="#f1-3">自修區-吧檯式書桌區</a>
                 </div>
-                <h3 class="bg_secondary color_white uk-accordion-title">自修區-開放討論式書桌區</h3>
-                <div class="uk-accordion-content">
-                  <a class="uk-thumbnail uk-width-1-1" href="img/img02.png" title="自修區-開放討論式書桌區" data-uk-lightbox="{group: 'photos_floor1'}">
-                    <img class="uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px-2" alt="#" title="#">
-                  </a>
-                </div>
-                <h3 class="bg_secondary color_white uk-accordion-title">自修區-吧檯式書桌區</h3>
-                <div class="uk-accordion-content">
-                  <a class="uk-thumbnail uk-width-1-1" href="img/img03.png" title="自修區-吧檯式書桌區" data-uk-lightbox="{group: 'photos_floor1'}">
-                    <img class="uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px-3" alt="#" title="#">
-                  </a>
+                <div class="uk-width-medium-3-4">
+                  <img class="marginB_xlarge paddingB_small uk-thumbnail uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px" alt="#" title="#">
                 </div>
               </div>
+              <div>
+                <h3 id="f1-1" class="fontSizeH4 padding_small bg_secondary color_white">自修區-半私密室書桌區</h3>
+                <a class="uk-thumbnail uk-width-1-1" href="img/img01.png" title="自修區-半私密室書桌區" data-uk-lightbox="{group: 'photos_floor1'}">
+                  <img class="uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px-1" alt="#" title="#">
+                </a>
+                <h3 id="f1-2" class="fontSizeH4 padding_small bg_secondary color_white">自修區-開放討論式書桌區</h3>
+                <a class="uk-thumbnail uk-width-1-1" href="img/img02.png" title="自修區-開放討論式書桌區" data-uk-lightbox="{group: 'photos_floor1'}">
+                  <img class="uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px-2" alt="#" title="#">
+                </a>
+                <h3 id="f1-3" class="fontSizeH4 padding_small bg_secondary color_white">自修區-吧檯式書桌區</h3>
+                <a class="uk-thumbnail uk-width-1-1" href="img/img03.png" title="自修區-吧檯式書桌區" data-uk-lightbox="{group: 'photos_floor1'}">
+                  <img class="uk-width-1-1" src="https://imgplaceholder.com/820x465/?text=820px-3" alt="#" title="#">
+                </a>
+              </div>
             </li>
-            <li>一樓</li>
             <li>二樓</li>
             <li>三樓</li>
           </ul>

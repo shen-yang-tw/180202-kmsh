@@ -14,82 +14,6 @@ $(document).ready(function() {
   //Remove if empty
   $("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty").remove();
 
-  //calendar
-  var A1 = {
-    "monthly": [{
-        "id": 1,
-        "name": "大得象功個土會代之題速越眼",
-        "startdate": "2018-05-20",
-        "enddate": "2018-05-21",
-        "starttime": "12:00",
-        "endtime": "2:00",
-        "color": "#3ab54a",
-        "url": ""
-      },
-      {
-        "id": 2,
-        "name": "本日閉館",
-        "startdate": "2018-05-28",
-        "color": "#8cc63e",
-        "url": ""
-      }
-    ]
-  };
-
-  var A2 = {
-    "monthly": [{
-        "id": 1,
-        "name": "大得象功個土會代之題速越眼",
-        "startdate": "2018-03-20",
-        "enddate": "2018-03-21",
-        "starttime": "12:00",
-        "endtime": "2:00",
-        "color": "#3ab54a",
-        "url": ""
-      },
-      {
-        "id": 2,
-        "name": "本日閉館",
-        "startdate": "2018-03-19",
-        "color": "#ff6a00",
-        "url": ""
-      }
-    ]
-  };
-
-  $('#calendarA1').monthly({
-    mode: 'event',
-    dataType: 'json',
-    // xmlUrl: 'events.xml',
-    events: A1
-  });
-
-  $('#calendarA2').monthly({
-    mode: 'event',
-    dataType: 'json',
-    // xmlUrl: 'events.xml',
-    events: A2
-  });
-
-  $('#calendarB1').monthly({
-    mode: 'event',
-    dataType: 'json',
-    // xmlUrl: 'events.xml',
-    events: A1
-  });
-
-  $('#calendarB2').monthly({
-    mode: 'event',
-    dataType: 'json',
-    // xmlUrl: 'events.xml',
-    events: A1
-  });
-
-  //card_sticky toggleClass class when open/close
-  $('.card_sticky').on('toggle.uk.accordion', function() {
-    $(this).toggleClass('open');
-  });
-
   //switcher
   $(".switcher").height($('.slider_choice .uk-slider>li').height());
   $(window).resize(function() {
@@ -108,7 +32,7 @@ $(document).ready(function() {
   });
 
   //dynamically checked & check all checkbox
-  $("#btnCheckAll").click(function() {
+  $("#btnCheckAll, #checkAll").click(function() {
     $('.listCheck').prop('checked', this.checked);
   });
 
@@ -116,21 +40,6 @@ $(document).ready(function() {
   $("#reset").click(function() {
     location.hash = '#registration';
     location.reload();
-  });
-
-  //Form Text Counter
-  // $('.auto').textcounter({
-  //   max: "auto", // maximum number of characters/words, -1 for unlimited, 'auto' to use maxlength attribute
-  //   counterText: "輸入字數：%d", // counter text
-  // });
-  // $('.unlimited').textcounter({
-  //   max: -1, // maximum number of characters/words, -1 for unlimited, 'auto' to use maxlength attribute
-  //   counterText: "輸入字數：%d", // counter text
-  // });
-
-  //dynamically checked & check all checkbox
-  $("#checkAll").click(function() {
-    $('.listCheck').prop('checked', this.checked);
   });
 
   //Grid Filtering
@@ -141,16 +50,9 @@ $(document).ready(function() {
     $('#categoryTabs .uk-button-dropdown>a').addClass('uk-active');
   });
 
-  //
-  $('.uk-accordion').on('toggle.uk.accordion', function() {
-    $(this).toggleClass('open');
+  //accordion#accordionFloor
+  $(".tabs_accordionFloor a").click(function() {
+    $(this).parent().parent().siblings(".uk-accordion").children("h3").eq($(this).index()).click();
   });
-
-  // if ($(window).width() < 768) {
-  //   UIkit.accordion('#bookview', { showfirst: false });
-  // } else {
-  //   UIkit.accordion('#bookview', { showfirst: true });
-  //   // UIkit.accordion("#bookview")[0].show();
-  // }
 
 });
