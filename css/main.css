@@ -714,9 +714,6 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .monthly-header-title-date:hover {
     border-color: #bcc4c7;
 }
-.monthly-header-title-date {
-    /*display: block !important;*/
-}
 .monthly-prev:after,
 .monthly-next:after {
   border-color: #3d515a;
@@ -834,9 +831,6 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 }
 .listTabs .uk-grid-divider>li:nth-child(odd) {
   border-right: none !important;
-}
-.listTabs .uk-grid-divider>li:nth-child(odd):nth-last-child(2) a {
-  /*border-bottom: 1px solid #E5E5E5;*/
 }
 .listTabs.listTabs_h a {
     border-bottom: none;
