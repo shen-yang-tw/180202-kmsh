@@ -1,6 +1,6 @@
 @charset "utf-8";
 h1, h2, h3, h4, h5, h6 {line-height: 1.2 !important;}
-a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
+a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
 .color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover, .monthly-event-list .monthly-today .monthly-event-list-date {color: #3ab54a !important;}
 .color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #8cc63e !important;}
 .bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #3ab54a !important; background-color: white;}
@@ -12,7 +12,7 @@ a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb 
 .fontsize li>a {color: #3ab54a !important; border: 1px solid #3ab54a;}
 .fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #3ab54a !important; border-color: #3ab54a; color: white !important;}
 
-.templateA2 a:hover, .templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #b53a3a;}
+.templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #b53a3a;}
 .templateA2 .color_primary, .templateA2 .hover_color_primary:focus, .templateA2 .hover_color_primary:hover, .templateA2 ul.hover_color_primary>li>a:focus, .templateA2 ul.hover_color_primary>li>a:hover, .templateA2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #b53a3a !important;}
 .templateA2 .bg_hover_white_color_primary:focus, .templateA2 .bg_hover_white_color_primary:hover {color: #b53a3a !important; background-color: white;}
 .templateA2 .bg_primary, .templateA2 .btn_primary, .templateA2 .btn_hover_primary.uk-active, .templateA2 .btn_hover_primary:hover, .templateA2 .hover_primary li>a:hover, .templateA2 .hover_primary li.uk-active>a, .templateA2 .uk-block-primary, .templateA2 .uk-pagination>li.uk-active span, .templateA2 ul.hover_bg_primary>li>a:focus, .templateA2 ul.hover_bg_primary>li>a:hover, .templateA2 ol.listDecimalRow.listBadge>li:before, .templateA2 .monthly-today .monthly-day-number, .templateA2 .monthly .monthly-header-title-date, .templateA2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #b53a3a !important;}
@@ -36,7 +36,7 @@ a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb 
 .templateB1 .bg_secondary2 {background: #e8a844;}
 .templateB1 .btn_secondary:focus, .templateB1 .btn_secondary:hover {background-color: #ce7b1d !important; }
 
-.templateB2 a:hover, .templateB2 a:active, .templateB2 .link a:link, .templateB2 .link a:visited, .templateB2 .link a:focus, .templateB2 .uk-breadcrumb a:link, .templateB2 .uk-breadcrumb a:visited, .templateB2 .uk-breadcrumb a:focus {color: #8242b6;}
+.templateB2 a:active, .templateB2 .link a:link, .templateB2 .link a:visited, .templateB2 .link a:focus, .templateB2 .uk-breadcrumb a:link, .templateB2 .uk-breadcrumb a:visited, .templateB2 .uk-breadcrumb a:focus {color: #8242b6;}
 .templateB2 .color_primary, .templateB2 .hover_color_primary:focus, .templateB2 .hover_color_primary:hover, .templateB2 ul.hover_color_primary>li>a:focus, .templateB2 ul.hover_color_primary>li>a:hover, .templateB2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #8242b6 !important;}
 .templateB2 .bg_hover_white_color_primary:focus, .templateB2 .bg_hover_white_color_primary:hover {color: #8242b6 !important; background-color: white;}
 .templateB2 .bg_primary, .templateB2 .btn_primary, .templateB2 .btn_hover_primary.uk-active, .templateB2 .btn_hover_primary:hover, .templateB2 .hover_primary li>a:hover, .templateB2 .hover_primary li.uk-active>a, .templateB2 .uk-block-primary, .templateB2 .uk-pagination>li.uk-active span, .templateB2 ul.hover_bg_primary>li>a:focus, .templateB2 ul.hover_bg_primary>li>a:hover, .templateB2 ol.listDecimalRow.listBadge>li:before, .templateB2 .monthly-today .monthly-day-number, .templateB2 .monthly .monthly-header-title-date, .templateB2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #8242b6 !important;}
