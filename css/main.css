@@ -70,6 +70,12 @@ input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:b
 .bg_whiteOpacity7 {background-color: rgba(255, 255, 255, 0.7) !important;}
 .bg_whiteOpacity8 {background-color: rgba(255, 255, 255, 0.8) !important;}
 .bg_whiteOpacity9 {background-color: rgba(255, 255, 255, 0.9) !important;}
+.bg_blackOpacity05, .bg_hover_blackOpacity05:hover {background-color: rgba(0, 0, 0, 0.05) !important;}
+.bg_blackOpacity1, .bg_hover_blackOpacity1:hover {background-color: rgba(0, 0, 0, 0.1) !important;}
+.bg_blackOpacity3, .bg_hover_blackOpacity3:hover {background-color: rgba(0, 0, 0, 0.3) !important;}
+.bg_blackOpacity4, .bg_hover_blackOpacity4:hover {background-color: rgba(0, 0, 0, 0.4) !important;}
+.bg_blackOpacity5, .bg_hover_blackOpacity5:hover {background-color: rgba(0, 0, 0, 0.5);}
+.bg_blackOpacity7, .bg_hover_blackOpacity7:hover {background-color: rgba(0, 0, 0, 0.7);}
 .bg_grey, .btn_grey {background-color: #e9f3f5;}
 .bg_defaultGrey, .btn_defaultGrey {background-color: #eaeaea;}
 .bg_darkestGrey, .btn_darkestGrey {background-color: #586e73;}
@@ -714,6 +720,9 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 .monthly-header-title-date:hover {
     border-color: #bcc4c7;
 }
+.monthly-header-title-date {
+    /*display: block !important;*/
+}
 .monthly-prev:after,
 .monthly-next:after {
   border-color: #3d515a;
@@ -831,6 +840,9 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 }
 .listTabs .uk-grid-divider>li:nth-child(odd) {
   border-right: none !important;
+}
+.listTabs .uk-grid-divider>li:nth-child(odd):nth-last-child(2) a {
+  /*border-bottom: 1px solid #E5E5E5;*/
 }
 .listTabs.listTabs_h a {
     border-bottom: none;

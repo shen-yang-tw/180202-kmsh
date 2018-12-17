@@ -1,6 +1,6 @@
 @charset "utf-8";
 h1, h2, h3, h4, h5, h6 {line-height: 1.2 !important;}
-a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
+a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
 .color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover, .monthly-event-list .monthly-today .monthly-event-list-date {color: #3ab54a !important;}
 .color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #8cc63e !important;}
 .bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #3ab54a !important; background-color: white;}
@@ -12,7 +12,7 @@ a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .
 .fontsize li>a {color: #3ab54a !important; border: 1px solid #3ab54a;}
 .fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #3ab54a !important; border-color: #3ab54a; color: white !important;}
 
-.templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #b53a3a;}
+.templateA2 a:hover, .templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #b53a3a;}
 .templateA2 .color_primary, .templateA2 .hover_color_primary:focus, .templateA2 .hover_color_primary:hover, .templateA2 ul.hover_color_primary>li>a:focus, .templateA2 ul.hover_color_primary>li>a:hover, .templateA2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #b53a3a !important;}
 .templateA2 .bg_hover_white_color_primary:focus, .templateA2 .bg_hover_white_color_primary:hover {color: #b53a3a !important; background-color: white;}
 .templateA2 .bg_primary, .templateA2 .btn_primary, .templateA2 .btn_hover_primary.uk-active, .templateA2 .btn_hover_primary:hover, .templateA2 .hover_primary li>a:hover, .templateA2 .hover_primary li.uk-active>a, .templateA2 .uk-block-primary, .templateA2 .uk-pagination>li.uk-active span, .templateA2 ul.hover_bg_primary>li>a:focus, .templateA2 ul.hover_bg_primary>li>a:hover, .templateA2 ol.listDecimalRow.listBadge>li:before, .templateA2 .monthly-today .monthly-day-number, .templateA2 .monthly .monthly-header-title-date, .templateA2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #b53a3a !important;}
@@ -36,7 +36,7 @@ a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .
 .templateB1 .bg_secondary2 {background: #e8a844;}
 .templateB1 .btn_secondary:focus, .templateB1 .btn_secondary:hover {background-color: #ce7b1d !important; }
 
-.templateB2 a:active, .templateB2 .link a:link, .templateB2 .link a:visited, .templateB2 .link a:focus, .templateB2 .uk-breadcrumb a:link, .templateB2 .uk-breadcrumb a:visited, .templateB2 .uk-breadcrumb a:focus {color: #8242b6;}
+.templateB2 a:hover, .templateB2 a:active, .templateB2 .link a:link, .templateB2 .link a:visited, .templateB2 .link a:focus, .templateB2 .uk-breadcrumb a:link, .templateB2 .uk-breadcrumb a:visited, .templateB2 .uk-breadcrumb a:focus {color: #8242b6;}
 .templateB2 .color_primary, .templateB2 .hover_color_primary:focus, .templateB2 .hover_color_primary:hover, .templateB2 ul.hover_color_primary>li>a:focus, .templateB2 ul.hover_color_primary>li>a:hover, .templateB2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #8242b6 !important;}
 .templateB2 .bg_hover_white_color_primary:focus, .templateB2 .bg_hover_white_color_primary:hover {color: #8242b6 !important; background-color: white;}
 .templateB2 .bg_primary, .templateB2 .btn_primary, .templateB2 .btn_hover_primary.uk-active, .templateB2 .btn_hover_primary:hover, .templateB2 .hover_primary li>a:hover, .templateB2 .hover_primary li.uk-active>a, .templateB2 .uk-block-primary, .templateB2 .uk-pagination>li.uk-active span, .templateB2 ul.hover_bg_primary>li>a:focus, .templateB2 ul.hover_bg_primary>li>a:hover, .templateB2 ol.listDecimalRow.listBadge>li:before, .templateB2 .monthly-today .monthly-day-number, .templateB2 .monthly .monthly-header-title-date, .templateB2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #8242b6 !important;}
@@ -78,23 +78,23 @@ ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !importa
   border-bottom: 1px solid rgb(32, 178, 170, 0.3);
 }
 
-.bg_CornflowerBlue, .striped_CornflowerBlue.uk-table-striped tbody tr:nth-of-type(odd) {
-  background-color: CornflowerBlue;
+.bg_CornflowerBlue, .tempindex .bg_primary, .striped_CornflowerBlue.uk-table-striped tbody tr:nth-of-type(odd) {
+  background-color: CornflowerBlue !important;
 }
 
-.bg_MediumSlateBlue, .striped_MediumSlateBlue.uk-table-striped tbody tr:nth-of-type(odd) {
-  background-color: MediumSlateBlue;
+.bg_MediumSlateBlue, .tempindex .bg_secondary, .striped_MediumSlateBlue.uk-table-striped tbody tr:nth-of-type(odd) {
+  background-color: MediumSlateBlue !important;
 }
 
 .tempindex .color_primary {
-  color: HotPink !important;
+  color: CornflowerBlue !important;
 }
-.bg_HotPink, .tempindex .bg_primary, .striped_HotPink.uk-table-striped tbody tr:nth-of-type(odd) {
-  background-color: HotPink !important;
+.bg_HotPink, .striped_HotPink.uk-table-striped tbody tr:nth-of-type(odd) {
+  background-color: HotPink;
 }
 
-.bg_Coral, .tempindex .bg_secondary, .striped_Coral.uk-table-striped tbody tr:nth-of-type(odd) {
-  background-color: Coral !important;
+.bg_Coral, .striped_Coral.uk-table-striped tbody tr:nth-of-type(odd) {
+  background-color: Coral;
 }
 
 .act1 .bg_primary, .act1 header .bg_primary, .act1 .btn_primary ,.act1 .listTabs a:hover, .act1 .listTabs .uk-active a, .act1 .listTabs .uk-nav li a:hover, .act1 .listTabs .uk-nav>li.uk-active>a, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act1 .uk-pagination>.uk-active>span, .act1 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #e6a54b !important;}
@@ -120,14 +120,13 @@ ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !importa
 .act11 .bg_primary, .act11 header .bg_primary, .act11 .btn_primary ,.act11 .listTabs a:hover, .act11 .listTabs .uk-active a, .act11 .listTabs .uk-nav li a:hover, .act11 .listTabs .uk-nav>li.uk-active>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act11 .uk-pagination>.uk-active>span, .act11 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #a6c476 !important;}
 .act11 .btn_primary:hover {background-color: #90aa65 !important;}
 
-.tempindex>div:nth-child(2) {background: linear-gradient(to bottom, HotPink 0%, rgb(250, 160, 205) 100%) !important;}
 .act1>div:nth-child(2) {background: linear-gradient(to bottom, #e6a54b 0%, #f8b24f 100%) !important;}
 .act2>div:nth-child(2) {background: linear-gradient(to bottom, #e45a5a 0%, #f57373 100%) !important;}
 .act3>div:nth-child(2) {background: linear-gradient(to bottom, #d151a0 0%, #f06ace 100%) !important;}
 .act4>div:nth-child(2) {background: linear-gradient(to bottom, #8360c4 0%, #b46af0 100%) !important;}
 .act5>div:nth-child(2) {background: linear-gradient(to bottom, #6971bd 0%, #8d86e5 100%) !important;}
 .act6>div:nth-child(2) {background: linear-gradient(to bottom, #6b8dce 0%, #8199eb 100%) !important;}
-.act7>div:nth-child(2) {background: linear-gradient(to bottom, #5694ce 0%, #84b9eb 100%) !important;}
+.act7>div:nth-child(2), .tempindex>div:nth-child(2) {background: linear-gradient(to bottom, #5694ce 0%, #84b9eb 100%) !important;}
 .act8>div:nth-child(2) {background: linear-gradient(to bottom, #60b4c9 0%, #82d4e9 100%) !important;}
 .act9>div:nth-child(2) {background: linear-gradient(to bottom, #6bb6a3 0%, #7cd3bd 100%) !important;}
 .act10>div:nth-child(2) {background: linear-gradient(to bottom, #54b16b 0%, #7eb98d 100%) !important;}
@@ -493,7 +492,7 @@ figure .svg-inline--fa {
 .seats .uk-width .uk-width:nth-child(1), .seats .uk-width .uk-width:nth-child(3) {width: 15px !important;}
 .seats .uk-width .uk-width:nth-child(2) {width: calc(100% - 15px * 2);} */
 
-.tempindex .tabs img {width: 125px; height: 125px;}
+.tempindex .tabs li a>div {width: 125px;}
 nav.nav_act:not(.bg_white)>.uk-button-dropdown>a:focus, nav.nav_act:not(.bg_white)>.uk-button-dropdown>a:hover, nav.nav_act:not(.bg_white)>.uk-button-dropdown>a.active, nav.nav_act:not(.bg_white)>.uk-button-dropdown[aria-expanded="true"]>a {background-color: rgba(0, 0, 0, 0.2);}
 
 footer,
@@ -718,7 +717,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
   .index .bg_img [class*=uk-width]:nth-child(5) {
     max-height: 360.39px;
   }
-.tempindex .tabs img {width: 170px; height: 170px;}
+.tempindex .tabs li a>div {width: 190px;}
 .tempindex footer .logo {margin-right: 15px;}
 
 }
