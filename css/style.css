@@ -12,18 +12,18 @@ a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb 
 .fontsize li>a {color: #3ab54a !important; border: 1px solid #3ab54a;}
 .fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #3ab54a !important; border-color: #3ab54a; color: white !important;}
 
-.templateA2 a:hover, .templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #b53a3a;}
-.templateA2 .color_primary, .templateA2 .hover_color_primary:focus, .templateA2 .hover_color_primary:hover, .templateA2 ul.hover_color_primary>li>a:focus, .templateA2 ul.hover_color_primary>li>a:hover, .templateA2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #b53a3a !important;}
-.templateA2 .bg_hover_white_color_primary:focus, .templateA2 .bg_hover_white_color_primary:hover {color: #b53a3a !important; background-color: white;}
-.templateA2 .bg_primary, .templateA2 .btn_primary, .templateA2 .btn_hover_primary.uk-active, .templateA2 .btn_hover_primary:hover, .templateA2 .hover_primary li>a:hover, .templateA2 .hover_primary li.uk-active>a, .templateA2 .uk-block-primary, .templateA2 .uk-pagination>li.uk-active span, .templateA2 ul.hover_bg_primary>li>a:focus, .templateA2 ul.hover_bg_primary>li>a:hover, .templateA2 ol.listDecimalRow.listBadge>li:before, .templateA2 .monthly-today .monthly-day-number, .templateA2 .monthly .monthly-header-title-date, .templateA2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #b53a3a !important;}
-.templateA2 .btn_primary:focus, .templateA2 .btn_primary:hover, .templateA2 .btn_primary.selected {text-decoration: none; background-color: #a53434 !important;}
-.templateA2 .fontsize li>a {color: #b53a3a !important; border: 1px solid #b53a3a;}
-.templateA2 .fontsize li.uk-active>a, .templateA2 .fontsize li.uk-open>a, .templateA2 .fontsize li>a:focus, .templateA2 .fontsize li>a:hover {background: #b53a3a !important; border-color: #b53a3a; color: white !important;}
+.templateA2 a:hover, .templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #a75151;}
+.templateA2 .color_primary, .templateA2 .hover_color_primary:focus, .templateA2 .hover_color_primary:hover, .templateA2 ul.hover_color_primary>li>a:focus, .templateA2 ul.hover_color_primary>li>a:hover, .templateA2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #a75151 !important;}
+.templateA2 .bg_hover_white_color_primary:focus, .templateA2 .bg_hover_white_color_primary:hover {color: #a75151 !important; background-color: white;}
+.templateA2 .bg_primary, .templateA2 .btn_primary, .templateA2 .btn_hover_primary.uk-active, .templateA2 .btn_hover_primary:hover, .templateA2 .hover_primary li>a:hover, .templateA2 .hover_primary li.uk-active>a, .templateA2 .uk-block-primary, .templateA2 .uk-pagination>li.uk-active span, .templateA2 ul.hover_bg_primary>li>a:focus, .templateA2 ul.hover_bg_primary>li>a:hover, .templateA2 ol.listDecimalRow.listBadge>li:before, .templateA2 .monthly-today .monthly-day-number, .templateA2 .monthly .monthly-header-title-date, .templateA2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #a75151 !important;}
+.templateA2 .btn_primary:focus, .templateA2 .btn_primary:hover, .templateA2 .btn_primary.selected {text-decoration: none; background-color: #8f4747 !important;}
+.templateA2 .fontsize li>a {color: #a75151 !important; border: 1px solid #a75151;}
+.templateA2 .fontsize li.uk-active>a, .templateA2 .fontsize li.uk-open>a, .templateA2 .fontsize li>a:focus, .templateA2 .fontsize li>a:hover {background: #a75151 !important; border-color: #a75151; color: white !important;}
 
-.templateA2 .color_secondary, .templateA2 .hover_color_secondary:focus, .templateA2 .hover_color_secondary:hover, .templateA2 ul.hover_color_secondary>li>a:focus, .templateA2 ul.hover_color_secondary>li>a:hover {color: #ff6a00 !important;}
-.templateA2 .bg_hover_white_color_secondary:focus, .templateA2 .bg_hover_white_color_secondary:hover {color: #ff6a00 !important; background-color: white;}
-.templateA2 .bg_secondary, .templateA2 .btn_secondary, .templateA2 .btn_hover_secondary.uk-active, .templateA2 .btn_hover_secondary:hover, .templateA2 .hover_secondary li>a:hover, .templateA2 .hover_secondary li.uk-active>a, .templateA2 .bg_secondary, .templateA2 .uk-block-secondary, .templateA2 nav.bg_secondary .uk-dropdown a, .templateA2 ul.hover_bg_secondary>li>a:focus, .templateA2 ul.hover_bg_secondary>li>a:hover, .templateA2 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {color: white !important;background-color: #ff6a00 !important;}
-.templateA2 .btn_secondary:focus, .templateA2 .btn_secondary:hover {background-color: #ec6504 !important;}
+.templateA2 .color_secondary, .templateA2 .hover_color_secondary:focus, .templateA2 .hover_color_secondary:hover, .templateA2 ul.hover_color_secondary>li>a:focus, .templateA2 ul.hover_color_secondary>li>a:hover {color: #e08746 !important;}
+.templateA2 .bg_hover_white_color_secondary:focus, .templateA2 .bg_hover_white_color_secondary:hover {color: #e08746 !important; background-color: white;}
+.templateA2 .bg_secondary, .templateA2 .btn_secondary, .templateA2 .btn_hover_secondary.uk-active, .templateA2 .btn_hover_secondary:hover, .templateA2 .hover_secondary li>a:hover, .templateA2 .hover_secondary li.uk-active>a, .templateA2 .bg_secondary, .templateA2 .uk-block-secondary, .templateA2 nav.bg_secondary .uk-dropdown a, .templateA2 ul.hover_bg_secondary>li>a:focus, .templateA2 ul.hover_bg_secondary>li>a:hover, .templateA2 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {color: white !important;background-color: #e08746 !important;}
+.templateA2 .btn_secondary:focus, .templateA2 .btn_secondary:hover {background-color: #c9783f !important;}
 
 .templateB1 .color_secondary, .templateB1 .hover_color_secondary:focus, .templateB1 .hover_color_secondary:hover, .templateB1 ul.hover_color_secondary>li>a:focus, .templateB1 ul.hover_color_secondary>li>a:hover {color: #b56000 !important;}
 .templateB1 .bg_hover_white_color_secondary:focus, .templateB1 .bg_hover_white_color_secondary:hover {color: #b56000 !important;
@@ -99,13 +99,13 @@ ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !importa
 
 .act1 .bg_primary, .act1 header .bg_primary, .act1 .btn_primary ,.act1 .listTabs a:hover, .act1 .listTabs .uk-active a, .act1 .listTabs .uk-nav li a:hover, .act1 .listTabs .uk-nav>li.uk-active>a, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act1 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act1 .uk-pagination>.uk-active>span, .act1 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #e6a54b !important;}
 .act1 .btn_primary:hover {background-color: #ce9544 !important;}
-.act2 .bg_primary, .act2 header .bg_primary, .act2 .btn_primary ,.act2 .listTabs a:hover, .act2 .listTabs .uk-active a, .act2 .listTabs .uk-nav li a:hover, .act2 .listTabs .uk-nav>li.uk-active>a, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act2 .uk-pagination>.uk-active>span, .act2 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #e45a5a !important;}
+.act2 .bg_primary, .act2 header .bg_primary, .act2 .btn_primary ,.act2 .listTabs a:hover, .act2 .listTabs .uk-active a, .act2 .listTabs .uk-nav li a:hover, .act2 .listTabs .uk-nav>li.uk-active>a, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act2 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act2 .uk-pagination>.uk-active>span, .act2 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover, .act1 .table_rwd .bg_primary  {background-color: #e45a5a !important;}
 .act2 .btn_primary:hover {background-color: #cc5050 !important;}
 .act3 .bg_primary, .act3 header .bg_primary, .act3 .btn_primary ,.act3 .listTabs a:hover, .act3 .listTabs .uk-active a, .act3 .listTabs .uk-nav li a:hover, .act3 .listTabs .uk-nav>li.uk-active>a, .act3 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act3 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act3 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act3 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act3 .uk-pagination>.uk-active>span, .act3 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #d151a0 !important;}
 .act3 .btn_primary:hover {background-color: #b4468a !important;}
 .act4 .bg_primary, .act4 header .bg_primary, .act4 .btn_primary ,.act4 .listTabs a:hover, .act4 .listTabs .uk-active a, .act4 .listTabs .uk-nav li a:hover, .act4 .listTabs .uk-nav>li.uk-active>a, .act4 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act4 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act4 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act4 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act4 .uk-pagination>.uk-active>span, .act4 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #8360c4 !important;}
 .act4 .btn_primary:hover {background-color: #6b4fa0 !important;}
-.act5 .bg_primary, .act5 header .bg_primary, .act5 .btn_primary ,.act5 .listTabs a:hover, .act5 .listTabs .uk-active a, .act5 .listTabs .uk-nav li a:hover, .act5 .listTabs .uk-nav>li.uk-active>a, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act5 .uk-pagination>.uk-active>span, .act5 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #6971bd !important;}
+.act5 .bg_primary, .act5 header .bg_primary, .act5 .btn_primary ,.act5 .listTabs a:hover, .act5 .listTabs .uk-active a, .act5 .listTabs .uk-nav li a:hover, .act5 .listTabs .uk-nav>li.uk-active>a, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act5 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act5 .uk-pagination>.uk-active>span, .act5 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover, .act4 .table_rwd .bg_primary  {background-color: #6971bd !important;}
 .act5 .btn_primary:hover {background-color: #5a61a1 !important;}
 .act6 .bg_primary, .act6 header .bg_primary, .act6 .btn_primary ,.act6 .listTabs a:hover, .act6 .listTabs .uk-active a, .act6 .listTabs .uk-nav li a:hover, .act6 .listTabs .uk-nav>li.uk-active>a, .act6 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act6 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act6 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act6 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act6 .uk-pagination>.uk-active>span, .act6 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #6b8dce !important;}
 .act6 .btn_primary:hover {background-color: #5e7cb4 !important;}
@@ -115,9 +115,9 @@ ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !importa
 .act8 .btn_primary:hover {background-color: #5097a8 !important;}
 .act9 .bg_primary, .act9 header .bg_primary, .act9 .btn_primary ,.act9 .listTabs a:hover, .act9 .listTabs .uk-active a, .act9 .listTabs .uk-nav li a:hover, .act9 .listTabs .uk-nav>li.uk-active>a, .act9 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act9 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act9 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act9 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act9 .uk-pagination>.uk-active>span, .act9 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #6bb6a3 !important;}
 .act9 .btn_primary:hover {background-color: #5ea090 !important;}
-.act10 .bg_primary, .act10 header .bg_primary, .act10 .btn_primary ,.act10 .listTabs a:hover, .act10 .listTabs .uk-active a, .act10 .listTabs .uk-nav li a:hover, .act10 .listTabs .uk-nav>li.uk-active>a, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act10 .uk-pagination>.uk-active>span, .act10 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #54b16b !important;}
+.act10 .bg_primary, .act10 header .bg_primary, .act10 .btn_primary ,.act10 .listTabs a:hover, .act10 .listTabs .uk-active a, .act10 .listTabs .uk-nav li a:hover, .act10 .listTabs .uk-nav>li.uk-active>a, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act10 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act10 .uk-pagination>.uk-active>span, .act10 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover, .act8 .table_rwd .bg_primary  {background-color: #54b16b !important;}
 .act10 .btn_primary:hover {background-color: #49995d !important;}
-.act11 .bg_primary, .act11 header .bg_primary, .act11 .btn_primary ,.act11 .listTabs a:hover, .act11 .listTabs .uk-active a, .act11 .listTabs .uk-nav li a:hover, .act11 .listTabs .uk-nav>li.uk-active>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act11 .uk-pagination>.uk-active>span, .act11 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover  {background-color: #a6c476 !important;}
+.act11 .bg_primary, .act11 header .bg_primary, .act11 .btn_primary ,.act11 .listTabs a:hover, .act11 .listTabs .uk-active a, .act11 .listTabs .uk-nav li a:hover, .act11 .listTabs .uk-nav>li.uk-active>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .act11 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover, .act11 .uk-pagination>.uk-active>span, .act11 .uk-pagination>li>a:focus, .uk-pagination>li>a:hover, .act9 .table_rwd .bg_primary  {background-color: #a6c476 !important;}
 .act11 .btn_primary:hover {background-color: #90aa65 !important;}
 
 .act1>div:nth-child(2) {background: linear-gradient(to bottom, #e6a54b 0%, #f8b24f 100%) !important;}
@@ -134,26 +134,26 @@ ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !importa
 
 .act1 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(255, 150, 0, 0.15);}
 .act1 .striped_primary.uk-table td, .act1 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(255, 150, 0, 0.3);}
-.act2 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(243, 45, 45, 0.15);}
-.act2 .striped_primary.uk-table td, .act2 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(243, 45, 45, 0.3);}
+.act2 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd), .act1 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(243, 45, 45, 0.15);}
+.act2 .striped_primary.uk-table td, .act1 .striped_primary.uk-table th {border-bottom: 1px solid rgb(243, 45, 45, 0.3);}
 .act3 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(231, 45, 160, 0.15);}
-.act3 .striped_primary.uk-table td, .act3 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(231, 45, 160, 0.3);}
+.act3 .striped_primary.uk-table td, .act3 .striped_primary.uk-table th {border-bottom: 1px solid rgb(231, 45, 160, 0.3);}
 .act4 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(130, 75, 231, 0.15);}
-.act4 .striped_primary.uk-table td, .act4 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(130, 75, 231, 0.3);}
-.act5 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(105, 96, 226, 0.15);}
-.act5 .striped_primary.uk-table td, .act5 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(105, 96, 226, 0.3);}
+.act4 .striped_primary.uk-table td, .act4 .striped_primary.uk-table th {border-bottom: 1px solid rgb(130, 75, 231, 0.3);}
+.act5 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd), .act4 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(105, 96, 226, 0.15);}
+.act5 .striped_primary.uk-table td, .act5 .striped_primary.uk-table th {border-bottom: 1px solid rgb(105, 96, 226, 0.3);}
 .act6 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(75, 111, 231, 0.15);}
-.act6 .striped_primary.uk-table td, .act6 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(75, 111, 231, 0.3);}
+.act6 .striped_primary.uk-table td, .act6 .striped_primary.uk-table th {border-bottom: 1px solid rgb(75, 111, 231, 0.3);}
 .act7 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(75, 156, 231, 0.15);}
-.act7 .striped_primary.uk-table td, .act7 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(75, 156, 231, 0.3);}
+.act7 .striped_primary.uk-table td, .act7 .striped_primary.uk-table th {border-bottom: 1px solid rgb(75, 156, 231, 0.3);}
 .act8 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(75, 200, 231, 0.15);}
-.act8 .striped_primary.uk-table td, .act8 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(75, 200, 231, 0.3);}
+.act8 .striped_primary.uk-table td, .act8 .striped_primary.uk-table th {border-bottom: 1px solid rgb(75, 200, 231, 0.3);}
 .act9 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(76, 207, 175, 0.15);}
-.act9 .striped_primary.uk-table td, .act9 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(76, 207, 175, 0.3);}
-.act10 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(84, 177, 107, 0.15);}
-.act10 .striped_primary.uk-table td, .act10 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(84, 177, 107, 0.3);}
-.act11 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(165, 214, 86, 0.15);}
-.act11 .striped_primary.uk-table td, .act11 .striped_LightSeaGreen.uk-table th {border-bottom: 1px solid rgb(165, 214, 86, 0.3);}
+.act9 .striped_primary.uk-table td, .act9 .striped_primary.uk-table th {border-bottom: 1px solid rgb(76, 207, 175, 0.3);}
+.act10 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd), .act8 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(84, 177, 107, 0.15);}
+.act10 .striped_primary.uk-table td, .act10 .striped_primary.uk-table th {border-bottom: 1px solid rgb(84, 177, 107, 0.3);}
+.act11 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd), .act9 .striped_primary.uk-table-striped tbody tr:nth-of-type(odd) {background-color: rgb(165, 214, 86, 0.15);}
+.act11 .striped_primary.uk-table td, .act11 .striped_primary.uk-table th {border-bottom: 1px solid rgb(165, 214, 86, 0.3);}
 
 .act1 .color_primary, .act1 .listTabs .uk-nav a, .act1 .listTabs .uk-active a, .act1 .listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a, .act1 .listTabs li.level3 .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a, .act1 .listTabs .uk-nav>li.level3 li li>a, .act1 .uk-breadcrumb a {color: #e6a54b !important;}
 .act2 .color_primary, .act2 .listTabs .uk-nav a, .act2 .listTabs .uk-active a, .act2 .listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a, .act2 .listTabs li.level3 .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a, .act2 .listTabs .uk-nav>li.level3 li li>a, .act2 .uk-breadcrumb a {color: #e45a5a !important;}
@@ -312,7 +312,7 @@ figure .svg-inline--fa {
 }
 .templateA2 .listTabs .uk-nav>li.level3 li>a,
 .templateA2 .listTabs .uk-nav>li.level3[aria-expanded="true"] li[aria-expanded="true"]>a {
-  background: #ff6a00;
+  background: #e08746;
   color: white !important;
 }
 .templateB1 .listTabs .uk-nav>li.level3 li>a,
@@ -348,7 +348,7 @@ figure .svg-inline--fa {
   background: #8cc63e;
 }
 .templateA2 .listTabs.listTabs_secondary .uk-nav a {
-  color: #ff6a00;
+  color: #e08746;
 }
 .templateA2 .listTabs.listTabs_secondary .uk-nav li a:hover,
 .templateA2 .listTabs.listTabs_secondary .uk-nav>li.uk-active>a,
@@ -356,7 +356,7 @@ figure .svg-inline--fa {
 .templateA2 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
 .templateA2 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
 .templateA2 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
-  background: #ff6a00;
+  background: #e08746;
 }
 .templateB1 .listTabs.listTabs_secondary .uk-nav a {
   color: #b56000;
@@ -519,7 +519,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
 .pagination_secondary.uk-pagination>.uk-active>span, .pagination_secondary.uk-pagination>li>a:focus, .pagination_secondary.uk-pagination>li>a:hover {color: white !important; background-color: #8cc63e !important;
 }
 
-.templateA2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #ff6a00 !important;}
+.templateA2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #e08746 !important;}
 .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #da821e !important;}
 .templateB1 .pagination_secondary.uk-pagination>.uk-active>span {color: white !important;background-color: #b56000 !important;}
 .templateB2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #0071bc !important;}
@@ -536,7 +536,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
   transition: none;
 }
 .templateA2 .uk-tab>li>a {
-  color: #b53a3a;
+  color: #a75151;
   transition: none;
 }
 
@@ -553,7 +553,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
 .templateA2 .slider_choice a:not(.uk-slidenav):focus,
 .templateA2 .slider_choice a:not(.uk-slidenav):hover,
 .templateA2 .slider_choice .uk-active a {
-  background: #b53a3a;
+  background: #a75151;
 }
 
 * :focus {
@@ -565,7 +565,43 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     background: #FFC107;
     color: black;
 } */
-
+.btn  {
+    background-image: none;}
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439 !important;
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
 /* End Uikit Style
 ---------------------------------------------------- */
 
@@ -643,6 +679,18 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     background: linear-gradient(to top, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 0) 100%);
     pointer-events: none;
   }
+  .templateB1 .max_height.bg_primary:after {
+    background: linear-gradient(to top, rgb(58, 181, 74) 85%, rgba(58, 181, 74, 0) 100%);
+  }
+  .templateB1 .max_height.bg_secondary:after {
+    background: linear-gradient(to top, rgba(181, 96, 0, 1) 85%, rgba(181, 96, 0, 0) 100%);
+  }
+  .templateB2 .max_height.bg_primary:after {
+    background: linear-gradient(to top, rgb(130, 66, 182) 85%, rgba(130, 66, 182, 0) 100%);
+  }
+  .templateB2 .max_height.bg_secondary:after {
+    background: linear-gradient(to top, rgb(0, 113, 188) 85%, rgba(0, 113, 188, 0) 100%);
+  }
   .seats .uk-width:nth-child(3), .seats .uk-width .uk-width:nth-child(2) {width: calc(100% - 30px * 2);}
   .seatsBar .uk-width:nth-child(2) {width: calc(100% - 15px * 2);}
   .seats .uk-panel {
@@ -682,7 +730,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     background: linear-gradient(to top, rgb(130, 187, 66) 85%, rgba(255, 255, 255, 0) 100%);
   }
   .templateB2 .bg_secondary .max_height:after {
-    background: linear-gradient(to top, rgb(0, 113, 188) 85%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to top, #0071bc 85%, rgba(255, 255, 255, 0) 100%);
   }
   .max_height2 {
     max-height: 300px;
@@ -699,14 +747,13 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
   .seats .chair.uk-panel {
     padding: 5px !important;
   }
+  .index .bg_img {min-height: 850px;}
+
 }
 
 @media (min-width:1220px) {
   figure .svg-inline--fa {
     font-size: 0.7em;
-  }
-  .dashboard {
-    max-height: 227px;
   }
   .dashboard .uk-panel h5 {
     font-size: 1.1em !important;

@@ -114,8 +114,10 @@ input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:b
 .border_remove {border: none;}
 .borderRadius0 {border-radius: 0 !important;}
 .borderRadius10 {border-radius: 10px;}
+.borderRadiusT10 {border-top-left-radius: 10px !important; border-top-right-radius: 10px !important;}
 .borderRadiusTL10 {border-top-left-radius: 10px !important;}
 .borderRadiusTR10 {border-top-right-radius: 10px !important;}
+.borderRadiusB10 {border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important;}
 .borderRadiusBL10 {border-bottom-left-radius: 10px !important;}
 .borderRadiusBR10 {border-bottom-right-radius: 10px !important;}
 .border_grey, .border_hover_grey:focus, .border_hover_grey:hover {border-color: #ddd !important;}
@@ -884,7 +886,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
   pointer-events: none;
 }
 .max_height1_2 {
-  max-height: 238px;
+  max-height: 315px;
 }
 .max_height1_2b {
   max-height: 227px;
