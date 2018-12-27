@@ -1,16 +1,16 @@
 @charset "utf-8";
 h1, h2, h3, h4, h5, h6 {line-height: 1.2 !important;}
-a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #3ab54a;}
-.color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover, .monthly-event-list .monthly-today .monthly-event-list-date {color: #3ab54a !important;}
-.color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #8cc63e !important;}
-.bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #3ab54a !important; background-color: white;}
-.bg_hover_white_color_secondary:focus, .bg_hover_white_color_secondary:hover {color: #8cc63e !important; background-color: white;}
-.bg_primary, .btn_primary, .btn_hover_primary.uk-active, .btn_hover_primary:hover, .hover_primary li>a:hover, .hover_primary li.uk-active>a, .uk-block-primary, .uk-pagination>li.uk-active span, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover, ol.listDecimalRow.listBadge>li:before, .monthly-today .monthly-day-number, .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {color: white !important;background-color: #3ab54a !important;}
-.bg_secondary, .bg_primary2, .btn_hover_secondary:hover, .btn_secondary, .hover_secondary li>a:hover, .hover_secondary li.uk-active>a, .uk-block-secondary, nav.bg_secondary .uk-dropdown a, ul.hover_bg_secondary>li>a:focus, ul.hover_bg_secondary>li>a:hover, ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {color: white !important;background-color: #8cc63e !important;}
+a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #198628;}
+.color_primary, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover, .monthly-event-list .monthly-today .monthly-event-list-date {color: #198628 !important;}
+.color_secondary, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #84a756 !important;}
+.bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #198628 !important; background-color: white;}
+.bg_hover_white_color_secondary:focus, .bg_hover_white_color_secondary:hover {color: #84a756 !important; background-color: white;}
+.bg_primary, .btn_primary, .btn_hover_primary.uk-active, .btn_hover_primary:hover, .hover_primary li>a:hover, .hover_primary li.uk-active>a, .uk-block-primary, .uk-pagination>li.uk-active span, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover, ol.listDecimalRow.listBadge>li:before, .monthly-today .monthly-day-number, .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {color: white !important;background-color: #198628 !important;}
+.bg_secondary, .bg_primary2, .btn_hover_secondary:hover, .btn_secondary, .hover_secondary li>a:hover, .hover_secondary li.uk-active>a, .uk-block-secondary, nav.bg_secondary .uk-dropdown a, ul.hover_bg_secondary>li>a:focus, ul.hover_bg_secondary>li>a:hover, ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {color: white !important;background-color: #84a756 !important;}
 .btn_primary:focus, .btn_primary:hover, .btn_primary.selected {text-decoration: none; background-color: #35a544 !important;}
 .btn_secondary:focus, .btn_secondary:hover {background-color: #81b739 !important;}
-.fontsize li>a {color: #3ab54a !important; border: 1px solid #3ab54a;}
-.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #3ab54a !important; border-color: #3ab54a; color: white !important;}
+.fontsize li>a {color: #198628 !important; border: 1px solid #198628;}
+.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #198628 !important; border-color: #198628; color: white !important;}
 
 .templateA2 a:hover, .templateA2 a:active, .templateA2 .link a:link, .templateA2 .link a:visited, .templateA2 .link a:focus, .templateA2 .uk-breadcrumb a:link, .templateA2 .uk-breadcrumb a:visited, .templateA2 .uk-breadcrumb a:focus {color: #a75151;}
 .templateA2 .color_primary, .templateA2 .hover_color_primary:focus, .templateA2 .hover_color_primary:hover, .templateA2 ul.hover_color_primary>li>a:focus, .templateA2 ul.hover_color_primary>li>a:hover, .templateA2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #a75151 !important;}
@@ -171,7 +171,7 @@ ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !importa
 
 .monthly .monthly-header-title-date,
 .monthly .monthly-header-title-date:hover {
-  border: 1px solid #3ab54a !important;
+  border: 1px solid #198628 !important;
 }
 
 body {
@@ -252,13 +252,13 @@ figure .svg-inline--fa {
 .listTabs a:hover,
 .listTabs .uk-active a {
   color: white !important;
-  background-color: #3ab54a;
+  background-color: #198628;
   text-decoration: none;
 }
 .templateA2 .listTabs a:hover,
 .templateA2 .listTabs .uk-active a {
   color: white !important;
-  background-color: #3ab54a;
+  background-color: #198628;
   text-decoration: none;
 }
 .listTabs .uk-grid-divider>li, .listTabs .uk-grid-divider>li:last-child:nth-child(odd) {
@@ -282,7 +282,7 @@ figure .svg-inline--fa {
     border-bottom: none;
 }
 .listTabs .uk-nav a {
-  color: #3ab54a;
+  color: #198628;
   padding: 5px 15px;
 }
 .listTabs .uk-nav>li.uk-open>a {
@@ -293,7 +293,7 @@ figure .svg-inline--fa {
 .listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
 .listTabs li.level3 .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
 .listTabs .uk-nav>li.level3 li li>a {
-  color: #3ab54a !important;
+  color: #198628 !important;
   background-color: transparent;
 }
 .listTabs .uk-nav li a:hover,
@@ -302,12 +302,12 @@ figure .svg-inline--fa {
 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
-  background: #3ab54a;
+  background: #198628;
   color: white !important;
 }
 .listTabs .uk-nav>li.level3 li>a,
 .listTabs .uk-nav>li.level3[aria-expanded="true"] li[aria-expanded="true"]>a {
-  background: #8cc63e;
+  background: #84a756;
   color: white !important;
 }
 .templateA2 .listTabs .uk-nav>li.level3 li>a,
@@ -337,7 +337,7 @@ figure .svg-inline--fa {
   background: #cfd8dc;
 }
 .listTabs.listTabs_secondary .uk-nav a {
-  color: #8cc63e;
+  color: #84a756;
 }
 .listTabs.listTabs_secondary .uk-nav li a:hover,
 .listTabs.listTabs_secondary .uk-nav>li.uk-active>a,
@@ -345,7 +345,7 @@ figure .svg-inline--fa {
 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
-  background: #8cc63e;
+  background: #84a756;
 }
 .templateA2 .listTabs.listTabs_secondary .uk-nav a {
   color: #e08746;
@@ -513,10 +513,10 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
   background: #287732;
 }
 .uk-pagination>.uk-active>span, .uk-pagination>li>a:focus, .uk-pagination>li>a:hover {
-  background-color: #3ab54a;
+  background-color: #198628;
   color: #fff !important;
 }
-.pagination_secondary.uk-pagination>.uk-active>span, .pagination_secondary.uk-pagination>li>a:focus, .pagination_secondary.uk-pagination>li>a:hover {color: white !important; background-color: #8cc63e !important;
+.pagination_secondary.uk-pagination>.uk-active>span, .pagination_secondary.uk-pagination>li>a:focus, .pagination_secondary.uk-pagination>li>a:hover {color: white !important; background-color: #84a756 !important;
 }
 
 .templateA2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #e08746 !important;}
@@ -532,7 +532,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
 }
 
 .uk-tab>li>a {
-  color: #3ab54a;
+  color: #198628;
   transition: none;
 }
 .templateA2 .uk-tab>li>a {
@@ -548,7 +548,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
 .slider_choice a:not(.uk-slidenav):focus,
 .slider_choice a:not(.uk-slidenav):hover,
 .slider_choice .uk-active a {
-  background: #3ab54a;
+  background: #198628;
 }
 .templateA2 .slider_choice a:not(.uk-slidenav):focus,
 .templateA2 .slider_choice a:not(.uk-slidenav):hover,
@@ -649,7 +649,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
   .card_sticky .truncating:after {
     bottom: 0.1em;
   }
-.card_sticky .bg_primary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #8cc63e 80%);}
+.card_sticky .bg_primary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #84a756 80%);}
 .card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #6ba2c7 80%);}
 .templateB1 .card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #b56000 80%);}
   .card_sticky h5 {
@@ -680,7 +680,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     pointer-events: none;
   }
   .templateB1 .max_height.bg_primary:after {
-    background: linear-gradient(to top, rgb(58, 181, 74) 85%, rgba(58, 181, 74, 0) 100%);
+    background: linear-gradient(to top, rgb(25, 134, 40) 85%, rgba(58, 181, 74, 0) 100%);
   }
   .templateB1 .max_height.bg_secondary:after {
     background: linear-gradient(to top, rgba(181, 96, 0, 1) 85%, rgba(181, 96, 0, 0) 100%);
