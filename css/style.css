@@ -36,24 +36,24 @@ a:hover, a:active, .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb 
 .templateB1 .bg_secondary2 {background: #e8a844;}
 .templateB1 .btn_secondary:focus, .templateB1 .btn_secondary:hover {background-color: #ce7b1d !important; }
 
-.templateB2 a:hover, .templateB2 a:active, .templateB2 .link a:link, .templateB2 .link a:visited, .templateB2 .link a:focus, .templateB2 .uk-breadcrumb a:link, .templateB2 .uk-breadcrumb a:visited, .templateB2 .uk-breadcrumb a:focus {color: #8242b6;}
-.templateB2 .color_primary, .templateB2 .hover_color_primary:focus, .templateB2 .hover_color_primary:hover, .templateB2 ul.hover_color_primary>li>a:focus, .templateB2 ul.hover_color_primary>li>a:hover, .templateB2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #8242b6 !important;}
-.templateB2 .bg_hover_white_color_primary:focus, .templateB2 .bg_hover_white_color_primary:hover {color: #8242b6 !important; background-color: white;}
-.templateB2 .bg_primary, .templateB2 .btn_primary, .templateB2 .btn_hover_primary.uk-active, .templateB2 .btn_hover_primary:hover, .templateB2 .hover_primary li>a:hover, .templateB2 .hover_primary li.uk-active>a, .templateB2 .uk-block-primary, .templateB2 .uk-pagination>li.uk-active span, .templateB2 ul.hover_bg_primary>li>a:focus, .templateB2 ul.hover_bg_primary>li>a:hover, .templateB2 ol.listDecimalRow.listBadge>li:before, .templateB2 .monthly-today .monthly-day-number, .templateB2 .monthly .monthly-header-title-date, .templateB2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #8242b6 !important;}
-.templateB2 .btn_primary:focus, .templateB2 .btn_primary:hover, .templateB2 .btn_primary.selected {text-decoration: none; background-color: #6f3a9b !important;}
-.templateB2 .fontsize li>a {color: #8242b6 !important; border: 1px solid #8242b6;}
-.templateB2 .fontsize li.uk-active>a, .templateB2 .fontsize li.uk-open>a, .templateB2 .fontsize li>a:focus, .templateB2 .fontsize li>a:hover {background: #8242b6 !important; border-color: #8242b6; color: white !important;}
+.templateB2 a:hover, .templateB2 a:active, .templateB2 .link a:link, .templateB2 .link a:visited, .templateB2 .link a:focus, .templateB2 .uk-breadcrumb a:link, .templateB2 .uk-breadcrumb a:visited, .templateB2 .uk-breadcrumb a:focus {color: #9a72bb;}
+.templateB2 .color_primary, .templateB2 .hover_color_primary:focus, .templateB2 .hover_color_primary:hover, .templateB2 ul.hover_color_primary>li>a:focus, .templateB2 ul.hover_color_primary>li>a:hover, .templateB2 .monthly-event-list .monthly-today .monthly-event-list-date {color: #9a72bb !important;}
+.templateB2 .bg_hover_white_color_primary:focus, .templateB2 .bg_hover_white_color_primary:hover {color: #9a72bb !important; background-color: white;}
+.templateB2 .bg_primary, .templateB2 .btn_primary, .templateB2 .btn_hover_primary.uk-active, .templateB2 .btn_hover_primary:hover, .templateB2 .hover_primary li>a:hover, .templateB2 .hover_primary li.uk-active>a, .templateB2 .uk-block-primary, .templateB2 .uk-pagination>li.uk-active span, .templateB2 ul.hover_bg_primary>li>a:focus, .templateB2 ul.hover_bg_primary>li>a:hover, .templateB2 ol.listDecimalRow.listBadge>li:before, .templateB2 .monthly-today .monthly-day-number, .templateB2 .monthly .monthly-header-title-date, .templateB2 .monthly .monthly-header-title-date:hover {color: white !important;background-color: #9a72bb !important;}
+.templateB2 .btn_primary:focus, .templateB2 .btn_primary:hover, .templateB2 .btn_primary.selected {text-decoration: none; background-color: #8b68a8 !important;}
+.templateB2 .fontsize li>a {color: #9a72bb !important; border: 1px solid #9a72bb;}
+.templateB2 .fontsize li.uk-active>a, .templateB2 .fontsize li.uk-open>a, .templateB2 .fontsize li>a:focus, .templateB2 .fontsize li>a:hover {background: #9a72bb !important; border-color: #9a72bb; color: white !important;}
 
-.templateB2 .color_secondary, .templateB2 .hover_color_secondary:focus, .templateB2 .hover_color_secondary:hover, .templateB2 ul.hover_color_secondary>li>a:focus, .templateB2 ul.hover_color_secondary>li>a:hover {color: #0071bc !important;}
-.templateB2 .bg_hover_white_color_secondary:focus, .templateB2 .bg_hover_white_color_secondary:hover {color: #0071bc !important; background-color: white;}
-.templateB2 .bg_secondary, .templateB2 .btn_secondary, .templateB2 .btn_hover_secondary.uk-active, .templateB2 .btn_hover_secondary:hover, .templateB2 .hover_secondary li>a:hover, .templateB2 .hover_secondary li.uk-active>a, .templateB2 .bg_secondary, .templateB2 .uk-block-secondary, .templateB2 nav.bg_secondary .uk-dropdown a, .templateB2 ul.hover_bg_secondary>li>a:focus, .templateB2 ul.hover_bg_secondary>li>a:hover, .templateB2 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {color: white !important;background-color: #0071bc !important;}
-.templateB2 .bg_secondary2 {background: #338cc4;}
+.templateB2 .color_secondary, .templateB2 .hover_color_secondary:focus, .templateB2 .hover_color_secondary:hover, .templateB2 ul.hover_color_secondary>li>a:focus, .templateB2 ul.hover_color_secondary>li>a:hover {color: #4892c3 !important;}
+.templateB2 .bg_hover_white_color_secondary:focus, .templateB2 .bg_hover_white_color_secondary:hover {color: #4892c3 !important; background-color: white;}
+.templateB2 .bg_secondary, .templateB2 .btn_secondary, .templateB2 .btn_hover_secondary.uk-active, .templateB2 .btn_hover_secondary:hover, .templateB2 .hover_secondary li>a:hover, .templateB2 .hover_secondary li.uk-active>a, .templateB2 .bg_secondary, .templateB2 .uk-block-secondary, .templateB2 nav.bg_secondary .uk-dropdown a, .templateB2 ul.hover_bg_secondary>li>a:focus, .templateB2 ul.hover_bg_secondary>li>a:hover, .templateB2 ol.listDecimalRow.listBadge.listBadgeSecondary>li:before {color: white !important;background-color: #4892c3 !important;}
+.templateB2 .bg_secondary2 {background: #6ba2c7;}
 .templateB2 .btn_secondary:focus, .templateB2 .btn_secondary:hover {background-color: #025e9c !important;}
 
 ul.hover_bg_secondary>li>a.hover_linkline:hover {background:transparent !important;}
 
 .templateB2 .bg_secondary2 {
-  background: #338cc4;
+  background: #6ba2c7;
 }
 
 .templateB2 .btn_secondary:focus,
@@ -322,7 +322,7 @@ figure .svg-inline--fa {
 }
 .templateB2 .listTabs .uk-nav>li.level3 li>a,
 .templateB2 .listTabs .uk-nav>li.level3[aria-expanded="true"] li[aria-expanded="true"]>a {
-  background: #0071bc;
+  background: #4892c3;
   color: white !important;
 }
 .listTabs.listTabs_grey .uk-nav a {
@@ -370,7 +370,7 @@ figure .svg-inline--fa {
   background: #b56000;
 }
 .templateB2 .listTabs.listTabs_secondary .uk-nav a {
-  color: #0071bc;
+  color: #4892c3;
 }
 .templateB2 .listTabs.listTabs_secondary .uk-nav li a:hover,
 .templateB2 .listTabs.listTabs_secondary .uk-nav>li.uk-active>a,
@@ -378,7 +378,7 @@ figure .svg-inline--fa {
 .templateB2 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a,
 .templateB2 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
 .templateB2 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {
-  background: #0071bc;
+  background: #4892c3;
 }
 
 
@@ -522,7 +522,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
 .templateA2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #e08746 !important;}
 .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #da821e !important;}
 .templateB1 .pagination_secondary.uk-pagination>.uk-active>span {color: white !important;background-color: #b56000 !important;}
-.templateB2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #0071bc !important;}
+.templateB2 .pagination_secondary.uk-pagination>.uk-active>span, .templateA2 .pagination_secondary.uk-pagination>li>a:focus, .templateA2 .pagination_secondary.uk-pagination>li>a:hover {color: white !important;background-color: #4892c3 !important;}
 
 .uk-tab>li.uk-open>a,
 .uk-tab>li>a:focus,
@@ -650,7 +650,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     bottom: 0.1em;
   }
 .card_sticky .bg_primary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #8cc63e 80%);}
-.card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #338cc4 80%);}
+.card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #6ba2c7 80%);}
 .templateB1 .card_sticky .bg_secondary2 .truncating:after {background: linear-gradient(to right, rgba(255, 255, 255, 0), #b56000 80%);}
   .card_sticky h5 {
     border-top: 1px solid rgba(255, 255, 255, 0.4);
@@ -686,10 +686,10 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     background: linear-gradient(to top, rgba(181, 96, 0, 1) 85%, rgba(181, 96, 0, 0) 100%);
   }
   .templateB2 .max_height.bg_primary:after {
-    background: linear-gradient(to top, rgb(130, 66, 182) 85%, rgba(130, 66, 182, 0) 100%);
+    background: linear-gradient(to top, rgb(154, 114, 187) 85%, rgba(154, 114, 187, 0) 100%);
   }
   .templateB2 .max_height.bg_secondary:after {
-    background: linear-gradient(to top, rgb(0, 113, 188) 85%, rgba(0, 113, 188, 0) 100%);
+    background: linear-gradient(to top, rgb(72, 146, 195) 85%, rgba(72, 146, 195, 0) 100%);
   }
   .seats .uk-width:nth-child(3), .seats .uk-width .uk-width:nth-child(2) {width: calc(100% - 30px * 2);}
   .seatsBar .uk-width:nth-child(2) {width: calc(100% - 15px * 2);}
@@ -730,7 +730,7 @@ nav:not(.bg_white)>.uk-button-dropdown>a:focus {color: black !important;} */
     background: linear-gradient(to top, rgb(130, 187, 66) 85%, rgba(255, 255, 255, 0) 100%);
   }
   .templateB2 .bg_secondary .max_height:after {
-    background: linear-gradient(to top, #0071bc 85%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to top, #4892c3 85%, rgba(255, 255, 255, 0) 100%);
   }
   .max_height2 {
     max-height: 300px;
