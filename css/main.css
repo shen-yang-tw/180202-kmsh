@@ -908,6 +908,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
 
 @media (min-width:1220px) {
 .minHight {min-height: 600px;}
+.min_heightXL190 {min-height: 190px;}
 .text_center_mxL {text-align: left;}
 .text_center_mLlCxR, .text_center_mLxR, .text_center_mxR {text-align: right;}
 .pull-xlarge-3-4 {

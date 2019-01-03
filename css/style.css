@@ -767,6 +767,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
   }
 .tempindex .tabs li a>div {width: 190px;}
 .tempindex footer .logo {margin-right: 15px;}
+.uk-grid>div:first-child.card.max_height.max_height1_2 {min-height: 190px;}
 
 }
 
