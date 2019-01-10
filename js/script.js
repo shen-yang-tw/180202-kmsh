@@ -153,9 +153,9 @@ var table = new Tabulator("#rating_table", {
   columns:[
   {title:"序號", field:"row_no", width:70},
   {title:"報名流水號", field:"id", width:104, headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
-  {title:"隊伍名稱", field:"name", width:120, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
+  {title:"隊伍名稱", field:"name", width:110, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
   // {title:"作品名稱", field:"work", formatter:"link", formatterParams:{url:function(cell){return "http://" + cell.getData().url}}},
-  {title:"作品名稱", field:"work", width:170, formatter:"link", formatterParams:{urlField:"work_url",}, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
+  {title:"作品名稱", field:"work", width:250, formatter:"link", formatterParams:{urlField:"work_url",}, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
   {title:"作品檔案", field:"download", width:90, formatter:"link", formatterParams:{label:"檔案下載"}, align:"center"},
   {title:"是否抄襲", field:"copy", width:90, align:"center"},
   {title:"推薦國賽", field:"recommend", width:90, align:"center"},
