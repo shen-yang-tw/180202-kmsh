@@ -501,15 +501,17 @@ footer a {
 }
 
 .test {border-right: 1px solid #aaa;}
-.tabulator-row .tabulator-cell {
-    /*white-space: normal;*/
+/*.tabulator-row .tabulator-cell {
+    white-space: normal;
+    height: auto !important;
+}*/
+/*.tabulator-row .tabulator-cell {
     overflow: auto;
     word-break: break-all;
     text-overflow: inherit;
     min-height: 40px;
     position: relative;
-    /*height: auto !important;*/
-}
+}*/
 .tabulator .tabulator-header .tabulator-col, .tabulator .tabulator-footer {background: #f3f3f3;}
 .tabulator {border-color: #d2d2d2; background-color: #fff;}
 .tabulator .tabulator-header, .tabulator .tabulator-footer, .tabulator .tabulator-header .tabulator-col, .tabulator-row .tabulator-cell {border-color: #ddd;}
