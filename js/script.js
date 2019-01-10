@@ -160,8 +160,8 @@ var table = new Tabulator("#rating_table", {
   {title:"推薦國賽", field:"recommend", width:90, align:"center"},
   {title:"教師評分", field:"rate", width:90, align:"center", headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
   // {title:"教師評分", field:"rate", formatter:"star", align:"center"},
-  {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], headerSort:false},
-  // {title:"評語", field:"comment", headerSort:false},
+  // {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], headerSort:false},
+  {title:"評語", field:"comment", headerSort:false},
   {title:"功能", field:"rating", formatter:"link", width:80, formatterParams:{label:"評分"}, align:"center", headerSort:false},
   ],
   rowSelectionChanged:function(data, rows){
