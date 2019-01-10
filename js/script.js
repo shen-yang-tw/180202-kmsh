@@ -174,7 +174,7 @@ var table = new Tabulator("#rating_table", {
 //set locale to Chinese
 table.setLocale("ch-tw");
 //trigger AJAX load
-table.setData("./data.json");
+table.setData("https://shen-yang-tw.github.io/180202-kmsh/data.json");
 
 //select row on "select all" button click
 $("#select-all").click(function(){
