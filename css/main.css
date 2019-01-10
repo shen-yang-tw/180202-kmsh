@@ -767,7 +767,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
     font-size: 0.8em;
 }
 .text_center_sL, .text_r_sL {text-align: left;}
-.text_center_sR {text-align: right;}
+.text_center_sR, .text_left_sR {text-align: right;}
 .min_height100vhS {min-height: 100vh}
 
 }
@@ -777,7 +777,7 @@ a.uk-slidenav-contrast:hover, .uk-modal-dialog-lightbox .uk-lightbox-content .uk
     min-width: 90%;
 }
 .text_center_mL, .text_center_mxL, .text_center_mLxR, .text_center_mLlCxR, .text_r_mL {text-align: left;}
-.text_center_mR, .text_center_mxR, .text_mR {text-align: right;}
+.text_center_mR, .text_center_mxR, .text_mR, .text_left_mR {text-align: right;}
 .text_r_mC {text-align: center;}
 .table_rwd td {
     display: table-cell;
