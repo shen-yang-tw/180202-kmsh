@@ -90,7 +90,7 @@
             <h4 class="uk-margin-small"><span>活動名稱：</span>全國中學生網站競賽_閱讀心得寫作比賽_一年級組</h4>
             <h4 class="btmline uk-margin-small"><span>評比說明：</span>評分1~5分：5分-優；4分-良；3分-中；2分-可；1分-差</h4>
             <div class="table-controls uk-position-relative uk-margin-small">
-              <button class="uk-button uk-button-primary">匯出</button>
+              <button id="download-pdf" class="uk-button uk-button-primary">匯出</button>
               <button id="select-all" class="uk-button">全選</button>
               <button id="deselect-all" class="uk-button">取消全選</button>
               <span id="select-stats" class="uk-margin-small-left"><strong>已選: <span class="highlight">0</span></strong></span>
@@ -100,8 +100,19 @@
                 <a class="uk-button" href="#">回評核主頁</a>
               </div>
             </div>
-            <div id="rating_table"></div>
+            <div id="rating_table" class="uk-margin-bottom"></div>
             <div class="uk-overflow-container">
+              <div class="table-controls uk-position-relative uk-margin-small">
+                <button class="uk-button uk-button-primary">匯出PDF</button>
+                <button class="uk-button">全選</button>
+                <button class="uk-button">取消全選</button>
+                <span class="uk-margin-small-left"><strong>已選: <span class="highlight">0</span></strong></span>
+                <div class="uk-position-top-right">
+                  <input class="uk-form-width-large" type="text" placeholder="可輸入報名流水號、隊伍名稱、作品名稱">
+                  <button class="uk-button uk-button-primary"><i class="fas fa-search uk-margin-small-right"></i>搜尋</button>
+                  <a class="uk-button" href="#">回評核主頁</a>
+                </div>
+              </div>
               <table class="uk-table uk-table-striped uk-table-condensed uk-text-nowrap">
                 <thead>
                   <tr>
@@ -234,6 +245,8 @@
   <script src="js/components/slideshow-fx.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
   <script src="js/tabulator.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.0.2/jspdf.plugin.autotable.min.js"></script>
   <script src="js/mobile-chrome-vh-fix.js"></script>
   <script src="js/script.js"></script>
 </body>
