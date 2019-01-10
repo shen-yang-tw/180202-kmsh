@@ -55,4 +55,139 @@ $(document).ready(function() {
     $(this).parent().parent().siblings(".uk-accordion").children("h3").eq($(this).index()).click();
   });
 
+//------------------------- tabulator table ---------------------------
+//custom max min header filter
+var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParams){
+
+  var end;
+
+  var container = document.createElement("span");
+
+  //create and style inputs
+  var start = document.createElement("input");
+  start.setAttribute("type", "number");
+  start.setAttribute("placeholder", "Min");
+  start.setAttribute("min", 0);
+  start.setAttribute("max", 100);
+  start.style.padding = "4px";
+  start.style.width = "50%";
+  start.style.boxSizing = "border-box";
+
+  start.value = cell.getValue();
+
+  function buildValues(){
+      success({
+          start:start.value,
+          end:end.value,
+      });
+  }
+
+  function keypress(e){
+      if(e.keyCode == 13){
+          buildValues();
+      }
+
+      if(e.keyCode == 27){
+          cancel();
+      }
+  }
+
+  end = start.cloneNode();
+
+  start.addEventListener("change", buildValues);
+  start.addEventListener("blur", buildValues);
+  start.addEventListener("keydown", keypress);
+
+  end.addEventListener("change", buildValues);
+  end.addEventListener("blur", buildValues);
+  end.addEventListener("keydown", keypress);
+
+
+  container.appendChild(start);
+  container.appendChild(end);
+
+  return container;
+}
+
+//custom max min filter function
+function minMaxFilterFunction(headerValue, rowValue, rowData, filterParams){
+  //headerValue - the value of the header filter element
+  //rowValue - the value of the column in this row
+  //rowData - the data for the row being filtered
+  //filterParams - params object passed to the headerFilterFuncParams property
+
+  if(rowValue){
+      if(headerValue.start != ""){
+          if(headerValue.end != ""){
+              return rowValue >= headerValue.start && rowValue <= headerValue.end;
+          }else{
+              return rowValue >= headerValue.start;
+          }
+      }else{
+          if(headerValue.end != ""){
+              return rowValue <= headerValue.end;
+          }
+      }
+  }
+
+  return false; //must return a boolean, true if it passes the filter.
+}
+
+var table = new Tabulator("#rating_table", {
+  selectable:true,  //make rows selectable
+  tooltips:true,  //show tool tips on cells
+  pagination:"local", //paginate the data
+  paginationSize:10, //allow 10 rows per page of data
+  // layout:"fitDataFill",
+  layout:"fitColumns",
+  langs:{
+    "ch-tw":{
+      "pagination":{
+          "first":"首頁",
+          "last":"尾頁",
+          "prev":"前一頁",
+          "next":"後一頁",
+      },
+    },
+  },
+  columns:[
+  {title:"序號", field:"row_no"},
+  {title:"報名流水號", field:"id", width:110, headerFilter:"number", headerFilterPlaceholder:"至少", headerFilterFunc:">="},
+  {title:"隊伍名稱", field:"name", headerFilter:"input", headerFilterPlaceholder:"隊伍名稱"},
+  // {title:"作品名稱", field:"work", formatter:"link", formatterParams:{url:function(cell){return "http://" + cell.getData().url}}},
+  {title:"作品名稱", field:"work", formatter:"link", formatterParams:{urlField:"work_url",}, width:120, headerFilter:"input", headerFilterPlaceholder:"作品名稱"},
+  {title:"作品檔案", field:"download", formatter:"link", formatterParams:{label:"檔案下載"}},
+  {title:"是否抄襲", field:"copy"},
+  {title:"推薦國賽", field:"recommend"},
+  {title:"教師評分", field:"rate"},
+  // {title:"教師評分", field:"rate", formatter:"star", align:"center"},
+  // {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], width:250},
+  {title:"評語", field:"comment", width:250},
+  {title:"功能", field:"rating", formatter:"link", formatterParams:{label:"評分"}},
+  ],
+  rowSelectionChanged:function(data, rows){
+      //update selected row counter on selection change
+    $("#select-stats span").text(data.length);
+  },
 });
+
+//set locale to Chinese
+table.setLocale("ch-tw");
+//trigger AJAX load
+table.setData("../data.json");
+
+//select row on "select all" button click
+$("#select-all").click(function(){
+    table.selectRow();
+});
+
+//deselect row on "deselect all" button click
+$("#deselect-all").click(function(){
+    table.deselectRow();
+});
+
+// table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rate:4, comment:"象常以直再程而農明", rating:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rate:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", rating:"#"}], true);
+
+
+});
+

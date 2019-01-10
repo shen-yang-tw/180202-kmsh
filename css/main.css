@@ -129,6 +129,7 @@ input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:b
 .border_black_opacity3, .border_hover_black_opacity3:focus, .border_hover_black_opacity3:hover {border-color: rgba(0, 0, 0, 0.3) !important;}
 .border_black_opacity5, .border_hover_black_opacity5:focus, .border_hover_black_opacity5:hover {border-color: rgba(0, 0, 0, 0.5) !important;}
 .border_white, .border_hover_white:hover {border-color: white !important;}
+.btmline {border-bottom: 1px solid #ddd; padding-bottom: 5px;}
 .top5 {top: 5px;}
 .top10 {top: 10px;}
 .bottom0 {bottom: 0;}
@@ -450,6 +451,7 @@ textarea.noresize {resize: none;}
 /* Uikit Style
 ---------------------------------------------------- */
 [class*=uk-margin]:last-child {margin-bottom: 0}
+[class*=uk-button-primary], [class*=uk-button-success], [class*=uk-button-danger] {color: white !important;}
 .uk-container {
     padding: 0 15px;
 }
