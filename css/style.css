@@ -517,7 +517,7 @@ footer a {
 .tabulator-row:nth-child(odd) .tabulator-cell .tabulator-col-resize-handle.prev, .tabulator-row:nth-child(odd) .tabulator-cell .tabulator-col-resize-handle {background: white;}
 .tabulator-row.tabulator-row-even, .tabulator-row:nth-child(even) .tabulator-cell .tabulator-col-resize-handle.prev, .tabulator-row:nth-child(even) .tabulator-cell .tabulator-col-resize-handle {background: #fafafa;}
 .tabulator-row.tabulator-selectable:hover, .tabulator-row.tabulator-selectable:hover .tabulator-col-resize-handle.prev, .tabulator-row.tabulator-selectable:hover .tabulator-col-resize-handle {background-color: #e2e2e2 !important;}
-.tabulator-row.tabulator-selected, .tabulator-row.tabulator-selected .tabulator-col-resize-handle.prev, .tabulator-row.tabulator-selected .tabulator-col-resize-handle {background-color: #d2e7ef !important;}
+.tabulator-row.tabulator-selected, .tabulator-row.tabulator-selected .tabulator-col-resize-handle.prev, .tabulator-row.tabulator-selected .tabulator-col-resize-handle {background-color: #e1ecf1 !important;}
 .tabulator .tabulator-footer .tabulator-page {color: #8a8a8a;}
 .tabulator .tabulator-footer .tabulator-page.active {color: #444;}
 .tabulator .tabulator-footer .tabulator-page:disabled {cursor: default !important;}
