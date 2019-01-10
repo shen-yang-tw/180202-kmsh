@@ -527,6 +527,7 @@ footer a {
 .tabulator .tabulator-footer .tabulator-page:disabled {cursor: default !important;}
 .tabulator .tabulator-footer .tabulator-page:not(.disabled):hover {background: rgba(0, 0, 0, 0.1); color: #555;}
 .tabulator .tabulator-footer .tabulator-page:disabled:hover {background: rgba(255, 255, 255, 0.2); color: #555;}
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content, .tabulator-row .tabulator-cell {padding: 4px 7px;}
 
 /* Uikit Style
 ---------------------------------------------------- */
