@@ -163,7 +163,7 @@ var table = new Tabulator("#rating_table", {
   // {title:"教師評分", field:"rate", formatter:"star", align:"center"},
   // {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], width:250},
   {title:"評語", field:"comment"},
-  {title:"功能", field:"rating", formatter:"link", width:70, formatterParams:{label:"評分"}, align:"center"},
+  {title:"功能", field:"rating", formatter:"link", width:80, formatterParams:{label:"評分"}, align:"center"},
   ],
   rowSelectionChanged:function(data, rows){
       //update selected row counter on selection change
