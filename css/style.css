@@ -529,6 +529,8 @@ footer a {
 .tabulator .tabulator-footer .tabulator-page:not(.disabled):hover, .tabulator .tabulator-footer .tabulator-page.active {background: rgba(0, 0, 0, 0.1); color: #555;}
 .tabulator .tabulator-footer .tabulator-page:disabled:hover {background: rgba(255, 255, 255, 0.2); color: #555;}
 .tabulator .tabulator-header .tabulator-col .tabulator-col-content, .tabulator-row .tabulator-cell {padding: 4px 7px;}
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title {padding-right: 15px;}
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-arrow {margin-top: 3px;}
 
 /* Uikit Style
 ---------------------------------------------------- */
