@@ -171,15 +171,6 @@ var table = new Tabulator("#rating_table", {
     //update selected row counter on selection change
     $("#select-stats span").text(data.length);
   },
-  tooltips:function(cell){
-    //cell - cell component
-    {title:"評語", field:"comment", cellClick:function(e, cell){
-      cell.getElement().classList.add("comment_tootip");
-      },
-    }
-    //function should return a string for the tooltip of false to hide the tooltip
-    return  cell.getColumn().getField() + " - " + cell.getValue(); //return cells "field - value";
-  },
 });
 
 //set locale to Chinese
