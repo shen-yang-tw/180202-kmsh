@@ -150,19 +150,22 @@ var table = new Tabulator("#rating_table", {
       },
     },
   },
+  initialSort:[
+    {column:"id", dir:"asc"}, //sort by this first
+  ],
   columns:[
-  {title:"序號", field:"row_no", width:70},
-  {title:"報名流水號", field:"id", width:104, headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
-  {title:"隊伍名稱", field:"name", width:110, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
-  {title:"作品名稱", field:"work", width:230, formatter:"link", formatterParams:{urlField:"work_url",}, headerFilter:"input", headerFilterPlaceholder:"輸入名稱", headerSort:false},
-  {title:"作品檔案", field:"download", width:90, formatter:"link", formatterParams:{label:"檔案下載"}, align:"center", headerSort:false},
-  {title:"是否抄襲", field:"copy", width:90, align:"center"},
-  {title:"推薦國賽", field:"recommend", width:90, align:"center"},
-  {title:"教師評分", field:"rate", width:90, align:"center", headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
-  // {title:"教師評分", field:"rate", formatter:"star", align:"center"},
-  // {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], headerSort:false},
-  {title:"評語", field:"comment", headerSort:false},
-  {title:"功能", field:"rating", formatter:"link", width:80, formatterParams:{label:"評分"}, align:"center", headerSort:false},
+    {title:"序號", field:"row_no", width:70},
+    {title:"報名流水號", field:"id", width:104, headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
+    {title:"隊伍名稱", field:"name", width:110, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
+    {title:"作品名稱", field:"work", width:230, formatter:"link", formatterParams:{urlField:"work_url",}, headerFilter:"input", headerFilterPlaceholder:"輸入名稱", headerSort:false},
+    {title:"作品檔案", field:"download", width:90, formatter:"link", formatterParams:{label:"檔案下載"}, align:"center", headerSort:false},
+    {title:"是否抄襲", field:"copy", width:90, align:"center"},
+    {title:"推薦國賽", field:"recommend", width:90, align:"center"},
+    {title:"教師評分", field:"rate", width:90, align:"center", headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
+    // {title:"教師評分", field:"rate", formatter:"star", align:"center"},
+    // {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], headerSort:false},
+    {title:"評語", field:"comment", headerSort:false},
+    {title:"功能", field:"rating", formatter:"link", width:80, formatterParams:{label:"評分"}, align:"center", headerSort:false},
   ],
   rowSelectionChanged:function(data, rows){
       //update selected row counter on selection change
@@ -180,7 +183,6 @@ var table = new Tabulator("#rating_table", {
 table.setLocale("ch-tw");
 //trigger AJAX load
 table.setData("https://shen-yang-tw.github.io/180202-kmsh/data.json");
-table.setSort("id");
 
 //select row on "select all" button click
 $("#select-all").click(function(){
