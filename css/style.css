@@ -501,6 +501,10 @@ footer a {
 }
 
 .test {border-right: 1px solid #aaa;}
+/*.tabulator-cell[tabulator-field="comment"]:hover {
+    white-space: normal;
+    overflow: auto;
+}*/
 /*.tabulator-row .tabulator-cell {
     white-space: normal;
     height: auto !important;
