@@ -55,7 +55,7 @@ $(document).ready(function() {
     $(this).parent().parent().siblings(".uk-accordion").children("h3").eq($(this).index()).click();
   });
 
-//------------------------- tabulator table ---------------------------
+//-------------------------------------------------- tabulator table --------------------------------------------------
 //custom max min header filter
 var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParams){
 
@@ -135,7 +135,7 @@ function minMaxFilterFunction(headerValue, rowValue, rowData, filterParams){
 
 var table = new Tabulator("#rating_table", {
   selectable:true,  //make rows selectable
-  tooltips:true,  //show tool tips on cells
+  // tooltips:true,  //show tool tips on cells
   pagination:"local", //paginate the data
   paginationSize:10, //allow 10 rows per page of data
   // layout:"fitDataFill", //fit data and takeup the full width of the table
@@ -171,6 +171,15 @@ var table = new Tabulator("#rating_table", {
     //update selected row counter on selection change
     $("#select-stats span").text(data.length);
   },
+  tooltips:function(cell){
+    //cell - cell component
+    {title:"評語", field:"comment", cellClick:function(e, cell){
+      cell.getElement().classList.add("comment_tootip");
+      },
+    }
+    //function should return a string for the tooltip of false to hide the tooltip
+    return  cell.getColumn().getField() + " - " + cell.getValue(); //return cells "field - value";
+  },
 });
 
 //set locale to Chinese
@@ -189,7 +198,7 @@ $("#deselect-all").click(function(){
 });
 
 //trigger download of data.pdf file
-// $("#download-pdf").click(function(){
+// $("#download-file").click(function(){
 //     table.download("pdf", "data.pdf", {
 //         orientation:"portrait", //set page orientation to portrait
 //         title:"Example Report", //add title to report
@@ -198,6 +207,7 @@ $("#deselect-all").click(function(){
 
 // table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rating:4, comment:"象常以直再程而農明", btn:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rating:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", btn:"#"}], true);
 
+//-------------------------------------------------- end tabulator table --------------------------------------------------
 
 });
 
