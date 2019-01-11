@@ -154,7 +154,7 @@ var table = new Tabulator("#rating_table", {
     {column:"id", dir:"asc"}, //sort by this first
   ],
   columns:[
-    {title:"序號", field:"row_no", formatter:"rownum", width:70},
+    {title:"序號", formatter:"rownum", width:70},
     {title:"報名流水號", field:"id", sorter:"number", width:104, headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
     {title:"隊伍名稱", field:"name", width:110, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
     {title:"作品名稱", field:"work", width:230, formatter:"link", formatterParams:{urlField:"work_url",}, headerFilter:"input", headerFilterPlaceholder:"輸入名稱", headerSort:false},
