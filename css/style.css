@@ -532,7 +532,7 @@ footer a {
 .tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=desc] .tabulator-col-content .tabulator-arrow {border-top: 6px solid #00a8e6;}
 .tabulator .tabulator-header .tabulator-col .tabulator-col-content, .tabulator-row .tabulator-cell {padding: 4px 7px;}
 .tabulator .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title {padding-right: 15px;}
-.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-arrow {margin-top: 3px;}
+.tabulator .tabulator-arrow {margin-top: 3px;}
 
 /* Uikit Style
 ---------------------------------------------------- */
