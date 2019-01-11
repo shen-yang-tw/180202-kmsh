@@ -176,7 +176,7 @@ var table = new Tabulator("#rating_table", {
 //set locale to Chinese
 table.setLocale("ch-tw");
 //trigger data load
-table.setData("https://shen-yang-tw.github.io/180202-kmsh/data.json");
+// table.setData("https://shen-yang-tw.github.io/180202-kmsh/data.json");
 
 //select row on "select all" button click
 $("#select-all").click(function(){
@@ -196,7 +196,7 @@ $("#deselect-all").click(function(){
 //     });
 // });
 
-// table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rating:4, comment:"象常以直再程而農明", btn:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rating:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", btn:"#"}], true);
+table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rating:4, comment:"象常以直再程而農明", btn:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rating:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", btn:"#"}], true);
 
 //-------------------------------------------------- end tabulator table --------------------------------------------------
 
