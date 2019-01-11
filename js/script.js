@@ -189,12 +189,12 @@ $("#deselect-all").click(function(){
 });
 
 //trigger download of data.pdf file
-$("#download-pdf").click(function(){
-    table.download("pdf", "data.pdf", {
-        orientation:"portrait", //set page orientation to portrait
-        title:"Example Report", //add title to report
-    });
-});
+// $("#download-pdf").click(function(){
+//     table.download("pdf", "data.pdf", {
+//         orientation:"portrait", //set page orientation to portrait
+//         title:"Example Report", //add title to report
+//     });
+// });
 
 // table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rating:4, comment:"象常以直再程而農明", btn:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rating:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", btn:"#"}], true);
 
