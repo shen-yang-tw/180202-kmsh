@@ -155,20 +155,20 @@ var table = new Tabulator("#rating_table", {
   ],
   columns:[
     {title:"序號", field:"row_no", width:70},
-    {title:"報名流水號", field:"id", width:104, headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
+    {title:"報名流水號", field:"id", sorter:"number", width:104, headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
     {title:"隊伍名稱", field:"name", width:110, headerFilter:"input", headerFilterPlaceholder:"輸入名稱"},
     {title:"作品名稱", field:"work", width:230, formatter:"link", formatterParams:{urlField:"work_url",}, headerFilter:"input", headerFilterPlaceholder:"輸入名稱", headerSort:false},
     {title:"作品檔案", field:"download", width:90, formatter:"link", formatterParams:{label:"檔案下載"}, align:"center", headerSort:false},
     {title:"是否抄襲", field:"copy", width:90, align:"center"},
     {title:"推薦國賽", field:"recommend", width:90, align:"center"},
-    {title:"教師評分", field:"rate", width:90, align:"center", headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
-    // {title:"教師評分", field:"rate", formatter:"star", align:"center"},
+    {title:"教師評分", field:"rating", sorter:"number", width:90, align:"center", headerFilter:"number", headerFilterPlaceholder:"至少...", headerFilterFunc:">="},
+    // {title:"教師評分", field:"rating", formatter:"star", align:"center"},
     // {title:"評語", field:"comment", editor:"input", validator:["minLength:1", "string"], headerSort:false},
     {title:"評語", field:"comment", headerSort:false},
-    {title:"功能", field:"rating", formatter:"link", width:80, formatterParams:{label:"評分"}, align:"center", headerSort:false},
+    {title:"功能", field:"btn", formatter:"link", width:80, formatterParams:{label:"評分"}, align:"center", headerSort:false},
   ],
   rowSelectionChanged:function(data, rows){
-      //update selected row counter on selection change
+    //update selected row counter on selection change
     $("#select-stats span").text(data.length);
   },
   dataLoaded:function(data){ //freeze first row on data load
@@ -181,7 +181,7 @@ var table = new Tabulator("#rating_table", {
 
 //set locale to Chinese
 table.setLocale("ch-tw");
-//trigger AJAX load
+//trigger data load
 table.setData("https://shen-yang-tw.github.io/180202-kmsh/data.json");
 
 //select row on "select all" button click
@@ -202,7 +202,7 @@ $("#download-pdf").click(function(){
     });
 });
 
-// table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rate:4, comment:"象常以直再程而農明", rating:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rate:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", rating:"#"}], true);
+// table.addData([{row_no:1, id:2, name:"bob", work:"邊口響說里同裡決低來四解表", work_url:"#1", download:"#1", copy:"N", recommend:"Y", rating:4, comment:"象常以直再程而農明", btn:"#"}, {row_no:2, id:16, name:"Jenny", work:"作品2", work_url:"#2", download:"#2", copy:"N", recommend:"N", rating:2, comment:"象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明象常以直再程而農明", btn:"#"}], true);
 
 
 });
