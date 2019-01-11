@@ -138,8 +138,8 @@ var table = new Tabulator("#rating_table", {
   tooltips:true,  //show tool tips on cells
   pagination:"local", //paginate the data
   paginationSize:10, //allow 10 rows per page of data
-  // layout:"fitDataFill",
-  layout:"fitColumns",
+  // layout:"fitDataFill", //fit data and takeup the full width of the table
+  layout:"fitColumns", //fit the full width of the table
   langs:{
     "ch-tw":{
       "pagination":{
@@ -168,12 +168,19 @@ var table = new Tabulator("#rating_table", {
       //update selected row counter on selection change
     $("#select-stats span").text(data.length);
   },
+  dataLoaded:function(data){ //freeze first row on data load
+    var firstRow = this.getRows()[0];
+    if(firstRow){
+      firstRow.freeze();
+    }
+  }
 });
 
 //set locale to Chinese
 table.setLocale("ch-tw");
 //trigger AJAX load
 table.setData("https://shen-yang-tw.github.io/180202-kmsh/data.json");
+table.setSort("id");
 
 //select row on "select all" button click
 $("#select-all").click(function(){
