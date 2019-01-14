@@ -136,6 +136,7 @@ function minMaxFilterFunction(headerValue, rowValue, rowData, filterParams){
 var table = new Tabulator("#rating_table", {
   selectable:true,  //make rows selectable
   tooltips:true,  //show tool tips on cells
+  resizableColumns:false, //disable column resizing
   pagination:"local", //paginate the data
   paginationSize:10, //allow 10 rows per page of data
   // layout:"fitDataFill", //fit data and takeup the full width of the table
