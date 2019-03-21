@@ -274,19 +274,20 @@ textarea.noresize {resize: none;}
     top: inherit !important;
     left: inherit;
     opacity: 1;
-    height: 40px;
+    height: 45px;
 }
 .gotoTop a {
     color: white !important;
     width: 40px;
-    height: 40px;
-    line-height: 35px;
+    line-height: 20px;
     text-align: center;
     background-color: rgba(33, 61, 84, 0.2);
     border-radius: 5px;
+    padding-bottom: 5px;
 }
 .gotoTop a:hover {
     background-color: rgba(33, 61, 84, 0.5);
+    text-decoration: none;
 }
 
 .color_facebook {
