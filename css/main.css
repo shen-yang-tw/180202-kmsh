@@ -470,11 +470,6 @@ textarea.noresize {resize: none;}
 .uk-navbar-nav.borderRadius0:first-child>li:first-child>a {
     border-radius: 0;
 }
-.uk-dropdown-bottom {
-    margin-top: 0;
-    left: -1px !important;
-    border-top: none;
-}
 .uk-dotnav>*>* {
     width: 15px;
     height: 15px;

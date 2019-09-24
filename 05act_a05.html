@@ -84,7 +84,26 @@
             <li><a href="#" title="#">首頁</a></li>
             <li class="uk-active"><span>教師評核</span></li>
           </ul>
-          <h2 class="btmline uk-text-center">教師評核列表</h2>
+          <h2 class="btmline uk-text-center uk-clearfix">教師評核列表
+            <div id="boundary1" class="uk-float-right uk-position-relative uk-hidden-small" data-uk-dropdown="{mode:'click',pos:'bottom-right'}">
+              <button class="uk-button" style="margin-top: -5px">活動主題 <i class="uk-icon-caret-down"></i></button>
+              <div class="box_shadow uk-dropdown">
+                <ul class="uk-nav uk-nav-dropdown uk-text-left">
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </div>
+          </h2>
+          <div id="boundary2" class="uk-position-relative uk-visible-small" data-uk-dropdown="{boundary:'#boundary2'}">
+            <button class="uk-button">活動主題 <i class="uk-icon-caret-down"></i></button>
+            <div class="box_shadow uk-dropdown">
+              <ul class="uk-nav uk-nav-dropdown uk-text-left">
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+              </ul>
+            </div>
+          </div>
           <div class="uk-overflow-container">
             <table class="uk-table uk-table-striped uk-table-condensed uk-text-nowrap">
               <thead>
