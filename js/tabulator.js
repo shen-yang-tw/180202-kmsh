@@ -2,6 +2,8 @@
 $(document).ready(function() {
 
 //-------------------------------------------------- tabulator table --------------------------------------------------
+//only works on server and in dom: <div id="rating_table" class="uk-margin"></div>
+
 //custom max min header filter
 var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParams){
 
